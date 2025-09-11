@@ -1,0 +1,13 @@
+needs to be white:
+unit promotions
+unit icons
+tech
+religion
+policy/branches
+nation
+city state
+
+black:
+resources
+improvement
+buildings
