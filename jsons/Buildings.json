@@ -1,0 +1,271 @@
+[
+    {
+		"name": "Palace",
+		"isNationalWonder": true,
+		"production": 2,
+		"science": 2,
+		"gold": 2,
+		"culture": 2,
+		"happiness": 2,
+		"cityStrength": 2.5,
+		"cost": 0,
+		"uniques": ["Indicates the capital city"
+                    ]
+	},
+
+    //Post archon war
+    {
+		"name": "Shrine",
+		"faith": 1,
+		"cost": 40,
+		"maintenance": 1,
+        "requiredTech": "Reverence",
+		"uniques": ["Only available <when religion is enabled>"
+                    ]
+		
+	},
+
+    //Interim Period
+    {
+		"name": "Granary",
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+        "requiredTech": "Agriculture",
+		"uniques": [
+                    ]
+		
+	},
+	{
+		"name": "Monument",
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+        "requiredTech": "Currency",
+		"uniques": ["Destroyed when the city is captured"
+                    ]
+        
+	},
+    {
+		"name": "Market",
+		"gold": 2,
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Early Economy"
+	},
+    {
+		"name": "Temple",
+		"faith": 2,
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Devotion",
+		"uniques": ["Only available <when religion is enabled>",
+                    "Destroyed when the city is captured"
+                    ]
+	},
+
+    //Founding Era
+    
+    {
+		"name": "Barracks",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+        "requiredTech": "Drill Grounds",
+		"uniques": ["New [Military] units start with [10] XP [in this city]",
+                    "Destroyed when the city is captured"
+                    ]
+    },
+    {
+		"name": "Walls",
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredTech": "Fortifications",
+		"uniques": ["Destroyed when the city is captured"
+					]
+	},
+    {
+		"name": "Knights of Favonius Headquarters",
+        "uniqueTo": "Mondstadt",
+		"isNationalWonder": true,
+		"production": 2,
+		"science": 2,
+		"gold": 2,
+		"culture": 2,
+		"happiness": 2,
+        "faith": 2,
+		"cityStrength": 4,
+		"cost": 185,
+        "requiredTech": "Assembly Hall",
+		"uniques": ["[+25]% Production when constructing [Knight] units [in this city]",
+                    "[+20]% Production when constructing [Outrider] units [in this city]",
+                    "[+15]% Production when constructing [Reconaissance Knight] units [in this city]",
+                    "[+10]% Production when constructing [Cavalry] units [in this city]",
+					"Only available <in [Capital] cities>"
+                    ]
+	},
+	{
+		"name": "Ministry of Civil Affairs",
+        "uniqueTo": "Liyue",
+		"isNationalWonder": true,
+		"production": 2,
+		"science": 2,
+		"gold": 2,
+		"culture": 2,
+		"happiness": 2,
+        "faith": 2,
+		"cityStrength": 4,
+		"cost": 185,
+        "requiredTech": "Assembly Hall",
+		"uniques": ["[+25]% Production when constructing [All] buildings [in this city]",
+					"Only available <in [Capital] cities>"
+                    ]
+	},
+
+    //Rising Nation
+    
+    {
+		"name": "Library",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+        "requiredTech": "Writing",
+		"uniques": ["[+1 Science] per [1] population [in this city]"
+					]
+	},
+    {
+		"name": "Forge",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Iron"],
+		"requiredTech": "Smithing",
+		"uniques": ["[+15]% Production when constructing [Land] units [in this city]",
+                    ]
+	},
+    {
+		"name": "Favonius Cathedral",
+        "uniqueTo": "Mondstadt",
+		"isNationalWonder": true,
+		"culture": 5,
+		"happiness": 2,
+        "faith": 10,
+		"cityStrength": 4,
+		"cost": 265,
+        "requiredTech": "Foundations of Power",
+		"uniques": ["[+20]% Production when constructing [Nun] units [in this city]",
+                    "[+15]% Production when constructing [Deacon] units [in this city]",
+					"[Faith] cost of purchasing [Land] units [-15]%",
+					"Only available <in [Capital] cities>"
+                    ]
+	},
+	{
+		"name": "Liyue Harbor",
+        "uniqueTo": "Liyue",
+		"isNationalWonder": true,
+		"culture": 5,
+		"happiness": 3,
+        "gold": 8,
+		"cityStrength": 4,
+		"cost": 265,
+        "requiredTech": "Foundations of Power",
+		"uniques": ["[+25]% Production when constructing [Ship] units [in this city]",
+					"[+25]% [Gold] from Trade Routes",
+					"Only available <in [Capital] cities>"
+                    ]
+	},
+
+    //Age of Mortals
+
+    {
+		"name": "Sanctum",
+		"faith": 5,
+		"requiredBuilding": "Temple",
+		"maintenance": 3,
+		"hurryCostModifier": 25,
+		"requiredTech": "Veneration",
+		"uniques": ["Only available <when religion is enabled>",
+                    "Destroyed when the city is captured"
+                    ]
+	},
+    {
+		"name": "Bank",
+		"gold": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"requiredBuilding": "Market",
+		"requiredTech": "Golden Ledgers"
+	},
+    {
+		"name": "Adventurer's Guild",
+		"gold": 10,
+		"food": 5,
+		"cityStrength": 4,
+		"cost": 355,
+        "requiredTech": "Guild Hall",
+		"uniques": ["New [All] units start with [25] XP [in this city]"
+                    ]
+	},
+    {
+		"name": "Windrise Tree",
+        "uniqueTo": "Mondstadt",
+		"isNationalWonder": true,
+		"culture": 10,
+		"happiness": 3,
+        "faith": 10,
+		"cityStrength": 4,
+		"cost": 265,
+        "requiredTech": "Pillars of Civilization",
+		"uniques": ["Comment [Mondstadt units heal 10 hp when in your territory]",
+					"Only available <in [Capital] cities>"
+                    ]
+	},
+	{
+		"name": "The Golden House",
+        "uniqueTo": "Liyue",
+		"isNationalWonder": true,
+        "gold": 15,
+		"cityStrength": 4,
+		"cost": 265,
+        "requiredTech": "Pillars of Civilization",
+		"percentStatBonus": {"gold": 50},
+		"uniques": ["Comment []",
+					"Only available <in [Capital] cities>"
+                    ]
+	},
+
+    //Prelude to war
+
+    {
+		"name": "Arsenal",
+		"cityStrength": 3,
+		"cityHealth": 15,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Barracks",
+		"requiredTech": "Armaments",
+		"uniques": ["New [Military] units start with [5] XP [in this city]",
+                    "[Gold] cost of purchasing [Land] units [-10]%"
+                    ]
+	},
+    {
+		"name": "Fortress Walls",
+		"cityStrength": 10,
+		"cityHealth": 30,
+		"hurryCostModifier": 25,
+		"requiredTech": "Stronghold",
+		"uniques": [
+                    ]
+	},
+	//Statue of the Seven stuff
+	{
+		"name": "Statue of the Seven",
+		"isNationalWonder": true,
+		"cityStrength": 5,
+		"cost": 500,
+        "requiredTech": "Legacy Forged",
+		"uniques": ["Comment [Units now earn 50% of the damage they deal as Faith]",
+					"Comment [Units that deal Elemental Damage deal 15% more damage]",
+					"Only available <in [Capital] cities>"
+                    ]
+	}
+]

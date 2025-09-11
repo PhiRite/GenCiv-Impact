@@ -1,0 +1,587 @@
+[   
+
+    //generalized stuff
+	{
+		"name": "Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 106,
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+			"Requires at least [2] population"],
+		"hurryCostModifier": 20
+	},
+    {
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"cost": 70
+	},
+    {   
+		"name": "Warrior",
+		"unitType": "Civilian",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"uniques": [],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "This is your basic, club-swinging fighter."}
+		]
+	},
+    {
+        "name": "Waverider",
+        "unitType": "Ship",
+        "movement": 3,
+        "strength": 10,
+        "rangedStrength": 15,
+        "range": 2,
+        "cost": 40,
+        "requiredTech": "Early Sailing",
+        "promotions": [],
+        "uniques": [
+                    ],
+        "attackSound": "shipCannonVolley"
+    },
+    {
+        "name": "Longboat",
+        "unitType": "Ship",
+        "movement": 4,
+        "strength": 15,
+        "rangedStrength": 20,
+        "range": 2,
+        "cost": 60,
+        "requiredTech": "Maritime Knowledge",
+        "promotions": [],
+        "uniques": [
+                    ],
+        "attackSound": "shipCannonVolley"
+    },
+    {
+        "name": "Battleship",
+        "unitType": "Ship",
+        "movement": 2,
+        "strength": 20,
+        "rangedStrength": 25,
+        "range": 4,
+        "cost": 80,
+        "requiredTech": "Seafaring",
+        "promotions": [],
+        "uniques": [
+                    ],
+        "attackSound": "shipCannonVolley"
+    },
+
+    //Barbarian/World Units
+    {
+        "name": "Hilichurl",
+        "unitType": "Human",
+        "uniqueTo": "Barbarians",
+        "replaces": "Warrior",
+        "movement": 2,
+        "strength": 5,
+        "cost": 20,
+        "obsoleteTech": "Standing Army",
+        "upgradesTo": "Blazing Axe Mitachurl",
+        "promotions": [],
+        "uniques": [
+                    ],
+        "attackSound": "nonmetalhit"
+    },
+    {
+        "name": "Blazing Axe Mitachurl",
+        "unitType": "Human",
+        "uniqueTo": "Barbarians",
+        "movement": 2,
+        "strength": 5,
+        "cost": 40,
+        "upgradesTo": "Thuderhelm Lawachurl",
+        "promotions": ["Pyro Attacker"],
+        "uniques": [
+                    ],
+        "attackSound": "nonmetalhit"
+    },
+    {
+        "name": "Cryo Hilichurl Shooter",
+        "unitType": "Human",
+        "uniqueTo": "Barbarians",
+        "movement": 2,
+        "strength": 5,
+        "rangedStrength": 5,
+        "range": 2,
+        "cost": 20,
+        "requiredTech": "Martial Awakening",
+        "obsoleteTech": "Standing Army",
+        "upgradesTo": "Hydro Hilichurl Rogue",
+        "promotions": ["Cryo Attacker"],
+        "uniques": [
+                    ],
+        "attackSound": "nonmetalhit"
+    },
+    {
+        "name": "Electro Hilichurl Shooter",
+        "unitType": "Human",
+        "uniqueTo": "Barbarians",
+        "movement": 2,
+        "strength": 5,
+        "rangedStrength": 5,
+        "range": 2,
+        "cost": 20,
+        "requiredTech": "Martial Awakening",
+        "obsoleteTech": "Discipline",
+        "upgradesTo": "Thuderhelm Lawachurl",
+        "promotions": ["Electro Attacker"],
+        "uniques": [
+                    ],
+        "attackSound": "nonmetalhit"
+    },
+    {
+        "name": "Geo Samachurl",
+        "unitType": "Human",
+        "uniqueTo": "Barbarians",
+        "movement": 2,
+        "strength": 5,
+        "rangedStrength": 10,
+        "range": 4,
+        "cost": 60,
+        "requiredTech": "Drill Grounds",
+        "obsoleteTech": "Discipline",
+        "upgradesTo": "Stonehide Lawachurl",
+        "promotions": ["Geo Attacker"],
+        "uniques": [
+                    ],
+        "attackSound": "nonmetalhit"
+    },
+    {
+        "name": "Dendro Samachurl",
+        "unitType": "Human",
+        "uniqueTo": "Barbarians",
+        "movement": 2,
+        "strength": 5,
+        "rangedStrength": 10,
+        "range": 4,
+        "cost": 20,
+        "requiredTech": "Drill Grounds",
+        "obsoleteTech": "Standing Army",
+        "promotions": ["Dendro Attacker"],
+        "uniques": [
+                    ],
+        "attackSound": "nonmetalhit"
+    },
+    {
+        "name": "Anemo Hilichurl Rogue",
+        "unitType": "Human",
+        "uniqueTo": "Barbarians",
+        "movement": 3,
+        "strength": 15,
+        "cost": 20,
+        "requiredTech": "Standing Army",
+        "promotions": ["Anemo Attacker"],
+        "uniques": [
+                    ],
+        "attackSound": "metalhit"
+    },
+        {
+        "name": "Hydro Hilichurl Rogue",
+        "unitType": "Human",
+        "uniqueTo": "Barbarians",
+        "movement": 2,
+        "strength": 15,
+        "cost": 20,
+        "requiredTech": "Standing Army",
+        "promotions": ["Hydro Attacker"],
+        "uniques": [
+                    ],
+        "attackSound": "metalhit"
+    },
+    {
+        "name": "Thuderhelm Lawachurl",
+        "unitType": "Human",
+        "uniqueTo": "Barbarians",
+        "movement": 2,
+        "strength": 25,
+        "cost": 20,
+        "requiredTech": "Discipline",
+        "promotions": ["Electro Infusion"],
+        "uniques": ["[This Unit] gains the [Short Jump] status for [1] turn(s) <for units without [Short Jump Cooldown]>",
+                    "[This Unit] gains the [Short Jump Cooldown] status for [3] turn(s) <upon gaining the [Short Jump] status> <hidden from users>"
+                    ],
+        "attackSound": "nonmetalhit"
+    },
+    {
+        "name": "Frostarm Lawachurl",
+        "unitType": "Human",
+        "uniqueTo": "Barbarians",
+        "movement": 2,
+        "strength": 25,
+        "cost": 20,
+        "requiredTech": "Discipline",
+        "promotions": ["Cryo Infusion"],
+        "uniques": ["[This Unit] gains the [Short Jump] status for [1] turn(s) <for units without [Short Jump Cooldown]>",
+                    "[This Unit] gains the [Short Jump Cooldown] status for [3] turn(s) <upon gaining the [Short Jump] status> <hidden from users>"
+                    ],
+        "attackSound": "nonmetalhit"
+    },
+    {
+        "name": "Stonehide Lawachurl",
+        "unitType": "Human",
+        "uniqueTo": "Barbarians",
+        "movement": 2,
+        "strength": 25,
+        "cost": 20,
+        "requiredTech": "Discipline",
+        "promotions": ["Geo Infusion"],
+        "uniques": ["[This Unit] gains the [Short Jump] status for [1] turn(s) <for units without [Short Jump Cooldown]>",
+                    "[This Unit] gains the [Short Jump Cooldown] status for [3] turn(s) <upon gaining the [Short Jump] status> <hidden from users>"
+                    ],
+        "attackSound": "nonmetalhit"
+    },
+
+
+    // Mondstadt units
+    {
+		"name": "Hunter",
+		"unitType": "Human",
+		"uniqueTo": "Mondstadt",
+        "replaces": "Settler",
+		"movement": 2,
+		"strength": 5,
+        "rangedStrength": 5,
+        "range": 2,
+		"cost": 70,
+		"promotions": [],
+        "uniques": ["Comment [Can upgrade their bows with [Alchemists] granting more range and damage]",
+                    "Founds a new city", "Can move after attacking",
+                    "[This Unit] gains the [Favonius Warbow] promotion <costs [+100 Faith] stats> <when adjacent to a [Alchemist] unit>"
+                    ],
+		"attackSound": "arrow"
+	},
+    {
+        "name": "Knight",
+        "unitType": "Human",
+        "uniqueTo": "Mondstadt",
+        "replaces": "Warrior",
+        "movement": 2,
+        "strength": 10,
+        "cost": 40,
+        "requiredTech": "Martial Awakening",
+        "promotions": [],
+        "uniques": ["Comment [Can upgrade their swords with [Alchemists] granting more damage and additional attacks]",
+                    "Can move after attacking",
+                    "[This Unit] gains the [Favonius Bladework] promotion <costs [+150 Faith] stats> <when adjacent to a [Alchemist] unit>"
+                    ],
+        "attackSound": "metalhit"
+    },
+    {
+        "name": "Outrider",
+        "unitType": "Human",
+        "uniqueTo": "Mondstadt",
+        "movement": 2,
+        "strength": 10,
+        "rangedStrength": 13,
+        "range": 3,
+        "cost": 40,
+        "requiredTech": "Drill Grounds",
+        "promotions": [],
+        "uniques": ["Comment [Can upgrade their bows with [Alchemists] granting more range and damage]",
+                    "Comment [Can use wind gliders to traverse large distances]",
+                    "Can move after attacking",
+                    "[This Unit] gains the [Favonius Warbow] promotion <costs [+100 Faith] stats> <when adjacent to a [Alchemist] unit>",
+                    "[This Unit] gains the [Wind Glider] status for [1] turn(s) <for units without [Wind Glider Cooldown]>",
+                    "[This Unit] gains the [Wind Glider Cooldown] status for [3] turn(s) <upon gaining the [Wind Glider] status> <hidden from users>"
+                    ],
+        "attackSound": "arrow"
+    },
+    {
+        "name": "Alchemist",
+        "unitType": "Human",
+        "uniqueTo": "Mondstadt",
+        "movement": 2,
+        "strength": 15,
+        "rangedStrength": 15,
+        "range": 2,
+        "cost": 70,
+        "requiredTech": "Discipline",
+        "promotions": [],
+        "uniques": ["Comment [Creates equipment for other units, allowing them to gain special abilities or do more damage]",
+                    "Comment [Attacks using Special concotions that deal more damage to [Automaton], [Machinery], [Ships], and cities]",
+                    "[+50]% Strength <when attacking> <vs [{Automaton} {Machinery} {Ship}] units>",
+                    "[+25]% Strength <when attacking> <vs cities>"
+                    ],
+        "attackSound": "metalhit"
+    },
+    {
+        "name": "Reconaissance Knight",
+        "unitType": "Human",
+        "uniqueTo": "Mondstadt",
+        "movement": 2,
+        "strength": 10,
+        "cost": 50,
+        "requiredTech": "Standing Army",
+        "promotions": [],
+        "uniques": ["Comment [Can see farther than most units and is stealthy]",
+                    "Comment [Can gain binoculars from Alchemists, allowing them to see even farther]",
+                    "[2] Sight", "Can move after attacking", "Invisible to non-adjacent units",
+                    "[This Unit] gains the [Binoculars] promotion <costs [+175 Faith] stats> <when adjacent to a [Alchemist] unit>"
+                    ],
+        "attackSound": "metalhit"
+    },
+    {
+        "name": "Cavalry",
+        "unitType": "Human",
+        "uniqueTo": "Mondstadt",
+        "movement": 4,
+        "strength": 15,
+        "cost": 70,
+        "requiredTech": "Order of Battle",
+        "promotions": [],
+        "uniques": ["Comment [Can upgrade their equipment with [Alchemists] granting more damage, speed and defense]",
+                    "Can move after attacking",
+                    "[This Unit] gains the [Favonius Bladework] promotion <costs [+150 Faith] stats> <when adjacent to a [Alchemist] unit>",
+                    "[This Unit] gains the [Cavalry Equipment] promotion <costs [+200 Faith] stats> <when adjacent to a [Alchemist] unit>"
+                    ],
+        "attackSound": "metalhit"
+    },
+    {
+        "name": "Nun",
+        "unitType": "Human",
+        "uniqueTo": "Mondstadt",
+        "movement": 2,
+        "strength": 5,
+        "cost": 60,
+        "requiredTech": "Devotion",
+        "promotions": [],
+        "uniques": ["Comment [Heals 5 hp to adjacent units every turn, also boost their healing by 5]", 
+                    "Comment [Generates 1 stats every turn]",
+                    "[+10]% Strength bonus for [Mondstadt] units within [1] tiles",
+                    "All adjacent units heal [5] HP when healing",
+                    "Gain [1] [Faith] <upon turn end>",
+                    "Cannot attack"
+                    ],
+        "attackSound": "metalhit"
+    },
+    {
+        "name": "Deacon",
+        "unitType": "Human",
+        "uniqueTo": "Mondstadt",
+        "movement": 2,
+        "strength": 10,
+        "cost": 80,
+        "requiredTech": "Reverence",
+        "promotions": [],
+        "uniques": ["Comment [Heals 10 hp to adjacent units every turn, also boost their healing by 5]", 
+                    "Comment [Generates 3 stats every turn]",
+                    "[+15]% Strength bonus for [Mondstadt] units within [2] tiles",
+                    "All adjacent units heal [5] HP when healing",
+                    "Gain [3] [Faith] <upon turn end>",
+                    "Cannot attack"
+                    ],
+        "attackSound": "metalhit"
+    },
+    {
+        "name": "Barbatos",
+        "unitType": "Archon",
+        "uniqueTo": "Mondstadt",
+        "movement": 3,
+        "strength": 20,
+        "rangedStrength": 20,
+        "range": 3,
+        "cost": 200,
+        "requiredTech": "Descent of the Firmament",
+        "promotions": ["Anemo Infusion"],
+        "uniques": ["Comment [The Anemo Archon of Mondstadt, also known as Barbatos or Venti. A bard who loves freedom and wine.]",
+                    "Comment [Considered the weakest of the 7, and yet was known to move mountains using his winds]",
+                    "Comment [Can use his wind to teleport up to 10 tiles away]", "Comment [As an Archon, he grows stronger with the amount of Faith you have]",
+                    "Comment [His presence inspires your units, granting them the [Thousand Winds of Time] but also debuffing them if he falls]",
+                    "[2] additional attacks per turn", "[+3] Sight", "Can move after attacking",
+                    "[This Unit] gains [2] movement <upon damaging a [All] unit>",
+                    "May Paradrop to [All] tiles up to [10] tiles away",
+                    "Only available <in cities with a [Statue of the Seven]>"
+                    ],
+        "attackSound": "arrow"
+    },
+
+    //Liyue Units
+    {
+		"name": "Artisan",
+		"unitType": "Human",
+		"uniqueTo": "Liyue",
+        "replaces": "Settler",
+		"movement": 2,
+		"strength": 5,
+		"cost": 70,
+		"promotions": [],
+        "uniques": ["Can build [All] improvements on tiles",
+                    "Founds a new city <costs [+100 Gold] stats> <when number of [[Your] Cities] is more than [1]>",
+                    "Founds a new city <when number of [[Your] Cities] is less than [1]>"
+                    ],
+		"attackSound": "nonmetalhit"
+	},
+    {
+        "name": "Millelith",
+        "unitType": "Human",
+        "uniqueTo": "Liyue",
+        "replaces": "Warrior",
+        "movement": 2,
+        "strength": 10,
+        "cost": 40,
+        "promotions": [],
+        "uniques": ["[+15]% Strength <when defending>"
+                    ],
+        "attackSound": "metalhit"
+    },
+    {
+        "name": "Crux Ship",
+        "unitType": "Ship",
+        "uniqueTo": "Liyue",
+        "replaces": "Battleship",
+        "movement": 2,
+        "strength": 25,
+        "rangedStrength": 15,
+        "range": 3,
+        "cost": 60,
+        "requiredTech": "Seafaring",
+        "promotions": [],
+        "uniques": ["Comment [A tankier version of the Battleship, used by the Liyue Navy]",
+                    "Comment [Can be upgrade with 4 Guizhong Ballistas, granting 2 more range and the ability to do 4 attacks for slightly lowered damage]",
+                    "Comment [Guizhong Ballista still damages itself when attacking]", "Can move after attacking",
+                    "[This Unit] gains the [Guizhong Ballistas] promotion <costs [+200 Gold] stats> <in [Port] tiles>"
+                    
+                    ],
+        "attackSound": "arrow"
+    },
+    {
+        "name": "Anemo Yaksha",
+        "unitType": "Human",
+        "uniqueTo": "Liyue",
+        "movement": 3,
+        "strength": 15,
+        "cost": 55,
+        "requiredTech": "Martial Awakening",
+        "promotions": ["Anemo Attacker"],
+        "uniques": ["Ignores terrain cost"
+                    ],
+        "attackSound": "nonmetalhit"
+    },
+    {
+        "name": "Electro Yaksha",
+        "unitType": "Human",
+        "uniqueTo": "Liyue",
+        "movement": 2,
+        "strength": 15,
+        "cost": 55,
+        "requiredTech": "Drill Grounds",
+        "promotions": ["Electro Attacker"],
+        "uniques": ["[1] additional attacks per turn"
+                    ],
+        "attackSound": "nonmetalhit"
+    },
+    {
+        "name": "Geo Yaksha",
+        "unitType": "Human",
+        "uniqueTo": "Liyue",
+        "movement": 2,
+        "strength": 15,
+        "cost": 55,
+        "requiredTech": "Standing Army",
+        "promotions": ["Geo Attacker"],
+        "uniques": ["[+50]% Strength <when defending>"
+                    ],
+        "attackSound": "nonmetalhit"
+    },
+    {
+        "name": "Adepti",
+        "unitType": "Human",
+        "uniqueTo": "Liyue",
+        "movement": 2,
+        "strength": 15,
+        "cost": 60,
+        "requiredTech": "Discipline",
+        "promotions": [],
+        "uniques": ["Comment [Mystical guardians of Liyue. Adepti shape the land with supernatural expertise and can construct powerful Guizhong Ballistas.]",
+                    "Cannot attack", "Free [Guizhong Ballista] appears <for all movement> <costs [+100 Gold, +50 Faith] stats>",
+                    "Can build [All] improvements at a [+25]% rate"
+                    ],
+        "attackSound": "metalhit"
+    },
+    {
+        "name": "Guizhong Ballista",
+        "unitType": "Machinery",
+        "uniqueTo": "Liyue",
+        "movement": 4,
+        "strength": 10,
+        "rangedStrength": 15,
+        "range": 4,
+        "cost": 60,
+        "promotions": [],
+        "uniques": ["Comment [Does 4 attacks but damages itself when attacking]",
+                    "[This Unit] gains the [Guizhong Ballistas] promotion <costs [+200 Gold] stats> <in [Port] tiles>",
+                    "[3] additional attacks per turn <hidden from users>", "Cannot move",
+                    "[This Unit] takes [5] damage <upon damaging a [All] unit>",
+                    "Cannot be purchased", "Unbuildable"
+                    ],
+        "attackSound": "arrow"
+    },
+    {
+        "name": "Hydro Yaksha",
+        "unitType": "Human",
+        "uniqueTo": "Liyue",
+        "movement": 2,
+        "strength": 15,
+        "cost": 55,
+        "requiredTech": "Order of Battle",
+        "promotions": ["Hydro Attacker"],
+        "uniques": ["Comment [Heals all nearby units by 10 every turn]",
+                    "Comment [Heals 10 HP when attacking]",
+                    "[This Unit] heals [10] HP <upon damaging a [All] unit>"
+                    ],
+        "attackSound": "nonmetalhit"
+    },
+    {
+        "name": "Pyro Yaksha",
+        "unitType": "Human",
+        "uniqueTo": "Liyue",
+        "movement": 1,
+        "strength": 15,
+        "cost": 55,
+        "requiredTech": "Banner of War",
+        "promotions": ["Pyro Attacker"],
+        "uniques": ["[+33]% Strength <when attacking>"
+                    ],
+        "attackSound": "nonmetalhit"
+    },
+    {
+        "name": "Morax",
+        "unitType": "Archon",
+        "uniqueTo": "Liyue",
+        "movement": 2,
+        "strength": 30,
+        "cost": 200,
+        "requiredTech": "Descent of the Firmament",
+        "promotions": ["Geo Infusion"],
+        "uniques": ["Comment [The Geo Archon of Liyue, also known as Morax or Rex Lapis. A god of contracts and commerce, revered as the nation's protector.]",  
+                    "Comment [One of the oldest and strongest of the 7, who forged mountains and carved rivers with his power.]",
+                    "Comment [As an Archon, he grows stronger with the amount of Faith you have]",
+                    "Comment [His presence inspires your units, granting them the [Groundbreaker] promotion but also debuffing them if he falls]",
+                    "[+3] Sight", "Can carry [4] [Geo Spear] units",
+                    "[1] free [Geo Spear] units appear <costs [+50 Gold, +100 Faith] stats>",
+                    "Only available <in cities with a [Statue of the Seven]>"
+                    ],
+        "attackSound": "metalhit"
+    },
+    {
+        "name": "Geo Spear",
+        "unitType": "Spells",
+        "uniqueTo": "Liyue",
+        "movement": 2,
+        "strength": 10,
+        "cost": 200,
+        "promotions": ["Geo Infusion"],
+        "uniques": ["Comment [A powerful spell created by Morax, the Geo Archon. It petrifies any target hit, making them unable to move or attack.]",
+                    "Only available <in cities with a [Statue of the Seven]>",
+                    "Cannot be purchased", "Unbuildable", "[-100]% maintenance costs", 
+                    "[Target Unit] gains the [Petrified] status for [3] turn(s) <upon damaging a [All] unit>"
+                    ],
+        "attackSound": "nonmetalhit"
+    }
+]

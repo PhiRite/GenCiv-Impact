@@ -1,0 +1,79 @@
+{
+        "name": "Global uniques",
+        "uniques": [
+                    "May buy [Land] units with [Faith] for [3] times their normal Production cost <for [Mondstadt] Civilizations>",
+        ],
+        "unitUniques": [
+            //reactions
+            "[This Unit] gains the [Pyro Swirl] status for [2] turn(s) <upon gaining the [Anemo Affliction] status> <for units with [Pyro Affliction]>",
+            "[This Unit] gains the [Pyro Swirl] status for [2] turn(s) <upon gaining the [Pyro Affliction] status> <for units with [Anemo Affliction]>",
+
+            "[This Unit] gains the [Cryo Swirl] status for [2] turn(s) <upon gaining the [Anemo Affliction] status> <for units with [Cryo Affliction]>",
+            "[This Unit] gains the [Cryo Swirl] status for [2] turn(s) <upon gaining the [Cryo Affliction] status> <for units with [Anemo Affliction]>",
+
+            "[This Unit] gains the [Hydro Swirl] status for [2] turn(s) <upon gaining the [Anemo Affliction] status> <for units with [Hydro Affliction]>",
+            "[This Unit] gains the [Hydro Swirl] status for [2] turn(s) <upon gaining the [Hydro Affliction] status> <for units with [Anemo Affliction]>",
+
+            "[This Unit] gains the [Electro Swirl] status for [2] turn(s) <upon gaining the [Anemo Affliction] status> <for units with [Electro Affliction]>",
+            "[This Unit] gains the [Electro Swirl] status for [2] turn(s) <upon gaining the [Electro Affliction] status> <for units with [Anemo Affliction]>",
+
+            "[This Unit] gains the [Pyro Crystalize] status for [2] turn(s) <upon damaging a [Pyro Affliction] unit> <for [Geo Damage] units>",
+            "[This Unit] gains the [Hydro Crystalize] status for [2] turn(s) <upon damaging a [Hydro Affliction] unit> <for [Geo Damage] units>",
+            "[This Unit] gains the [Cryo Crystalize] status for [2] turn(s) <upon damaging a [Cryo Affliction] unit> <for [Geo Damage] units>",
+            "[This Unit] gains the [Electro Crystalize] status for [2] turn(s) <upon damaging a [Electro Affliction] unit> <for [Geo Damage] units>",
+            
+            "[This Unit] gains the [Overloaded] status for [1] turn(s) <upon gaining the [Pyro Affliction] status> <for units with [Electro Affliction]>",
+            "[This Unit] gains the [Overloaded] status for [1] turn(s) <upon gaining the [Electro Affliction] status> <for units with [Pyro Affliction]>",
+
+            "[This Unit] gains the [Vaporize] status for [1] turn(s) <upon gaining the [Pyro Affliction] status> <for units with [Hydro Affliction]>",
+            "[This Unit] gains the [Vaporize] status for [1] turn(s) <upon gaining the [Hydro Affliction] status> <for units with [Pyro Affliction]>",
+
+            "[This Unit] gains the [Melt] status for [1] turn(s) <upon gaining the [Cryo Affliction] status> <for units with [Pyro Affliction]>",
+            "[This Unit] gains the [Melt] status for [1] turn(s) <upon gaining the [Pyro Affliction] status> <for units with [Cryo Affliction]>",
+
+            "[This Unit] gains the [Burning] status for [3] turn(s) <upon gaining the [Pyro Affliction] status> <for units with [Dendro Affliction]>",
+            "[This Unit] gains the [Burning] status for [3] turn(s) <upon gaining the [Dendro Affliction] status> <for units with [Pyro Affliction]>",
+
+            "[This Unit] gains the [Electro-Charged] status for [2] turn(s) <upon gaining the [Hydro Affliction] status> <for units with [Electro Affliction]>",
+            "[This Unit] gains the [Electro-Charged] status for [2] turn(s) <upon gaining the [Electro Affliction] status> <for units with [Hydro Affliction]>",
+
+            "[This Unit] gains the [Freeze] status for [1] turn(s) <upon gaining the [Hydro Affliction] status> <for units with [Cryo Affliction]>",
+            "[This Unit] gains the [Freeze] status for [1] turn(s) <upon gaining the [Cryo Affliction] status> <for units with [Hydro Affliction]>",
+
+            "[This Unit] gains the [Superconduct] status for [2] turn(s) <upon gaining the [Electro Affliction] status> <for units with [Cryo Affliction]>",
+            "[This Unit] gains the [Superconduct] status for [2] turn(s) <upon gaining the [Cryo Affliction] status> <for units with [Electro Affliction]>",
+            "[+25]% Strength <vs [Superconduct] units> <for [non-[Elemental Damage]] units>",
+
+            "[This Unit] gains the [Quicken] status for [2] turn(s) <upon gaining the [Electro Affliction] status> <for units with [Dendro Affliction]>",
+            "[This Unit] gains the [Quicken] status for [2] turn(s) <upon gaining the [Dendro Affliction] status> <for units with [Electro Affliction]>",
+
+            "[Target Unit] gains the [Aggravate] status for [2] turn(s) <upon damaging a [Quicken] unit> <for [Electro Damage] units>",
+            "[Target Unit] gains the [Spread] status for [2] turn(s) <upon damaging a [Quicken] unit> <for [Dendro Damage] units>",
+
+
+            "[This Unit] gains the [Bloom Core] status for [2] turn(s) <upon gaining the [Hydro Affliction] status> <for units with [Dendro Affliction]>",
+            "[This Unit] gains the [Bloom Core] status for [2] turn(s) <upon gaining the [Dendro Affliction] status> <for units with [Hydro Affliction]>",
+            "[This Unit] takes [15] damage <upon losing the [Bloom Core] status>",
+
+            "[This Unit] gains the [Burgeon Core] status for [1] turn(s) <upon gaining the [Pyro Affliction] status> <for units with [Bloom Core]>",
+            "[This Unit] gains the [Burgeon Core] status for [1] turn(s) <upon gaining the [Bloom Core] status> <for units with [Pyro Affliction]>",
+            "[This Unit] takes [20] damage <upon losing the [Burgeon Core] status>",
+            "[This Unit] takes [10] damage <when adjacent to a [Burgeon Core] unit> <upon turn end>",
+
+            "[This Unit] gains the [Hyperbloom Core] status for [1] turn(s) <upon gaining the [Electro Affliction] status> <for units with [Bloom Core]>",
+            "[This Unit] gains the [Hyperbloom Core] status for [1] turn(s) <upon gaining the [Bloom Core] status> <for units with [Electro Affliction]>",
+            "[This Unit] takes [25] damage <upon losing the [Hyperbloom Core] status>",
+
+            //Mondstadt
+            "[This Unit] heals [10] HP <upon turn end> <in [Mondstadt] tiles> <if [Windrise Tree] is constructed> <for [Mondstadt] units>",
+            "[This Unit] heals [10] HP <when adjacent to a [Nun] unit> <upon turn end> <for [Mondstadt] units>",
+            "[This Unit] heals [15] HP <when adjacent to a [Deacon] unit> <upon turn end> <for [Mondstadt] units>",
+
+            //Liyue
+            "[This Unit] heals [10] HP <upon turn end> <when adjacent to a [Hydro Yaksha] unit> <upon turn end> <for [Liyue] units>",
+
+            //Statue of The Seven buffs
+            "Earn [50]% of the damage done to [All] units as [Faith] <if [Statue of the Seven] is constructed in all [{Your} {Capital}] cities>",
+            "[+15]% Strength <for [Elemental Damage] units> <if [Statue of the Seven] is constructed in all [{Your} {Capital}] cities>",
+        ]
+}

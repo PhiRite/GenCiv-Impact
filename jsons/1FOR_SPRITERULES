@@ -1,0 +1,12 @@
+this shit mad confusing
+refer to the tile from yairm in github
+current known rules
+terrain:
+    [terrain]+[feature]-[era/number for variation]
+    [Terrain]-[era/number for variation]
+
+unit:
+    [unit name]-[number/nation]
+
+    embarkation????????
+        EmbarkedUnit-[maybe unit???/ Unit Type]-[Era,Nation]-[Number]

@@ -1,0 +1,404 @@
+[
+    {
+        "columnNumber": 0,
+		"era": "Post Archon War",
+		"techCost": 35,
+		"buildingCost": 40,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Agriculture",
+				"row": 5,
+				"uniques": ["Starting tech"]
+			}
+		]
+    },
+    {
+        "columnNumber": 1,
+		"era": "Post Archon War",
+		"techCost": 35,
+		"buildingCost": 40,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Fishing",
+				"row": 1,
+                "prerequisites": ["Agriculture"],
+				"uniques": [""],
+                "quote": ""
+			},
+            {
+				"name": "Animal Husbandry",
+				"row": 3,
+                "prerequisites": ["Agriculture"],
+				"uniques": [""],
+                "quote": ""
+			},
+            {
+				"name": "Trapping",
+				"row": 5,
+                "prerequisites": ["Agriculture"],
+				"uniques": [""],
+                "quote": ""
+			},
+            {
+				"name": "Mining",
+				"row": 7,
+                "prerequisites": ["Agriculture"],
+				"uniques": [""],
+                "quote": ""
+			},
+            {
+				"name": "Reverence",
+				"row": 9,
+                "prerequisites": ["Agriculture"],
+				"uniques": [""],
+                "quote": ""
+			}
+		]
+    },
+    {
+        "columnNumber": 2,
+		"era": "Interim Period",
+		"techCost": 55,
+		"buildingCost": 175,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Early Sailing",
+				"row": 1,
+                "prerequisites": ["Fishing"],
+				"uniques": [""],
+                "quote": ""
+			},
+            {
+				"name": "Food Cultivation",
+				"row": 3,
+                "prerequisites": ["Animal Husbandry"],
+				"uniques": [""],
+                "quote": ""
+			},
+            {
+				"name": "Forestry",
+				"row": 5,
+                "prerequisites": ["Trapping"],
+				"uniques": [""],
+                "quote": ""
+			},
+            {
+				"name": "Martial Awakening",
+				"row": 7,
+                "prerequisites": ["Mining"],
+				"uniques": [""],
+                "quote": ""
+			},
+            {
+				"name": "Devotion",
+				"row": 9,
+                "prerequisites": ["Reverence"],
+				"uniques": [""],
+                "quote": ""
+			}
+		]
+    },
+    {
+        "columnNumber": 3,
+		"era": "Interim Period",
+		"techCost": 75,
+		"buildingCost": 175,
+		"wonderCost": 185,
+		"techs": [
+            {
+				"name": "Early Economy",
+				"row": 3,
+                "prerequisites": ["Early Sailing", "Food Cultivation", "Forestry"],
+				"uniques": [""],
+                "quote": ""
+			},
+            {
+				"name": "Traditions",
+				"row": 9,
+                "prerequisites": ["Devotion"],
+				"uniques": [""],
+                "quote": ""
+			}
+		]
+    },
+    {
+        "columnNumber": 4,
+		"era": "Founding Era",
+		"techCost": 105,
+		"buildingCost": 175,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Maritime Knowledge",
+				"row": 1,
+                "prerequisites": ["Early Sailing"],
+				"uniques": [""],
+                "quote": ""
+			},
+            {
+				"name": "Craftsmanship",
+				"row": 5,
+                "prerequisites": ["Forestry"],
+				"uniques": [""],
+                "quote": ""
+			},
+            {
+				"name": "Masonry",
+				"row": 7,
+                "prerequisites": ["Martial Awakening"],
+				"uniques": [""],
+                "quote": ""
+			},
+            {
+				"name": "Fortifications",
+				"row": 8,
+                "prerequisites": ["Martial Awakening"],
+				"uniques": [""],
+                "quote": ""
+			}
+		]
+    },
+    {
+        "columnNumber": 5,
+		"era": "Founding Era",
+		"techCost": 135,
+		"buildingCost": 175,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Assembly Hall",
+				"row": 3,
+                "prerequisites": ["Maritime Knowledge", "Early Economy", "Craftsmanship"],
+				"uniques": [""],
+                "quote": ""
+			},
+            {
+				"name": "Drill Grounds",
+				"row": 8,
+                "prerequisites": ["Fortifications"],
+				"uniques": [""],
+                "quote": ""
+			}
+		]
+    },
+    {
+        "columnNumber": 6,
+		"era": "Rising Nation",
+		"techCost": 200,
+		"buildingCost": 175,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Foundations of Power",
+				"row": 3,
+                "prerequisites": ["Assembly Hall"],
+				"uniques": [""],
+                "quote": ""
+			},
+            {
+				"name": "Improved Agriculture",
+				"row": 5,
+                "prerequisites": ["Assembly Hall"],
+				"uniques": [""],
+                "quote": ""
+			},
+            			{
+				"name": "Smithing",
+				"row": 7,
+                "prerequisites": ["Masonry"],
+				"uniques": [""],
+                "quote": ""
+			},
+            {
+				"name": "Writing",
+				"row": 9,
+                "prerequisites": ["Traditions"],
+				"uniques": [""],
+                "quote": ""
+			}
+		]
+    },
+    {
+        "columnNumber": 7,
+		"era": "Rising Nation",
+		"techCost": 235,
+		"buildingCost": 175,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Seafaring",
+				"row": 1,
+                "prerequisites": ["Maritime Knowledge"],
+				"uniques": [""],
+                "quote": ""
+			},
+            {
+				"name": "Currency",
+				"row": 5,
+                "prerequisites": ["Improved Agriculture"],
+				"uniques": [""],
+                "quote": ""
+			},
+            {
+				"name": "Standing Army",
+				"row": 8,
+                "prerequisites": ["Drill Grounds"],
+				"uniques": [""],
+                "quote": ""
+			}
+		]
+    },
+    {
+        "columnNumber": 8,
+		"era": "Age of Mortals",
+		"techCost": 285,
+		"buildingCost": 175,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Pillars of Civilization",
+				"row": 3,
+                "prerequisites": ["Foundations of Power"],
+				"uniques": [""],
+                "quote": ""
+			},
+            {
+				"name": "Golden Ledgers",
+				"row": 5,
+                "prerequisites": ["Currency"],
+				"uniques": [""],
+                "quote": ""
+			},
+            {
+				"name": "Guild Hall",
+				"row": 7,
+                "prerequisites": ["Smithing"],
+				"uniques": [""],
+                "quote": ""
+			},
+            {
+				"name": "Frontier Settlements",
+				"row": 8,
+                "prerequisites": ["Standing Army"],
+				"uniques": [""],
+                "quote": ""
+			},
+            {
+				"name": "Veneration",
+				"row": 9,
+                "prerequisites": ["Writing"],
+				"uniques": [""],
+                "quote": ""
+			}
+		]
+    },
+    {
+        "columnNumber": 9,
+		"era": "Age of Mortals",
+		"techCost": 300,
+		"buildingCost": 175,
+		"wonderCost": 185,
+		"techs": [
+            {
+				"name": "Foundry Works",
+				"row": 7,
+                "prerequisites": ["Guild Hall"],
+				"uniques": [""],
+                "quote": ""
+			},
+            {
+				"name": "Discipline",
+				"row": 8,
+                "prerequisites": ["Frontier Settlements"],
+				"uniques": [""],
+                "quote": ""
+			},
+            {
+				"name": "Pursuit of Knowledge",
+				"row": 9,
+                "prerequisites": ["Veneration"],
+				"uniques": [""],
+                "quote": ""
+			}
+		]
+    },
+    {
+        "columnNumber": 10,
+		"era": "Prelude to War",
+		"techCost": 355,
+		"buildingCost": 175,
+		"wonderCost": 185,
+		"techs": [
+            {
+				"name": "Legacy Forged",
+				"row": 3,
+                "prerequisites": ["Pillars of Civilization"],
+				"uniques": [""],
+                "quote": ""
+			},
+            {
+				"name": "Industrial Power",
+				"row": 5,
+                "prerequisites": ["Foundry Works"],
+				"uniques": [""],
+                "quote": ""
+			},
+            {
+				"name": "Armaments",
+				"row": 8,
+                "prerequisites": ["Discipline"],
+				"uniques": [""],
+                "quote": ""
+			}
+		]
+    },
+    {
+        "columnNumber": 11,
+		"era": "Prelude to War",
+		"techCost": 385,
+		"buildingCost": 175,
+		"wonderCost": 185,
+		"techs": [
+            {
+				"name": "Stronghold",
+				"row": 5,
+                "prerequisites": ["Industrial Power"],
+				"uniques": [""],
+                "quote": ""
+			},
+            {
+				"name": "Order of Battle",
+				"row": 7,
+                "prerequisites": ["Armaments"],
+				"uniques": [""],
+                "quote": ""
+			},
+            {
+				"name": "Banner of War",
+				"row": 8,
+                "prerequisites": ["Armaments"],
+				"uniques": [""],
+                "quote": ""
+			}
+		]
+    },
+    {
+        "columnNumber": 12,
+		"era": "Second Archon War",
+		"techCost": 385,
+		"buildingCost": 175,
+		"wonderCost": 185,
+		"techs": [
+            {
+				"name": "Descent of the Firmament",
+				"row": 5,
+                "prerequisites": ["Stronghold", "Order of Battle", "Banner of War", "Legacy Forged", "Seafaring"],
+				"uniques": [""],
+                "quote": ""
+			}
+		]
+    }
+]

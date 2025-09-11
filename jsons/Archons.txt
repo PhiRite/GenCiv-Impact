@@ -1,0 +1,40 @@
+Venti:
+3 attacks
+each attacks grant debuff = reduces 1 movement and 10% defense
+can teleport up to 10 tiles
+
+Zhongli:
+1 attack
+can summon spears up to 4 times costing faith
+spears deal damage and petrify target
+
+raiden:
+2 forms
+engulfing lightning:
+1 movement gain per hit
+1 attack per kill
+Musou no hitotachi:
+1 attack only but 3 times the damage
+1 movement per hit
+can teleport using faith
+
+nahida
+grants buffs per faith
+buffs akasha terminals
+
+furina
+gets half buff from faith but gains buff from oceanids
+brings only hald debuff upon death
+Furina:
+grants damage buffs to units within 5 tiles
+Focalors:
+grants healing per turn to units within 5 tiles
+oceanids gain ability to transform into one if one dies
+
+mavuika
+summon fireballs up to 4 using faith
+gains fireballs upon killing
+
+
+0123[4]5678
+1234[5]6789

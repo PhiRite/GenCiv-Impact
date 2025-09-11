@@ -1,0 +1,71 @@
+[
+    	// Science
+	{
+		"name": "discover a portion of technology",
+		"notification": "We have discovered a portion of advanced technology! (+50 science)",
+		"uniques": ["Gain [50] [Science]"],
+		"color": "#7f7fff"
+	},
+	{
+		"name": "discover a research note",
+		"notification": "We have discovered an Inventor's research note! (+[scienceAmount] science)",
+		"uniques": ["Gain [80]-[120] [Science]", "Only available <after turn number [35]>"],
+		"color": "#7f7fff"
+	},
+	{
+		"name": "stolen technology",
+		"notification": "We have successfully taken control of the stolen technology! (+[scienceAmount] science)",
+		"uniques": ["Gain [140]-[180] [Science]", "Only available <after turn number [50]>"],
+		"color": "#7f7fff"
+	},
+	
+	// Gold
+	{
+		"name": "small money",
+		"notification": "Small amount of money buried underground! (+50 gold)",
+		"uniques": ["Gain [50] [Gold]"],
+		"color": "#ffeb7f"
+	},
+	{
+		"name": "a pocket of gold",
+		"notification": "A pocket of gold buried underground! (+100 gold)",
+		"uniques": ["Gain [100] [Gold]"],
+		"color": "#ffeb7f"
+	},
+	{
+		"name": "a stash of gold",
+		"notification": "We have found a stash of [goldAmount] Gold in the ruins!",
+		"uniques": ["Gain [175]-[250] [Gold]"],
+		"color": "#ffeb7f"
+	},
+	{
+		"name": "hit a jackpot",
+		"notification": "Jackpot! (+1000 gold)",
+		"uniques": ["Gain [1000] [Gold]", "Only available <after turn number [100]>"],
+		"color": "#ffeb7f"
+	},
+	
+	// Faith
+	{
+		"name": "a praying priest",
+		"notification": "A dying priest prays for you! (+[faithAmount] faith)",
+		"uniques": [
+			"Only available <when religion is enabled>",
+			"Gain [100]-[250] [Faith]",
+			"Only available <after founding a Pantheon>",
+			"Only available <after turn number [40]>"
+		],
+		"color": "#CDDDF4"
+	},
+	{
+		"name": "a wandering oracle",
+		"notification": "An oracle foresees your future! (+[faithAmount] faith)",
+		"uniques": [
+			"Only available <when religion is enabled>",
+			"Gain [250]-[350] [Faith]",
+			"Only available <after founding a Pantheon>",
+			"Only available <after turn number [70]>"
+		],
+		"color": "#CDDDF4"
+	}
+]

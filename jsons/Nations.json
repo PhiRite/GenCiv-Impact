@@ -1,0 +1,83 @@
+[
+
+    //Barbarians / World stuffs
+    {
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+        "innerColor": [185,12,12],
+		"uniques": [
+                    ]
+	},
+
+    //Actual Nations
+    {
+        "name": "Mondstadt",
+        "leaderName": "Varka",
+		"adjective": ["Grandmaster of the Knights of Favonius"],
+		"startBias": [""],
+		"preferredVictoryType": "Domination",
+		"personality": "",
+		
+		"startIntroPart1": "The wind is a gentle breeze, a guiding hand, and a fierce storm. It is the breath of freedom, and it is the heart of Mondstadt.",
+		"startIntroPart2": "We are the Knights of Favonius, sworn to protect this city and its people. We will not falter in our duty, for we are the guardians of freedom.",
+				
+        "declaringWar": "The winds of freedom now turn against you. Prepare yourself!",
+        "attacked": "You dare disturb Mondstadt's song of liberty? Then hear our answer!",
+        "defeated": "The winds fall silent… yet Mondstadt's spirit of freedom will never fade.",
+
+		"introduction": "Welcome to Mondstadt, traveler. Here, the wind carries tales of freedom and valor. We are the Knights of Favonius, and we stand ready to defend our city and its ideals.",
+				
+		"neutralHello": "The wind whispers of your arrival. May it guide you to the freedom you seek.",
+		"hateHello": "The storm rages within you, but know this: the Knights of Favonius will not bow to tyranny.",
+		"tradeRequest": "The winds of trade are always welcome in Mondstadt. What do you seek?",
+
+	    "outerColor": [23, 129, 122],
+		"innerColor": [104, 228, 220],
+	    
+		"uniqueName": "City of Freedom",
+		"uniques": [
+                    "May buy [Land] units with [Faith] for [3] times their normal Production cost <for [Mondstadt] Civilizations>",
+					],
+		"cities": ["Mondstadt City", "Windrise", "Springvale", "Stormterror's Lair",
+					"Dandelion Meadow", "Starfell Valley"],
+		"civilopediaText": [
+			{"text":""}
+        ]
+    },
+	{
+        "name": "Liyue",
+        "leaderName": "Ningguang",
+		"adjective": ["Tianquan of the Liyue Qixing"],
+		"startBias": [""],
+		"preferredVictoryType": "Domination",
+		"personality": "",
+		
+		"startIntroPart1": "Mountains rise eternal, rivers flow unceasing, and the stones remember every step. This is the land of Liyue, where contracts are the foundation of all.",
+		"startIntroPart2": "We are the people of Liyue, guided by tradition and bound by promise. Under Rex Lapis’ watchful eye, we uphold stability and prosperity.",
+
+		"declaringWar": "By the decree of contract, your debt must be paid in battle!",
+		"attacked": "You dare disrupt the order of Liyue? Then we shall answer with unyielding stone!",
+		"defeated": "The harbor falls silent… yet the contract of Liyue shall endure for all eternity.",
+
+		"introduction": "Welcome to Liyue, traveler. Here, every stone tells a story, and every promise holds the weight of mountains. Prosperity is built upon trust and tradition.",
+
+		"neutralHello": "The harbor welcomes all who respect the contracts of Liyue.",
+		"hateHello": "You break the balance and insult our traditions. Know this: Liyue does not forgive betrayal.",
+		"tradeRequest": "Liyue thrives on commerce. Tell me, what goods or promises do you bring to the harbor?",
+
+		"outerColor": [134, 84, 40],
+		"innerColor": [227, 169, 57],
+
+	    
+		"uniqueName": "City of Contracts",
+		"uniques": ["[+50]% [Gold] from Trade Routes",
+					"[+1 Science, +1 Faith, +1 Culture] from each Trade Route"
+					],
+		"cities": ["Liyue Harbor", "Qingce Village", "Wangshu Inn", "Jueyun Karst",
+		"Mt. Tianheng", "Dihua Marsh", "Guyun Stone Forest", "Mt. Aozang",
+		"Huaguang Stone Forest", "Qingxu Pool", "Lingju Pass", "Minlin", "Yaoguang Shoal"],
+		"civilopediaText": [
+			{"text":""}
+        ]
+    }
+]

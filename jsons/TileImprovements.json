@@ -1,0 +1,314 @@
+[
+    //General stuff
+	{ 
+		"name": "Barbarian encampment", //hilichurl camp
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Unpillagable",
+			"Unbuildable",
+			"Provides a random bonus when entered",
+			"Excluded from map editor"],
+        "civilopediaText": [
+			{
+				"text": "Home to Hilichurls, will spawn a hostile unit from time to time"
+			}
+		]
+	},
+	{
+		"name": "Ancient ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Provides a random bonus when entered", 
+					"Unbuildable", "Does not need removal of [Forest]", 
+					"Does not need removal of [Jungle]"]
+	},
+	{ 
+		"name": "City ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unbuildable", "Unpillagable"],
+		"civilopediaText": [
+			{"text": "A bleak reminder of the destruction wreaked by War"}
+		]
+	},
+	{ 
+		"name": "City center", 
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unbuildable", "Unpillagable", "Irremovable"],
+		"civilopediaText": [
+			{"text": "Marks the center of a city"},
+			{"text": "Appearance changes with the technological era of the owning civilization"}
+		]
+	},
+	{
+        "name": "Repair",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "turnsToBuild": 2,
+        "shortcutKey": "E",
+        "uniques": ["Unbuildable", "Excluded from map editor"],
+        "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
+    },
+
+	//removes
+	{
+		"name": "Remove Road",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"]
+	},
+	{
+		"name": "Cancel improvement order",
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
+		"shortcutKey": "."
+	},
+		{
+		"name": "Remove Forest",
+		"turnsToBuild": 4,
+		"techRequired": "Mining",
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Jungle",
+		"turnsToBuild": 7,
+		"techRequired": "Forestry",
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Fallout",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
+		"shortcutKey": "X"
+	},
+
+
+	//post archon war
+    {
+		"name": "Farm",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert"],
+		"food": 2,
+		"turnsToBuild": 7,
+		"techRequired": "Agriculture",
+		"uniques": ["Can also be built on tiles adjacent to fresh water",
+                    "Pillaging this improvement yields approximately [+18 Gold]"
+                    ],
+		"shortcutKey": "F"
+	},
+    {
+		"name": "Mine",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Mining",
+		"uniques": ["Pillaging this improvement yields approximately [+20 Gold]"
+                    ],
+		"shortcutKey": "M"
+	},
+    {
+		"name": "Camp",
+		"turnsToBuild": 7,
+		"techRequired": "Trapping",
+		"uniques": ["Does not need removal of [Forest]",
+                    "Does not need removal of [Jungle]", 
+                    "Can only be built to improve a resource", 
+                    "Pillaging this improvement yields approximately [+10 Gold]"
+                    ],
+		"shortcutKey": "C"
+	},
+    {
+		"name": "Pasture",
+        "food": 1,
+		"turnsToBuild": 8,
+		"techRequired": "Animal Husbandry",
+		"uniques": ["Can only be built to improve a resource",
+                    "Pillaging this improvement yields approximately [+10 Gold]"
+                    ],
+		"shortcutKey": "P"
+	},
+    {
+		"name": "Fishing Boats",
+		"turnsToBuild": 1,
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"food": 1,
+		"techRequired": "Fishing",
+		"uniques": ["Can only be built to improve a resource",
+                    "Pillaging this improvement yields approximately [+10 Gold]"
+                ],
+		"shortcutKey": "F"
+	},
+
+    //Interim Period
+    {
+		"name": "Shrine",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert", "Tundra", "Snow"],
+		"food": 2,
+		"turnsToBuild": 7,
+		"techRequired": "Devotion",
+		"uniques": ["Can also be built on tiles adjacent to fresh water",
+                    "Pillaging this improvement yields approximately [+15 Faith]"
+                    ],
+		"shortcutKey": "F"
+	},
+    {
+		"name": "Plantation",
+		"turnsToBuild": 6,
+		"gold": 1,
+		"techRequired": "Food Cultivation",
+		"uniques": ["Can only be built to improve a resource",
+                    "Pillaging this improvement yields approximately [+10 Gold]"
+                    ],
+		"shortcutKey": "P"
+	},
+    {
+		"name": "Lumber mill",
+		"terrainsCanBeBuiltOn": ["Forest"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Forestry",
+		"uniques": [
+		            ],
+		"shortcutKey": "L"
+	},
+    {
+		"name": "Road",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 4,
+		"techRequired": "Early Economy",
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "R",
+        "civilopediaText": [
+            {"text":"Reduces movement cost to ½ if the other tile also has a Road or Railroad"}
+        ]
+	},
+
+    //Founding Era
+    {
+		"name": "Quarry",
+		"turnsToBuild": 8,
+		"techRequired": "Masonry",
+		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "Q"
+	},
+    {
+		"name": "Docks",
+		"turnsToBuild": 7,
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"food": 1,
+		"techRequired": "Maritime Knowledge",
+		"uniques": ["Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "F"
+	},
+    {
+		"name": "Workshop",
+		"turnsToBuild": 8,
+		"techRequired": "Craftsmanship",
+		"uniques": ["Does not need removal of [Forest]",
+                    "Does not need removal of [Jungle]", 
+                    "Can only be built to improve a resource", 
+                    "Pillaging this improvement yields approximately [+10 Gold]"
+                    ],
+		"shortcutKey": "C"
+	},
+
+    //Rising Nation
+    {
+		"name": "Port",
+		"turnsToBuild": 7,
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"food": 1,
+		"techRequired": "Seafaring",
+		"uniques": ["Pillaging this improvement yields approximately [+10 Gold]"
+                    ],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Harbor",
+		"uniqueTo": "Liyue",
+		"replaces": "Port",
+		"turnsToBuild": 7,
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"production": 2,
+		"gold": 1,
+		"techRequired": "Seafaring",
+		"uniques": ["Pillaging this improvement yields approximately [+10 Gold]"
+                    ],
+		"shortcutKey": "F"
+	},
+    {
+		"name": "Markets",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow"],
+		"gold": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Currency",
+		"uniques": ["Pillaging this improvement yields approximately [+50 Gold]"
+                    ],
+		"shortcutKey": "T"
+	},
+	{
+		"name": "Banks",
+		"uniqueTo": "Liyue",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow"],
+		"gold": 1,
+		"turnsToBuild": 9,
+		"techRequired": "Currency",
+		"uniques": ["Pillaging this improvement yields approximately [+100 Gold]",
+					"[+1 Gold] for each adjacent [Markets]"
+                    ],
+		"shortcutKey": "T"
+	},
+
+    //Age of Mortals
+    {
+		"name": "Academy",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 8,
+        "techRequired": "Pursuit of Knowledge",
+		"uniques": ["Removes removable features when built",
+                    "Will not be replaced by automated units",
+                    "Pillaging this improvement yields approximately [+20 Gold]"
+                    ]
+	},
+    {
+		"name": "Outpost",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
+		"turnsToBuild": 6,
+		"techRequired": "Frontier Settlements",
+		"uniques": ["Can be built outside your borders",
+                    "Gives a defensive bonus of [50]%"
+                    ],
+		"shortcutKey": "O"
+	},
+    {
+		"name": "Foundry",
+        "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
+        "production": 5,
+		"turnsToBuild": 8,
+		"techRequired": "Foundry Works",
+		"uniques": ["Does not need removal of [Forest]",
+                    "Does not need removal of [Jungle]", 
+                    "Pillaging this improvement yields approximately [+25 Gold]"
+                    ],
+		"shortcutKey": "C"
+	},
+
+    //Prelude to War
+    {
+		"name": "Fort",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
+		"turnsToBuild": 6,
+		"techRequired": "Stronghold",
+		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [75]%"],
+		"shortcutKey": "O"
+	},
+    {
+		"name": "Factory",
+        "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
+        "production": 5,
+		"turnsToBuild": 8,
+		"techRequired": "Industrial Power",
+		"uniques": ["Does not need removal of [Forest]",
+                    "Does not need removal of [Jungle]",
+                    "[+1 Gold] <for every adjacent [Foundry]>",
+                    "Pillaging this improvement yields approximately [+50 Gold]"
+                    ],
+		"shortcutKey": "C"
+	}
+]

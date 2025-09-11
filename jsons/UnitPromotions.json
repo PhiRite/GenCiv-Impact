@@ -1,0 +1,584 @@
+[
+    //ELEMENTAL SYSTEM START
+
+    //NON HUMAN NON INFUSED DAMAGE
+    {
+        "name": "Anemo Attacker",
+        "uniques": ["Comment [Grants the wielder the Anemo element, making them stronger and allowing them to manipulate wind and air. This vision is associated with freedom and exploration.]",
+                    "Vision Wielder", "Elemental Damage", "Anemo Damage", "[Target Unit] gains the [Anemo Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>"
+                    ]
+    },
+    {
+        "name": "Geo Attacker",
+        "uniques": ["Comment [Grants the wielder the Geo element, making them stronger and allowing them to manipulate earth and stone. This vision is associated with stability and endurance.]",
+                    "Vision Wielder", "Elemental Damage", "Geo Damage", //"[Target Unit] gains the [Geo Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>"
+                    ]
+    },
+    {
+        "name": "Electro Attacker",
+        "uniques": ["Comment [Grants the wielder the Electro element, making them stronger and allowing them to manipulate electricity. This vision is associated with power and energy.]",
+                    "Vision Wielder", "Elemental Damage", "Electro Damage", "[Target Unit] gains the [Electro Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>"
+                    ]
+    },
+    {
+        "name": "Dendro Attacker",
+        "uniques": ["Comment [Grants the wielder the Dendro element, making them stronger and allowing them to manipulate nature and plants. This vision is associated with growth and harmony.]",
+                    "Vision Wielder", "Elemental Damage", "Dendro Damage", "[Target Unit] gains the [Dendro Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>"
+                    ]
+    },
+    {
+        "name": "Hydro Attacker",
+        "uniques": ["Comment [Grants the wielder the Hydro element, making them stronger and allowing them to manipulate water. This vision is associated with fluidity and adaptability.]",
+                    "Vision Wielder", "Elemental Damage", "Hydro Damage", "[Target Unit] gains the [Hydro Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>"
+                    ]
+    },
+    {
+        "name": "Pyro Attacker",
+        "uniques": ["Comment [Grants the wielder the Pyro element, making them stronger and allowing them to manipulate fire. This vision is associated with passion and destruction.]",
+                    "Vision Wielder", "Elemental Damage", "Pyro Damage", "[Target Unit] gains the [Pyro Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>"
+                    ]
+    },
+    {
+        "name": "Cryo Attacker",
+        "uniques": ["Comment [Grants the wielder the Cryo element, making them stronger and allowing them to manipulate ice and cold. This vision is associated with preservation and control.]",
+                    "Vision Wielder", "Elemental Damage", "Cryo Damage", "[Target Unit] gains the [Cryo Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>"
+                    ]
+    },
+
+    //VISIONS
+    {
+        "name": "Anemo Vision",
+        "column": 0,
+        "row": 0,
+        "unitTypes": ["Human"],
+        "uniques": ["Comment [Grants the wielder the Anemo element, making them stronger and allowing them to manipulate wind and air. This vision is associated with freedom and exploration.]",
+                    "Vision Wielder", "Elemental Damage", "Anemo Damage", "[+10]% Strength", "[Target Unit] gains the [Anemo Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>",
+                    "Unavailable <for [Vision Wielder] units>"
+                    ]
+    },
+    {
+        "name": "Geo Vision",
+        "column": 0,
+        "row": 1,
+        "unitTypes": ["Human"],
+        "uniques": ["Comment [Grants the wielder the Geo element, making them stronger and allowing them to manipulate earth and stone. This vision is associated with stability and endurance.]",
+                    "Vision Wielder", "Elemental Damage", "Geo Damage", "[+10]% Strength", //"[Target Unit] gains the [Geo Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>",
+                    "Unavailable <for [Vision Wielder] units>"
+                    ]
+    },
+    {
+        "name": "Electro Vision",
+        "column": 0,
+        "row": 2,
+        "unitTypes": ["Human"],
+        "uniques": ["Comment [Grants the wielder the Electro element, making them stronger and allowing them to manipulate electricity. This vision is associated with power and energy.]",
+                    "Vision Wielder", "Elemental Damage", "Electro Damage", "[+10]% Strength", "[Target Unit] gains the [Electro Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>",
+                    "Unavailable <for [Vision Wielder] units>"
+                    ]
+    },
+    {
+        "name": "Dendro Vision",
+        "column": 0,
+        "row": 3,
+        "unitTypes": ["Human"],
+        "uniques": ["Comment [Grants the wielder the Dendro element, making them stronger and allowing them to manipulate nature and plants. This vision is associated with growth and harmony.]",
+                    "Vision Wielder", "Elemental Damage", "Dendro Damage", "[+10]% Strength", "[Target Unit] gains the [Dendro Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>",
+                    "Unavailable <for [Vision Wielder] units>"
+                    ]
+    },
+    {
+        "name": "Hydro Vision",
+        "column": 0,
+        "row": 4,
+        "unitTypes": ["Human"],
+        "uniques": ["Comment [Grants the wielder the Hydro element, making them stronger and allowing them to manipulate water. This vision is associated with fluidity and adaptability.]",
+                    "Vision Wielder", "Elemental Damage", "Hydro Damage", "[+10]% Strength", "[Target Unit] gains the [Hydro Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>",
+                    "Unavailable <for [Vision Wielder] units>"
+                    ]
+    },
+    {
+        "name": "Pyro Vision",
+        "column": 0,
+        "row": 5,
+        "unitTypes": ["Human"],
+        "uniques": ["Comment [Grants the wielder the Pyro element, making them stronger and allowing them to manipulate fire. This vision is associated with passion and destruction.]",
+                    "Vision Wielder", "Elemental Damage", "Pyro Damage", "[+10]% Strength", "[Target Unit] gains the [Pyro Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>",
+                    "Unavailable <for [Vision Wielder] units>"
+                    ]
+    },
+    {
+        "name": "Cryo Vision",
+        "column": 0,
+        "row": 6,
+        "unitTypes": ["Human"],
+        "uniques": ["Comment [Grants the wielder the Cryo element, making them stronger and allowing them to manipulate ice and cold. This vision is associated with preservation and control.]",
+                    "Vision Wielder", "Elemental Damage", "Cryo Damage", "[+10]% Strength", "[Target Unit] gains the [Cryo Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>",
+                    "Unavailable <for [Vision Wielder] units>"
+                    ]
+    },
+
+    //DELUSIONS
+    {
+        "name": "Anemo Delusion",
+        "uniques": ["Comment [A Fatui made recreation of an Anemo Vision using the remains of a dead god. This delusion is much stronger than a normal vision, but it is also unstable and can cause harm to the user.]",
+                    "Delusion Wielder", "Elemental Damage", "Anemo Damage", "[+20]% Strength", "[This Unit] takes [10] damage <when attacking> <with [15]% chance>",
+                    "[Target Unit] gains the [Anemo Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>"
+                    ]
+    },
+    {
+        "name": "Geo Delusion",
+        "uniques": ["Comment [A Fatui made recreation of an Geo Vision using the remains of a dead god. This delusion is much stronger than a normal vision, but it is also unstable and can cause harm to the user.]",
+                    "Delusion Wielder", "Elemental Damage", "Geo Damage", "[+20]% Strength", "[This Unit] takes [10] damage <when attacking> <with [15]% chance>",
+                    //"[Target Unit] gains the [Geo Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>"
+                    ]
+    },
+    {
+        "name": "Electro Delusion",
+        "uniques": ["Comment [A Fatui made recreation of an Electro Vision using the remains of a dead god. This delusion is much stronger than a normal vision, but it is also unstable and can cause harm to the user.]",
+                    "Delusion Wielder", "Elemental Damage", "Electro Damage", "[+20]% Strength", "[This Unit] takes [10] damage <when attacking> <with [15]% chance>",
+                    "[Target Unit] gains the [Electro Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>"
+                    ]
+    },
+    {
+        "name": "Dendro Delusion",
+        "uniques": ["Comment [A Fatui made recreation of an Dendro Vision using the remains of a dead god. This delusion is much stronger than a normal vision, but it is also unstable and can cause harm to the user.]",
+                    "Delusion Wielder", "Elemental Damage", "Dendro Damage", "[+20]% Strength", "[This Unit] takes [10] damage <when attacking> <with [15]% chance>",
+                    "[Target Unit] gains the [Dendro Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>"
+                    ]
+    },
+    {
+        "name": "Hydro Delusion",
+        "uniques": ["Comment [A Fatui made recreation of an Hydro Vision using the remains of a dead god. This delusion is much stronger than a normal vision, but it is also unstable and can cause harm to the user.]",
+                    "Delusion Wielder", "Elemental Damage", "Hydro Damage", "[+20]% Strength", "[This Unit] takes [10] damage <when attacking> <with [15]% chance>",
+                    "[Target Unit] gains the [Hydro Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>"
+                    ]
+    },
+    {
+        "name": "Pyro Delusion",
+        "uniques": ["Comment [A Fatui made recreation of an Pyro Vision using the remains of a dead god. This delusion is much stronger than a normal vision, but it is also unstable and can cause harm to the user.]",
+                    "Delusion Wielder", "Elemental Damage", "Pyro Damage", "[+20]% Strength", "[This Unit] takes [10] damage <when attacking> <with [15]% chance>",
+                    "[Target Unit] gains the [Pyro Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>"
+                    ]
+    },
+    {
+        "name": "Cryo Delusion",
+        "uniques": ["Comment [A Fatui made recreation of an Cryo Vision using the remains of a dead god. This delusion is much stronger than a normal vision, but it is also unstable and can cause harm to the user.]",
+                    "Delusion Wielder", "Elemental Damage", "Cryo Damage", "[+20]% Strength", "[This Unit] takes [10] damage <when attacking> <with [15]% chance>",
+                    "[Target Unit] gains the [Cryo Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>"
+                    ]
+    },
+
+    //AFFLICTIONS
+    {
+        "name": "Anemo Affliction",
+        "uniques": ["Comment [This unit has been afflicted with the Anemo element, causing it to be susceptible to Swirl reactions.]",
+                    "Comment [Afflictions are removed once it has been used in a reaction, certain reactions however do not remove them.]"
+                    ]
+    },
+    {
+        "name": "Electro Affliction",
+        "uniques": ["Comment [This unit has been afflicted with the Electro element, causing it to be susceptible to Electro reactions.]",
+                    "Comment [Afflictions are removed once it has been used in a reaction, certain reactions however do not remove them.]"
+                    ]
+    },
+    {
+        "name": "Dendro Affliction",
+        "uniques": ["Comment [This unit has been afflicted with the Dendro element, causing it to be susceptible to Dendro reactions.]",
+                    "Comment [Afflictions are removed once it has been used in a reaction, certain reactions however do not remove them.]"
+                    ]
+    },
+    {
+        "name": "Hydro Affliction",
+        "uniques": ["Comment [This unit has been afflicted with the Hydro element, causing it to be susceptible to Hydro reactions.]",
+                    "Comment [Afflictions are removed once it has been used in a reaction, certain reactions however do not remove them.]"
+                    ]
+    },
+    {
+        "name": "Pyro Affliction",
+        "uniques": ["Comment [This unit has been afflicted with the Pyro element, causing it to be susceptible to Pyro reactions.]",
+                    "Comment [Afflictions are removed once it has been used in a reaction, certain reactions however do not remove them.]"
+                    ]
+    },
+    {
+        "name": "Cryo Affliction",
+        "uniques": ["Comment [This unit has been afflicted with the Cryo element, causing it to be susceptible to Cryo reactions.]",
+                    "Comment [Afflictions are removed once it has been used in a reaction, certain reactions however do not remove them.]"
+                    ]
+    },
+
+    //ELEMENTAL INFUSIONS
+    {
+        "name": "Anemo Infusion",
+        "uniques": ["Comment [This unit is infused with the Anemo element, making it immune to Anemo damage and reactions and allowing it to do Anemo damage.]",
+                    "[Target Unit] gains the [Anemo Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>",
+                    "Infused", "Elemental Damage", "Anemo Damage"
+                    ]
+    },
+    {
+        "name": "Geo Infusion",
+        "uniques": ["Comment [This unit is infused with the Geo element, making it immune to Geo damage and reactions and allowing it to do Geo damage.]",
+                    //"[Target Unit] gains the [Geo Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>",
+                    "Infused", "Elemental Damage", "Geo Damage"
+                    ]
+    },
+    {
+        "name": "Electro Infusion",
+        "uniques": ["Comment [This unit is infused with the Electro element, making it immune to Electro damage and reactions and allowing it to do Electro damage.]",
+                    "[Target Unit] gains the [Electro Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>",
+                    "Infused", "Elemental Damage", "Electro Damage"
+                    ]
+    },
+    {
+        "name": "Dendro Infusion",
+        "uniques": ["Comment [This unit is infused with the Dendro element, making it immune to Dendro damage and reactions and allowing it to do Dendro damage.]",
+                    "[Target Unit] gains the [Dendro Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>",
+                    "Infused", "Elemental Damage", "Dendro Damage"
+                    ]
+    },
+    {
+        "name": "Hydro Infusion",
+        "uniques": ["Comment [This unit is infused with the Hydro element, making it immune to Hydro damage and reactions and allowing it to do Hydro damage.]",
+                    "[Target Unit] gains the [Hydro Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>",
+                    "Infused", "Elemental Damage", "Hydro Damage"
+                    ]
+    },
+    {
+        "name": "Pyro Infusion",
+        "uniques": ["Comment [This unit is infused with the Pyro element, making it immune to Pyro damage and reactions and allowing it to do Pyro damage.]",
+                    "[Target Unit] gains the [Pyro Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>",
+                    "Infused", "Elemental Damage", "Pyro Damage"
+                    ]
+    },
+    {
+        "name": "Cryo Infusion",
+        "uniques": ["Comment [This unit has been infused with the Cryo element, making it Cryo to Anemo damage and reactions and allowing it to do Cryo damage.]",
+                    "[Target Unit] gains the [Cryo Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>",
+                    "Infused", "Elemental Damage", "Cryo Damage"
+                    ]
+    },
+
+    //REACTIONS
+    //swirl
+    {
+        "name": "Pyro Swirl",
+        "uniques": ["Comment [This reaction occurs when Pyro meets Anemo, causing a spread of Pyro damage to nearby units and increasing this units vulnerability to Pyro attacks.]",
+                    "Comment [Consumes only the Anemo Affliction.]",
+                    "[This Unit] loses the [Anemo Affliction] status <upon gaining the [Pyro Swirl] status> <hidden from users>",
+                    "[-25]% Strength <when defending> <vs [Pyro Damage] units>"
+                    ]
+    },
+    {
+        "name": "Electro Swirl",
+        "uniques": ["Comment [This reaction occurs when Electro meets Anemo, causing a spread of Electro damage to nearby units and increasing this units vulnerability to Electro attacks.]",
+                    "Comment [Consumes only the Anemo Affliction.]",
+                    "[This Unit] loses the [Anemo Affliction] status <upon gaining the [Electro Swirl] status> <hidden from users>",
+                    "[-25]% Strength <when defending> <vs [Electro Damage] units>"
+                    ]
+    },
+    {
+        "name": "Hydro Swirl",
+        "uniques": ["Comment [This reaction occurs when Hydro meets Anemo, causing a spread of Hydro damage to nearby units and increasing this units vulnerability to Hydro attacks.]",
+                    "Comment [Consumes only the Anemo Affliction.]",
+                    "[This Unit] loses the [Anemo Affliction] status <upon gaining the [Hydro Swirl] status> <hidden from users>",
+                    "[-25]% Strength <when defending> <vs [Hydro Damage] units>"
+                    ]
+    },
+    {
+        "name": "Cryo Swirl",
+        "uniques": ["Comment [This reaction occurs when Cryo meets Anemo, causing a spread of Cryo damage to nearby units and increasing this units vulnerability to Cryo attacks.]",
+                    "Comment [Consumes only the Anemo Affliction.]",
+                    "[This Unit] loses the [Anemo Affliction] status <upon gaining the [Cryo Swirl] status> <hidden from users>",
+                    "[-25]% Strength <when defending> <vs [Cryo Damage] units>"
+                    ]
+    },
+    //crystallize
+    {
+        "name": "Pyro Crystalize",
+        "uniques": ["Comment [This reaction occurs when Pyro meets Geo, greatly increasing this units resistance to pyro attacks and slightly increasing its resistance to other attacks.]",
+                    "Comment [Consumes the Pyro Affliction of the target.]",
+                    "[+30]% Strength <when defending> <vs [Pyro Damage] units>"
+                    ]
+    },
+    {
+        "name": "Electro Crystalize",
+        "uniques": ["Comment [This reaction occurs when Electro meets Geo, greatly increasing this units resistance to electro attacks and slightly increasing its resistance to other attacks.]",
+                    "Comment [Consumes the Pyro Affliction of the target.]",
+                    "[+30]% Strength <when defending> <vs [Electro Damage] units>"
+                    ]
+    },
+    {
+        "name": "Hydro Crystalize",
+        "uniques": ["Comment [This reaction occurs when Hydro meets Geo, greatly increasing this units resistance to hydro attacks and slightly increasing its resistance to other attacks.]",
+                    "Comment [Consumes the Pyro Affliction of the target.]",
+                    "[+30]% Strength <when defending> <vs [Hydro Damage] units>"
+                    ]
+    },
+    {
+        "name": "Cryo Crystalize",
+        "uniques": ["Comment [This reaction occurs when Cryo meets Geo, greatly increasing this units resistance to cryo attacks and slightly increasing its resistance to other attacks.]",
+                    "Comment [Consumes the Pyro Affliction of the target.]",
+                    "[+30]% Strength <when defending> <vs [Cryo Damage] units>"
+                    ]
+    },
+    //actual reactions
+    {
+        "name": "Overloaded",
+        "uniques": ["Comment [This reaction occurs when Pyro meets Electro, causing an explosion that deals AoE Pyro damage to nearby units.]",
+                    "Comment [This reaction consumes both the Pyro Affliction and Electro Affliction.]",
+                    "[This Unit] loses the [Pyro Affliction] status <upon gaining the [Overloaded] status> <hidden from users>",
+                    "[This Unit] loses the [Electro Affliction] status <upon gaining the [Overloaded] status> <hidden from users>"
+                    ]
+    },
+    {
+        "name": "Vaporize",
+        "uniques": ["Comment [This reaction occurs when Pyro meets Hydro, dealing increased 2x or 1.5x damage based on the order of elements (Pyro first = more damage).]",
+                    "Comment [This reaction consumes both the Pyro Affliction and Hydro Affliction.]",
+                    "[This Unit] loses the [Pyro Affliction] status <upon gaining the [Vaporize] status> <hidden from users>",
+                    "[This Unit] loses the [Hydro Affliction] status <upon gaining the [Vaporize] status> <hidden from users>"
+                    ]
+    },
+    {
+        "name": "Melt",
+        "uniques": ["Comment [This reaction occurs when Pyro meets Cryo, dealing increased 2x or 1.5x  damage based on the order of elements (Cryo first = more damage).]",
+                    "Comment [This reaction consumes both the Pyro Affliction and Cryo Affliction.]",
+                    "[This Unit] loses the [Pyro Affliction] status <upon gaining the [Melt] status> <hidden from users>",
+                    "[This Unit] loses the [Cryo Affliction] status <upon gaining the [Melt] status> <hidden from users>"
+                    ]
+    },
+    {
+        "name": "Burning",
+        "uniques": ["Comment [This reaction occurs when Pyro meets Dendro, causing a continuous burn effect that deals damage over time.]",
+                    "Comment [This reaction consumes only the Dendro Affliction and reapplies the Pyro Affliction for the duration.]",
+                    "Comment [This unit takes 5 damage at the start and end of each turn.]",
+                    "[This Unit] loses the [Dendro Affliction] status <upon gaining the [Burning] status> <hidden from users>",
+                    "[This Unit] takes [5] damage <upon turn start> <hidden from users>",
+                    "[This Unit] takes [5] damage <upon turn end> <hidden from users>"
+                    ]
+    },
+    {
+        "name": "Electro-Charged",
+        "uniques": ["Comment [This reaction occurs when Electro meets Hydro, causing a continuous shock effect that deals damage over time.]",
+                    "Comment [This reaction consumes only the Hydro Affliction and reapplies the Electro Affliction for the duration.]",
+                    "Comment [This unit takes 5 damage at the start of each turn and 3 damage for every tile it moves.]",
+                    "[This Unit] loses the [Hydro Affliction] status <upon gaining the [Electro-Charged] status> <hidden from users>",
+                    "[This Unit] takes [5] damage <upon turn start> <hidden from users>",
+                    "[This Unit] takes [3] damage <upon entering a [All] tile> <hidden from users>"
+                    ]
+    },
+    {
+        "name": "Freeze",
+        "uniques": ["Comment [This reaction occurs when Cryo meets Hydro, freezing the target unit and preventing it from moving or acting for a short duration.]",
+                    "Comment [This reaction consumes only the Hydro Affliction.]",
+                    "[This Unit] loses the [Hydro Affliction] status <upon gaining the [Freeze] status> <hidden from users>",
+                    "[This Unit] loses [999] movement <upon turn start> <hidden from users>",
+                    "Can only heal by pillaging <hidden from users>", "Cannot move",
+                    ]
+    },
+    {
+        "name": "Superconduct",
+        "uniques": ["Comment [This reaction occurs when Cryo meets Electro, dealing Cryo damage to the target and greatly reducing its physical resistance.]",
+                    "Comment [This reaction consumes both the Cryo Affliction and the Electro Affliction.]",
+                    "Comment [This reaction reduces the target's physical resistance by 25%, does not affect damage taken from elemental attacks.]",
+                    "[-25]% Strength <when defending> <vs [non-[Elemental Damage]] units>",
+                    "[This Unit] loses the [Electro Affliction] status <upon gaining the [Superconduct] status> <hidden from users>",
+                    "[This Unit] loses the [Cryo Affliction] status <upon gaining the [Superconduct] status> <hidden from users>"
+                    ]
+    },
+    {
+        "name": "Quicken",
+        "uniques": ["Comment [This reaction occurs when Electro meets Dendro, allowing elector or dendro attacks to deal more damage against this unit.]",
+                    "Comment [This reaction consumes both the Electro Affliction and the Dendro Affliction.]",
+                    "Comment [has a 50% chance to reapply either Electro or Dendro Affliction every turn start.]"
+                    ]
+    },
+    {
+        "name": "Aggravate",
+        "uniques": ["Comment [This reaction occurs when Electro meets Quicken, allowing this unit to deal increased damage to targets with Quicken.]",
+                    "[+10]% Strength <when attacking> <vs [Quicken] units>",
+                    "[Target Unit] takes [5] damage <upon damaging a [Quicken] unit>"
+                    ]
+    },
+    {
+        "name": "Spread",
+        "uniques": ["Comment [This reaction occurs when Dendro meets Quicken, allowing this unit to deal increased damage to the target with Quicken.]",
+                    "[+10]% Strength <when attacking> <vs [Quicken] units>",
+                    "[Target Unit] takes [5] damage <upon damaging a [Quicken] unit>"
+                    ]
+    },
+    {
+        "name": "Bloom Core",
+        "uniques": ["Comment [This reaction occurs when Hydro meets Dendro, creating a Dendro Bloom core that either deals extra damage after a short duration or turn into a Burgeon core or Hyperbloom when attacked by Pyro or Electro respectively.]",
+                    "Comment [This reaction consumes both the Hydro Affliction and the Dendro Affliction.]",
+                    "Comment [The Bloom Core creates a Bloom Core that deals 15 damage to this unit.]",
+                    "[This Unit] loses the [Hydro Affliction] status <upon gaining the [Bloom Core] status> <hidden from users>",
+                    "[This Unit] loses the [Dendro Affliction] status <upon gaining the [Bloom Core] status> <hidden from users>"
+                    ]
+    },
+    {
+        "name": "Burgeon Core",
+        "uniques": ["Comment [This reaction occurs when a Dendro Bloom core is attacked by Pyro, causing an explosion that deals increased AoE damage to nearby units.]",
+                    "Comment [This reaction consumes the Pyro Affliction and the Bloom Core.]",
+                    "Comment [The Burgeon Core deals 20 damage to this unit and 10 dmg to adjacent units once the core explodes.]",
+                    "[This Unit] loses the [Pyro Affliction] status <upon gaining the [Burgeon Core] status> <hidden from users>",
+                    "[This Unit] loses the [Bloom Core] status <upon gaining the [Burgeon Core] status> <hidden from users>"
+                    ]
+    },
+    {
+        "name": "Hyperbloom Core",
+        "uniques": ["Comment [This reaction occurs when a Dendro Bloom core is attacked by Electro, causing this unit to take a heavy burst of damage after a short duration.]",
+                    "Comment [This reaction consumes the Electro Affliction and the Bloom Core.]",
+                    "Comment [The Hyperbloom Core deals 25 damage to this unit after a short duration.]",
+                    "[This Unit] loses the [Electro Affliction] status <upon gaining the [Hyperbloom Core] status> <hidden from users>",
+                    "[This Unit] loses the [Bloom Core] status <upon gaining the [Hyperbloom Core] status> <hidden from users>"
+                    ]
+    },
+
+    //ELEMENTAL SYSTEM END
+
+    //Archon Blessings
+    {
+        "name": "Thousand Winds of Time",
+        "uniques": ["Comment [This unit has been blessed by the presence of Barbatos, gaining increased sight and the ability to fly 5 tiles every turn.]",
+                    "May Paradrop to [Land] tiles up to [5] tiles away",
+                    "[+3] Sight"
+                    ]
+    },
+    {
+        "name": "Groundbreaker",
+        "uniques": ["Comment [This unit has been blessed by the presence of Morax, gaining all the crystallize shields and reducing all damage taken by 15.]",
+                    "[This Unit] gains the [Pyro Crystalize] promotion <upon turn start> <hidden from users>",
+                    "[This Unit] gains the [Electro Crystalize] promotion <upon turn start> <hidden from users>",
+                    "[This Unit] gains the [Hydro Crystalize] promotion <upon turn start> <hidden from users>",
+                    "[This Unit] gains the [Cryo Crystalize] promotion <upon turn start> <hidden from users>",
+                    "[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [7] HP in a single attack> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [9] HP in a single attack> <hidden from users>",
+					"[This Unit] heals [1] HP <upon losing at least [10] HP in a single attack> <hidden from users>",
+                    "[This Unit] heals [1] HP <upon losing at least [11] HP in a single attack> <hidden from users>",
+                    "[This Unit] heals [1] HP <upon losing at least [12] HP in a single attack> <hidden from users>",
+                    "[This Unit] heals [1] HP <upon losing at least [13] HP in a single attack> <hidden from users>",
+                    "[This Unit] heals [1] HP <upon losing at least [14] HP in a single attack> <hidden from users>",
+                    "[This Unit] heals [1] HP <upon losing at least [15] HP in a single attack> <hidden from users>"
+                    ]
+    },
+    {
+        "name": "Unchanging Eternity",
+        "uniques": ["Comment [This unit has been blessed by the presence of Beelzebul, gaining extra attack and movement.]",
+                    "[1] additional attacks per turn",
+                    "[This Unit] gains [1] movement <upon damaging a [All] unit>",
+                    "Can move after attacking"
+                    ]
+    },
+    {
+        "name": "Physic of Purity",
+        "uniques": ["Comment [This unit has been blessed by the presence of Buer, gaining the ability to heal itself and improving the effects of the Akasha Terminal.]",
+                    "[This Unit] heals [10] HP <upon turn start>"
+                    ]
+    },
+    {
+        "name": "Justice Ordained",
+        "uniques": ["Comment [This unit has been blessed by the presence of Focalors, gaining the ability to walk on water.]",
+                    "Comment [Primordial water bursts from this unit upon death, transforming into an Oceanid]",
+                    "May travel on Water tiles without embarking"
+                    ]
+    },
+    {
+        "name": "Ode of Resurrection",
+        "uniques": ["Comment [This unit has been blessed by the presence of Haborym.]",
+                    "Comment [This unit revives itself upon death every 5 turns but only after killing an enemy unit.]",
+                    "[This Unit] gains the [Ancient Flame] promotion <upon defeating a [All] unit> <for units without [Resurrected]> <hidden from users>",
+                    "[This Unit] heals [100] HP <upon gaining the [Resurrected] status> <hidden from users>",
+                    "[This Unit] gains the [Resurrected] status for [5] turn(s) <upon losing at least [1] HP in a single attack> <when below [20] HP> <for units without [Resurrected]> <for units with [Ancient Flame]> <hidden from users>"
+                    ]
+    },
+    {
+        "name": "Ancient Flame",
+        "uniques": ["Comment [This unit has proven its worth and can now be ressurected thru the Ode of Resurrection.]"
+                    ]
+    },
+    {
+        "name": "Resurrected",
+        "uniques": ["Comment [This unit has been recently revived. and cannot ressurect again until the cooldown is over.]"
+                    ]
+    },
+    
+    //Sillychurl Billychurl
+    {
+        "name": "Short Jump",
+        "uniques": ["Comment [This unit now can jump.]",
+                    "May Paradrop to [Land] tiles up to [3] tiles away"
+                    ]
+    },
+    {
+        "name": "Short Jump Cooldown",
+        "uniques": ["Comment [Jump is on cooldown.]"
+                    ]
+    },
+
+    //Mondstadt stuff
+    {
+        "name": "Favonius Bladework",
+        "uniques": ["Comment [This unit now uses a Favonius blade.]",
+                    "[+15]% Strength <when attacking>",
+                    "[1] additional attacks per turn"
+                    ]
+    },
+    {
+        "name": "Favonius Warbow",
+        "uniques": ["Comment [This unit now uses a Favonius Warbow.]",
+                    "[+15]% Strength <when attacking>",
+                    "[+1] Range"
+                    ]
+    },
+    {
+        "name": "Cavalry Equipment",
+        "uniques": ["Comment [This unit now uses Cavalry Equipment.]",
+                    "[+15]% Strength",
+                    "[+1] Movement"
+                    ]
+    },
+    {
+        "name": "Binoculars",
+        "uniques": ["Comment [This unit now uses Binoculars.]",
+                    "[+2] Sight"
+                    ]
+    },
+    {
+        "name": "Wind Glider",
+        "uniques": ["Comment [This unit now uses a Wind Glider.]",
+                    "May Paradrop to [Land] tiles up to [5] tiles away"
+                    ]
+    },
+    {
+        "name": "Wind Glider Cooldown",
+        "uniques": ["Comment [WInd Glider is under maintenance and repair.]"
+                    ]
+    },
+
+    //Liyue stuff
+    {
+        "name": "Guizhong Ballistas",
+        "uniques": ["Comment [Does up to 4 attacks and gains 2 more range at the cost of 33% less damage and taking 5 damage every attack.]",
+                    "[3] additional attacks per turn <hidden from users>",
+                    "[This Unit] gains [1] movement <upon damaging a [All] unit> <hidden from users>",
+                    "[+2] Range <hidden from users>", "[-33]% Strength <when attacking>",
+                    "[This Unit] takes [5] damage <upon damaging a [All] unit>"
+                    ]
+    },
+    {
+        "name": "Petrified",
+        "uniques": ["Comment [This unit has been petrified by a Geo Spear and cannot move or act.]",
+                    "[This Unit] loses [999] movement <upon turn start> <hidden from users>",
+                    "Cannot attack <hidden from users>", "Cannot move", 
+                    "No defensive terrain bonus <hidden from users>", 
+                    "Can only heal by pillaging <hidden from users>", 
+                    "No Sight <hidden from users>"
+                    ]
+    },
+]

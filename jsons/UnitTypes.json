@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Civilian",
+        "movementType": "Land",
+        "uniques": []
+    },
+    {
+        "name": "Human",
+        "movementType": "Land",
+        "uniques": []
+    },
+    {
+        "name": "Fatui",
+        "movementType": "Land",
+        "uniques": []
+    },
+    {
+        "name": "Monster",
+        "movementType": "Land",
+        "uniques": []
+    },
+    {
+        "name": "Elemental Lifeform",
+        "movementType": "Land",
+        "uniques": []
+    },
+    {
+        "name": "Abyssal Creature",
+        "movementType": "Land",
+        "uniques": []
+    },
+    {
+        "name": "Automaton",
+        "movementType": "Land",
+        "uniques": []
+    },
+    {
+        "name": "Machinery",
+        "movementType": "Land",
+        "uniques": []
+    },
+    {
+        "name": "Ship",
+        "movementType": "Land",
+        "uniques": []
+    },
+    {
+        "name": "World Boss",
+        "movementType": "Land",
+        "uniques": ["[+5]% Strength <for every [1] [turns]>"]
+    },
+    {
+        "name": "Archon",
+        "movementType": "Land",
+        "uniques": ["[+1]% Strength <for every [5] [Faith]>"]
+    },
+    {
+        "name": "Spells",
+        "movementType": "Air",
+        "uniques": ["Self-destructs when attacking"]
+    }
+]
