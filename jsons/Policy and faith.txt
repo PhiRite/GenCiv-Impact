@@ -1,0 +1,20 @@
+note: remove the statue of the seven from the buildings, now is going to be an improvement or terrain along side waypoints
+abyss can then be allowed to use inverted statues and destroy waypoints
+
+
+policies:
+3 tiers??
+  war
+  faith
+  wisdom
+  commerce
+  nature
+
+can only connect to certain policy and most will be only 1 per tier unless specific
+war can connect to faith then t3 commerce
+faith and nature are going to be mutual but requires one to be finished to go back to
+wisdom can connect to either war, commerce and does not lock but makes policy costs more
+
+
+faiths:
+possible make it so each nation can only adopt specific faith? as of now just disabled
