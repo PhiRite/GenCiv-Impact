@@ -1,0 +1,128 @@
+[
+    {
+        "name": "Reaction Tutorial",
+        "text": "List of tutorials and information about elemental reaction mechanics",
+        "choices": [
+            {
+                "text": "Affliction Rules",
+                "uniques": ["Comment [All Reactions unless specified here consume both elements involved in the reaction]",
+                            "Comment [Elemental attacks inflict their respective Affliction on hit]",
+                            "Comment [Swirl reactions only consume Anemo]",
+                            "Comment [Freeze consumes only hydro]",
+                            "Comment [Crystallize reactions only consume the element of the shield gained]",
+                            "Comment [Burning consumes only dendro and constanly reapplies pyro for the duration]",
+                            "Comment [Electro-Charged consumes only hydro and constanly reapplies electro for the duration]",
+                            "Comment [Quicken consumes both dendro and electro but has a 50% chance to reapply either for the duration]"
+                            ]
+            },
+            {
+                "text": "Pyro Reactions",
+                "uniques": ["Comment [Pyro -> Hydro = Forward Vaporize, deals 25% more damage]",
+                            "Comment [Pyro -> Cryo = Reverse Melt, deals 15% more damage]",
+                            "Comment [Pyro -> Electro = Overload, deals 15% more and doing area damage]",
+                            "Comment [Pyro -> Dendro = Burning, deals 5 damage on turn start and end for 3 turns]",
+                            "Comment [Pyro -> Bloom Core = Burgeon Core, deals 20 damage on turn end and 10 damage on adjacent units]",
+                            "Comment [Pyro -> Geo = Pyro Crystallize, gains 30% defense shield for 2 turns against pyro damage]",
+                            "Comment [Pyro -> Anemo = Pyro Swirl, Increases the pyro damage taken of the target by 25% for 2 turns]",
+                            ]
+            },
+            {
+                "text": "Hydro Reactions",
+                "uniques": ["Comment [Hydro -> Pyro = Reverse Vaporize, deals 15% more damage]",
+                            "Comment [Hydro -> Cryo = Freeze, Stunning target for 1 turn dealing]",
+                            "Comment [Hydro -> Electro = Electro-Charged, deals 5 damage at turn start and deals 3 damage for every tile moved for 2 turns]",
+                            "Comment [Hydro -> Dendro = Bloom Core, deals 15 damage after 2 turns unless reacted by hydro or electro]",
+                            "Comment [Hydro -> Geo = Hydro Crystallize, gains 30% defense shield for 2 turns against hydro damage]",
+                            "Comment [Hydro -> Anemo = Hydro Swirl, Increases the hydro damage taken of the target by 25% for 2 turns]"
+                            ]
+            },
+            {
+                "text": "Cryo Reactions",
+                "uniques": ["Comment [Cryo -> Pyro = Forward Melt, deals 25% more damage]",
+                            "Comment [Cryo -> Hydro = Freeze, Stunning target for 1 turn dealing]",
+                            "Comment [Cryo -> Electro = Superconduct, Increases the non elemental damage taken of the target by 25% for 2 turns]",
+                            "Comment [Cryo -> Geo = Cryo Crystallize, gains 30% defense shield for 2 turns against cryo damage]",
+                            "Comment [Cryo -> Anemo = Cryo Swirl, Increases the cryo damage taken of the target by 25% for 2 turns]"
+                            ]
+            },
+            {
+                "text": "Electro Reactions",
+                "uniques": ["Comment [Electro -> Pyro = Overload, deals 15% more and doing area damage]",
+                            "Comment [Electro -> Hydro = Electro-Charged, deals 5 damage at turn start and deals 3 damage for every tile moved for 2 turns]",
+                            "Comment [Electro -> Cryo = Superconduct, Increases the non elemental damage taken of the target by 25% for 2 turns]",
+                            "Comment [Electro -> Quicken = Aggravateals 10% more electro damage and deals5 damage for every attack against quickened units]",
+                            "Comment [Electro -> Bloom Core = Hyperbloom, deals 35 damage on turn end]",
+                            "Comment [Electro -> Geo = Electro Crystallize, gains 30% defense shield for 2 turns against electro damage]",
+                            "Comment [Electro -> Anemo = Electro Swirl, Increases the electro damage taken of the target by 25% for 2 turns]"
+                            ]
+            },
+            {
+                "text": "Dendro Reactions",
+                "uniques": ["Comment [Dendro -> Pyro = Burning, deals 5 damage on turn start and end for 3 turns]",
+                            "Comment [Dendro -> Hydro = Bloom Core, Bloom Core, deals 15 damage after 2 turns unless reacted by hydro or electro]",
+                            "Comment [Dendro -> Electro = Quicken, allows the activation of Aggravate and Spread reactions]",
+                            "Comment [Dendro -> Quicken = Spread, deals 10% more dendro damage and deals 5 damage for every attack against quickened units]",
+                            ]
+            },
+            {
+                "text": "Anemo Reactions",
+                "uniques": ["Comment [Anemo -> Pyro = Pyro Swirl, Increases the pyro damage taken of the target by 25% for 2 turns]",
+                            "Comment [Anemo -> Hydro = Hydro Swirl, Increases the hydro damage taken of the target by 25% for 2 turns]",
+                            "Comment [Anemo -> Cryo = Cryo Swirl, Increases the cryo damage taken of the target by 25% for 2 turns]",
+                            "Comment [Anemo -> Electro = Electro Swirl, Increases the electro damage taken of the target by 25% for 2 turns]"
+                            ]
+            },
+            {
+                "text": "Geo Reactions",
+                "uniques": ["Comment [Geo -> Pyro = Pyro Crystallize, gains 30% defense shield for 2 turns against pyro damage]",
+                            "Comment [Geo -> Hydro = Hydro Crystallize, gains 30% defense shield for 2 turns against hydro damage]",
+                            "Comment [Geo -> Cryo = Cryo Crystallize, gains 30% defense shield for 2 turns against cryo damage]",
+                            "Comment [Geo -> Electro = Electro Crystallize, gains 30% defense shield for 2 turns against electro damage]"
+                            ]
+            },
+        ]
+    },
+    {
+        "name": "Game Mechanics",
+        "text": "List of general mechanics introduced by the mod",
+        "choices": [
+            {
+                "text": "Waypoints and Statue of the Seven",
+                "uniques": ["Comment [Visions users can teleport to waypoints and Statues every 10 turns.]",
+                            "Comment [Statue of the Seven Full Heals adjacent units.]",
+                            "Comment [Abyssal factions can corrupt waypoints and Statues of the Seven but can be cleansed by Vision users.]",
+                            "Comment [Corrupted waypoints and Statues of the Seven can only be used by the abyss.]",
+
+                ]
+            },
+            {
+                "text": "Visions",
+                "uniques": ["Comment [Human units can gain a vision once they reach 100 xp.]",
+                            "Comment [Units with visions can inflict elemental afflictions and trigger reactions.]",
+                            "Comment [Different vision types correspond to different elements: Pyro, Hydro, Cryo, Electro, Dendro, Anemo, Geo.]",
+                            "Comment [Only one vision can be equipped at a time, and visions cannot be changed.]",
+                ]
+            },
+            {
+                "text": "Infusions and afflictions",
+                "uniques": ["Comment [Certain units can have elemental attacks and add elemental afflictions to their targets.]",
+                            "Comment [Elementally infused can both afflict their targets while being completely immune to any attacks from the same element.]",
+                ]
+            },
+            {
+                "text": "Artifacts",
+                "uniques": ["Comment [Killing hilichurls or world bosses with [Human], [Fatui] or [Archon] type units can drop Artifacts for the unit who killed them.]",
+                            "Comment [Each artifact is part of a 5 piece set that adds passive bonuses at 2,4, or 5 pieces.]",
+                            "Comment [World bosses drop specific artifact sets related to their element.]",
+                            "Comment [Units can drop the artifact they have equipped and gain some gold.]",
+                ]
+            },
+            {
+                "text": "World Bosses",
+                "uniques": ["Comment [World bosses only spawn after a certain amount of turns.]",
+                            "Comment [World bosses drop artifacts and grant a special civ wide unit buff for the nation who defeats it.]",
+                ]
+            }
+        ]   
+    }
+]

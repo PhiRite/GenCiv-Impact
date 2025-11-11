@@ -1,71 +1,413 @@
 [
     	// Science
 	{
-		"name": "discover a portion of technology",
-		"notification": "We have discovered a portion of advanced technology! (+50 science)",
+		"name": "Discover a portion of technology",
+		"notification": "We have discovered a portion of khaenriahn technology! (+50 science)",
 		"uniques": ["Gain [50] [Science]"],
+		"weight": 1,
 		"color": "#7f7fff"
 	},
 	{
-		"name": "discover a research note",
+		"name": "Discover a research note",
 		"notification": "We have discovered an Inventor's research note! (+[scienceAmount] science)",
-		"uniques": ["Gain [80]-[120] [Science]", "Only available <after turn number [35]>"],
+		"uniques": ["Gain [80]-[120] [Science]", "Only available <after turn number [50]>"],
+		"weight": 2,
 		"color": "#7f7fff"
 	},
 	{
-		"name": "stolen technology",
-		"notification": "We have successfully taken control of the stolen technology! (+[scienceAmount] science)",
-		"uniques": ["Gain [140]-[180] [Science]", "Only available <after turn number [50]>"],
+		"name": "Discover technology",
+		"notification": "We have discovered a vault of ancient primal technology! (+[scienceAmount] science)",
+		"uniques": ["Gain [140]-[180] [Science]", "Only available <after turn number [65]>"],
+		"weight": 3,
+		"color": "#7f7fff"
+	},
+	{
+		"name": "Disassemble technology",
+		"notification": "We have disassembled a secret source automaton! (+[scienceAmount] science)",
+		"uniques": ["Gain [200]-[240] [Science]", "Only available <after turn number [100]>"],
+		"weight": 4,
+		"color": "#7f7fff"
+	},
+	{
+		"name": "Reverse engineer technology",
+		"notification": "We have reverse engineered the contents of an ancient dragon vault! (+[scienceAmount] science)",
+		"uniques": ["Gain [300]-[500] [Science]", "Only available <after turn number [150]>"],
+		"weight": 5,
 		"color": "#7f7fff"
 	},
 	
 	// Gold
 	{
-		"name": "small money",
-		"notification": "Small amount of money buried underground! (+50 gold)",
+		"name": "Common Chest",
+		"notification": "We found a Common Chest (+50 gold)",
 		"uniques": ["Gain [50] [Gold]"],
+		"weight": 1,
 		"color": "#ffeb7f"
 	},
 	{
-		"name": "a pocket of gold",
-		"notification": "A pocket of gold buried underground! (+100 gold)",
+		"name": "Exquisite Chest",
+		"notification": "We found a Exquisite Chest (+100 gold)",
 		"uniques": ["Gain [100] [Gold]"],
+		"weight": 2,
 		"color": "#ffeb7f"
 	},
 	{
-		"name": "a stash of gold",
-		"notification": "We have found a stash of [goldAmount] Gold in the ruins!",
+		"name": "Precious Chest",
+		"notification": "We found a Precious Chest! (+[goldAmount] gold)",
 		"uniques": ["Gain [175]-[250] [Gold]"],
+		"weight": 3,
 		"color": "#ffeb7f"
 	},
 	{
-		"name": "hit a jackpot",
-		"notification": "Jackpot! (+1000 gold)",
+		"name": "Luxurious Chest",
+		"notification": "We found a Luxurious Chest! (+1000 gold)",
 		"uniques": ["Gain [1000] [Gold]", "Only available <after turn number [100]>"],
+		"weight": 4,
 		"color": "#ffeb7f"
 	},
-	
+
+	//Culture
+	{
+		"name": "Discover lost poems",
+		"notification": "We have discovered some lost poems in the ruins! (+20 culture)",
+		"uniques": ["Gain [20] [Culture]"],
+		"weight": 1,
+		"color": "#cf8ff7"
+	},
+	{
+		"name": "Discover lost ballads",
+		"notification": "We discovered lost ballads! (+50 culture)",
+		"uniques": ["Gain [50] [Culture]", "Only available <after turn number [30]>"],
+		"weight": 2,
+		"color": "#ff7fff"
+	},
+	{
+		"name": "An ancient record",
+		"notification": "We have discovered ancient records! (+[cultureAmount] culture)",
+		"uniques": ["Gain [70]-[90] [Culture]", "Only available <after turn number [60]>"],
+		"weight": 3,
+		"color": "#ff7fff"
+	},
+	{
+		"name": "An ancient library",
+		"notification": "We have uncovered an ancient library! (+[cultureAmount] culture)",
+		"uniques": ["Gain [120]-[150] [Culture]", "Only available <after turn number [90]>"],
+		"weight": 4,
+		"color": "#ff7fff"
+	},
+
 	// Faith
 	{
-		"name": "a praying priest",
-		"notification": "A dying priest prays for you! (+[faithAmount] faith)",
-		"uniques": [
-			"Only available <when religion is enabled>",
-			"Gain [100]-[250] [Faith]",
-			"Only available <after founding a Pantheon>",
-			"Only available <after turn number [40]>"
-		],
+        "name": "Discover holy symbols",
+        "notification": "We have found religious texts in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)",
+        "uniques": ["Gain [25] [Faith]"],
+		"weight": 1,
 		"color": "#CDDDF4"
 	},
 	{
-		"name": "a wandering oracle",
-		"notification": "An oracle foresees your future! (+[faithAmount] faith)",
-		"uniques": [
-			"Only available <when religion is enabled>",
-			"Gain [250]-[350] [Faith]",
-			"Only available <after founding a Pantheon>",
-			"Only available <after turn number [70]>"
-		],
+		"name": "A praying priest",
+		"notification": "A priest prays for you! (+[faithAmount] Faith)",
+		"uniques": ["Gain [25]-[100] [Faith]",
+					"Only available <after turn number [20]>"],
+		"weight": 2,
 		"color": "#CDDDF4"
-	}
+	},
+	{
+		"name": "A wandering oracle",
+		"notification": "An oracle foresees your future! (+[faithAmount] faith)",
+		"uniques": ["Gain [100]-[250] [Faith]",
+					"Only available <after turn number [40]>"],
+		"weight": 3,
+		"color": "#CDDDF4"
+	},
+	{
+		"name": "An ancient prophecy",
+		"notification": "An ancient prophecy foretells your future! (+[faithAmount] faith)",
+		"uniques": ["Gain [250]-[350] [Faith]",
+					"Only available <after turn number [70]>"],
+		"weight": 4,
+		"color": "#CDDDF4"
+	},
+
+	//artifacts :D
+	{
+		"name": "Viridescent Flower",
+		"notification": "We have found a Flower of the Viridescent Venerer set!",
+		"uniques": ["[This Unit] gains the [Flower of Viridescent Venerer] promotion",
+					"Only available <for [{non-[Flower]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#7f7fff"
+	},
+	{
+		"name": "Viridescent Plume",
+		"notification": "We have found a Plume of the Viridescent Venerer set!",
+		"uniques": ["[This Unit] gains the [Plume of Viridescent Venerer] promotion",
+					"Only available <for [{non-[Plume]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#FFD700"
+	},
+	{
+		"name": "Viridescent Sands",
+		"notification": "We have found a Sands of the Viridescent Venerer set!",
+		"uniques": ["[This Unit] gains the [Sands of Viridescent Venerer] promotion",
+					"Only available <for [{non-[Sands]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#FFD700"
+	},
+	{
+		"name": "Viridescent Goblet",
+		"notification": "We have found a Goblet of the Viridescent Venerer set!",
+		"uniques": ["[This Unit] gains the [Goblet of Viridescent Venerer] promotion",
+					"Only available <for [{non-[Goblet]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#FFD700"
+	},
+	{
+		"name": "Viridescent Circlet",
+		"notification": "We have found a Circlet of the Viridescent Venerer set!",
+		"uniques": ["[This Unit] gains the [Circlet of Viridescent Venerer] promotion",
+					"Only available <for [{non-[Circlet]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#FFD700"
+	},
+	{
+		"name": "Crimson Flower",
+		"notification": "We have found a Flower of the Crimson Witch set!",
+		"uniques": ["[This Unit] gains the [Flower of Crimson Witch] promotion",
+					"Only available <for [{non-[Flower]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#FFD700"
+	},
+	{
+		"name": "Crimson Plume",
+		"notification": "We have found a Plume of the Crimson Witch set!",
+		"uniques": ["[This Unit] gains the [Plume of Crimson Witch] promotion",
+					"Only available <for [{non-[Plume]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#FFD700"
+	},
+	{
+		"name": "Crimson Sands",
+		"notification": "We have found a Sands of the Crimson Witch set!",
+		"uniques": ["[This Unit] gains the [Sands of Crimson Witch] promotion",
+					"Only available <for [{non-[Sands]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#FFD700"
+	},
+	{
+		"name": "Crimson Goblet",
+		"notification": "We have found a Goblet of the Crimson Witch set!",
+		"uniques": ["[This Unit] gains the [Goblet of Crimson Witch] promotion",
+					"Only available <for [{non-[Goblet]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#FFD700"
+	},
+	{
+		"name": "Crimson Circlet",
+		"notification": "We have found a Circlet of the Crimson Witch set!",
+		"uniques": ["[This Unit] gains the [Circlet of Crimson Witch] promotion",
+					"Only available <for [{non-[Circlet]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#FFD700"
+	},
+	{
+		"name": "Thundering Flower",
+		"notification": "We have found a Flower of the Thundering Fury set!",
+		"uniques": ["[This Unit] gains the [Flower of Thundering Fury] promotion",
+					"Only available <for [{non-[Flower]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#FFD700"
+	},
+	{
+		"name": "Thundering Plume",
+		"notification": "We have found a Plume of the Thundering Fury set!",
+		"uniques": ["[This Unit] gains the [Plume of Thundering Fury] promotion",
+					"Only available <for [{non-[Plume]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#FFD700"
+	},
+	{
+		"name": "Thundering Sands",
+		"notification": "We have found a Sands of the Thundering Fury set!",
+		"uniques": ["[This Unit] gains the [Sands of Thundering Fury] promotion",
+					"Only available <for [{non-[Sands]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#FFD700"
+	},
+	{
+		"name": "Thundering Goblet",
+		"notification": "We have found a Goblet of the Thundering Fury set!",
+		"uniques": ["[This Unit] gains the [Goblet of Thundering Fury] promotion",
+					"Only available <for [{non-[Goblet]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#FFD700"
+	},
+	{
+		"name": "Thundering Circlet",
+		"notification": "We have found a Circlet of the Thundering Fury set!",
+		"uniques": ["[This Unit] gains the [Circlet of Thundering Fury] promotion",
+					"Only available <for [{non-[Circlet]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#FFD700"
+	},
+	{
+		"name": "Blizzard Flower",
+		"notification": "We have found a Flower of the Blizzard Strayer set!",
+		"uniques": ["[This Unit] gains the [Flower of Blizzard Strayer] promotion",
+					"Only available <for [{non-[Flower]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#FFD700"
+	},
+	{
+		"name": "Blizzard Plume",
+		"notification": "We have found a Plume of the Blizzard Strayer set!",
+		"uniques": ["[This Unit] gains the [Plume of Blizzard Strayer] promotion",
+					"Only available <for [{non-[Plume]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#FFD700"
+	},
+	{
+		"name": "Blizzard Sands",
+		"notification": "We have found a Sands of the Blizzard Strayer set!",
+		"uniques": ["[This Unit] gains the [Sands of Blizzard Strayer] promotion",
+					"Only available <for [{non-[Sands]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#FFD700"
+	},
+	{
+		"name": "Blizzard Goblet",
+		"notification": "We have found a Goblet of the Blizzard Strayer set!",
+		"uniques": ["[This Unit] gains the [Goblet of Blizzard Strayer] promotion",
+					"Only available <for [{non-[Goblet]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#FFD700"
+	},
+	{
+		"name": "Blizzard Circlet",
+		"notification": "We have found a Circlet of the Blizzard Strayer set!",
+		"uniques": ["[This Unit] gains the [Circlet of Blizzard Strayer] promotion",
+					"Only available <for [{non-[Circlet]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#FFD700"
+	},
+	{
+		"name": "Heart Flower",
+		"notification": "We have found a Flower of the Heart of Depth set!",
+		"uniques": ["[This Unit] gains the [Flower of The Heart of Depth] promotion",
+					"Only available <for [{non-[Flower]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#FFD700"
+	},
+	{
+		"name": "Heart Plume",
+		"notification": "We have found a Plume of the Heart of Depth set!",
+		"uniques": ["[This Unit] gains the [Plume of The Heart of Depth] promotion",
+					"Only available <for [{non-[Plume]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#FFD700"
+	},
+	{
+		"name": "Heart Sands",
+		"notification": "We have found a Sands of the Heart of Depth set!",
+		"uniques": ["[This Unit] gains the [Sands of The Heart of Depth] promotion",
+					"Only available <for [{non-[Sands]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#FFD700"
+	},
+	{
+		"name": "Heart Goblet",
+		"notification": "We have found a Goblet of the Heart of Depth set!",
+		"uniques": ["[This Unit] gains the [Goblet of The Heart of Depth] promotion",
+					"Only available <for [{non-[Goblet]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#FFD700"
+	},
+	{
+		"name": "Heart Circlet",
+		"notification": "We have found a Circlet of the Heart of Depth set!",
+		"uniques": ["[This Unit] gains the [Circlet of The Heart of Depth] promotion",
+					"Only available <for [{non-[Circlet]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#FFD700"
+	},
+	{
+		"name": "Archaic Flower",
+		"notification": "We have found a Flower of Archaic Petra set!",
+		"uniques": ["[This Unit] gains the [Flower of Archaic Petra] promotion",
+					"Only available <for [{non-[Flower]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#FFD700"
+	},
+	{
+		"name": "Archaic Plume",
+		"notification": "We have found a Plume of Archaic Petra set!",
+		"uniques": ["[This Unit] gains the [Plume of Archaic Petra] promotion",
+					"Only available <for [{non-[Plume]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#FFD700"
+	},
+	{
+		"name": "Archaic Sands",
+		"notification": "We have found a Sands of Archaic Petra set!",
+		"uniques": ["[This Unit] gains the [Sands of Archaic Petra] promotion",
+					"Only available <for [{non-[Sands]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#FFD700"
+	},
+	{
+		"name": "Archaic Goblet",
+		"notification": "We have found a Goblet of Archaic Petra set!",
+		"uniques": ["[This Unit] gains the [Goblet of Archaic Petra] promotion",
+					"Only available <for [{non-[Goblet]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#FFD700"
+	},
+	{
+		"name": "Archaic Circlet",
+		"notification": "We have found a Circlet of Archaic Petra set!",
+		"uniques": ["[This Unit] gains the [Circlet of Archaic Petra] promotion",
+					"Only available <for [{non-[Circlet]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#FFD700"
+	},
+	{
+		"name": "Deepwood Flower",
+		"notification": "We have found a Flower of Deepwood Memories set!",
+		"uniques": ["[This Unit] gains the [Flower of Deepwood Memories] promotion",
+					"Only available <for [{non-[Flower]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#FFD700"
+	},
+	{
+		"name": "Deepwood Plume",
+		"notification": "We have found a Plume of Deepwood Memories set!",
+		"uniques": ["[This Unit] gains the [Plume of Deepwood Memories] promotion",
+					"Only available <for [{non-[Plume]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#FFD700"
+	},
+	{
+		"name": "Deepwood Sands",
+		"notification": "We have found a Sands of Deepwood Memories set!",
+		"uniques": ["[This Unit] gains the [Sands of Deepwood Memories] promotion",
+					"Only available <for [{non-[Sands]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#FFD700"
+	},
+	{
+		"name": "Deepwood Goblet",
+		"notification": "We have found a Goblet of Deepwood Memories set!",
+		"uniques": ["[This Unit] gains the [Goblet of Deepwood Memories] promotion",
+					"Only available <for [{non-[Goblet]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#FFD700"
+	},
+	{
+		"name": "Deepwood Circlet",
+		"notification": "We have found a Circlet of Deepwood Memories set!",
+		"uniques": ["[This Unit] gains the [Circlet of Deepwood Memories] promotion",
+					"Only available <for [{non-[Circlet]} {non-[Monster]} {non-[Elemental Lifeform]} {non-[Abyssal Creature]} {non-[Automaton]} {non-[Machinery]} {non-[Ship]} {non-[World Boss]} {non-[Spells]}] units>"],
+		"weight": 3,
+		"color": "#FFD700"
+	},
 ]

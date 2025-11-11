@@ -142,8 +142,7 @@
 		"food": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Devotion",
-		"uniques": ["Can also be built on tiles adjacent to fresh water",
-                    "Pillaging this improvement yields approximately [+15 Faith]"
+		"uniques": ["Pillaging this improvement yields approximately [+15 Faith]"
                     ],
 		"shortcutKey": "F"
 	},

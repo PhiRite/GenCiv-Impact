@@ -5,43 +5,43 @@
     {
         "name": "Anemo Attacker",
         "uniques": ["Comment [Grants the wielder the Anemo element, making them stronger and allowing them to manipulate wind and air. This vision is associated with freedom and exploration.]",
-                    "Vision Wielder", "Elemental Damage", "Anemo Damage", "[Target Unit] gains the [Anemo Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>"
+                    "Elemental Damage", "Anemo Damage", "[Target Unit] gains the [Anemo Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>"
                     ]
     },
     {
         "name": "Geo Attacker",
         "uniques": ["Comment [Grants the wielder the Geo element, making them stronger and allowing them to manipulate earth and stone. This vision is associated with stability and endurance.]",
-                    "Vision Wielder", "Elemental Damage", "Geo Damage", //"[Target Unit] gains the [Geo Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>"
+                    "Elemental Damage", "Geo Damage", //"[Target Unit] gains the [Geo Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>"
                     ]
     },
     {
         "name": "Electro Attacker",
         "uniques": ["Comment [Grants the wielder the Electro element, making them stronger and allowing them to manipulate electricity. This vision is associated with power and energy.]",
-                    "Vision Wielder", "Elemental Damage", "Electro Damage", "[Target Unit] gains the [Electro Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>"
+                    "Elemental Damage", "Electro Damage", "[Target Unit] gains the [Electro Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>"
                     ]
     },
     {
         "name": "Dendro Attacker",
         "uniques": ["Comment [Grants the wielder the Dendro element, making them stronger and allowing them to manipulate nature and plants. This vision is associated with growth and harmony.]",
-                    "Vision Wielder", "Elemental Damage", "Dendro Damage", "[Target Unit] gains the [Dendro Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>"
+                    "Elemental Damage", "Dendro Damage", "[Target Unit] gains the [Dendro Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>"
                     ]
     },
     {
         "name": "Hydro Attacker",
         "uniques": ["Comment [Grants the wielder the Hydro element, making them stronger and allowing them to manipulate water. This vision is associated with fluidity and adaptability.]",
-                    "Vision Wielder", "Elemental Damage", "Hydro Damage", "[Target Unit] gains the [Hydro Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>"
+                    "Elemental Damage", "Hydro Damage", "[Target Unit] gains the [Hydro Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>"
                     ]
     },
     {
         "name": "Pyro Attacker",
         "uniques": ["Comment [Grants the wielder the Pyro element, making them stronger and allowing them to manipulate fire. This vision is associated with passion and destruction.]",
-                    "Vision Wielder", "Elemental Damage", "Pyro Damage", "[Target Unit] gains the [Pyro Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>"
+                    "Elemental Damage", "Pyro Damage", "[Target Unit] gains the [Pyro Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>"
                     ]
     },
     {
         "name": "Cryo Attacker",
         "uniques": ["Comment [Grants the wielder the Cryo element, making them stronger and allowing them to manipulate ice and cold. This vision is associated with preservation and control.]",
-                    "Vision Wielder", "Elemental Damage", "Cryo Damage", "[Target Unit] gains the [Cryo Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>"
+                    "Elemental Damage", "Cryo Damage", "[Target Unit] gains the [Cryo Affliction] status for [2] turn(s) <upon damaging a [non-[Infused]] unit>"
                     ]
     },
 
@@ -172,37 +172,43 @@
     {
         "name": "Anemo Affliction",
         "uniques": ["Comment [This unit has been afflicted with the Anemo element, causing it to be susceptible to Swirl reactions.]",
-                    "Comment [Afflictions are removed once it has been used in a reaction, certain reactions however do not remove them.]"
+                    "Comment [Afflictions are removed once it has been used in a reaction, certain reactions however do not remove them.]",
+                    "Afflicted <hidden from users>"
                     ]
     },
     {
         "name": "Electro Affliction",
         "uniques": ["Comment [This unit has been afflicted with the Electro element, causing it to be susceptible to Electro reactions.]",
-                    "Comment [Afflictions are removed once it has been used in a reaction, certain reactions however do not remove them.]"
+                    "Comment [Afflictions are removed once it has been used in a reaction, certain reactions however do not remove them.]",
+                    "Afflicted <hidden from users>"
                     ]
     },
     {
         "name": "Dendro Affliction",
         "uniques": ["Comment [This unit has been afflicted with the Dendro element, causing it to be susceptible to Dendro reactions.]",
-                    "Comment [Afflictions are removed once it has been used in a reaction, certain reactions however do not remove them.]"
+                    "Comment [Afflictions are removed once it has been used in a reaction, certain reactions however do not remove them.]",
+                    "Afflicted <hidden from users>"
                     ]
     },
     {
         "name": "Hydro Affliction",
         "uniques": ["Comment [This unit has been afflicted with the Hydro element, causing it to be susceptible to Hydro reactions.]",
-                    "Comment [Afflictions are removed once it has been used in a reaction, certain reactions however do not remove them.]"
+                    "Comment [Afflictions are removed once it has been used in a reaction, certain reactions however do not remove them.]",
+                    "Afflicted <hidden from users>"
                     ]
     },
     {
         "name": "Pyro Affliction",
         "uniques": ["Comment [This unit has been afflicted with the Pyro element, causing it to be susceptible to Pyro reactions.]",
-                    "Comment [Afflictions are removed once it has been used in a reaction, certain reactions however do not remove them.]"
+                    "Comment [Afflictions are removed once it has been used in a reaction, certain reactions however do not remove them.]",
+                    "Afflicted <hidden from users>"
                     ]
     },
     {
         "name": "Cryo Affliction",
         "uniques": ["Comment [This unit has been afflicted with the Cryo element, causing it to be susceptible to Cryo reactions.]",
-                    "Comment [Afflictions are removed once it has been used in a reaction, certain reactions however do not remove them.]"
+                    "Comment [Afflictions are removed once it has been used in a reaction, certain reactions however do not remove them.]",
+                    "Afflicted <hidden from users>"
                     ]
     },
 
@@ -291,32 +297,42 @@
                     "[-25]% Strength <when defending> <vs [Cryo Damage] units>"
                     ]
     },
+    {
+        "name": "Shredded",
+        "uniques": ["Comment [This unit is more vulnerable to elemental damage]",
+                    "[-15]% Strength <when defending> <vs [Elemental Damage] units>"
+                    ]
+    },
     //crystallize
     {
-        "name": "Pyro Crystalize",
-        "uniques": ["Comment [This reaction occurs when Pyro meets Geo, greatly increasing this units resistance to pyro attacks and slightly increasing its resistance to other attacks.]",
+        "name": "Pyro Crystallize",
+        "uniques": ["Comment [This reaction occurs when Pyro meets Geo, greatly increasing this units resistance to Pyro attacks and slightly increasing its resistance to other attacks.]",
                     "Comment [Consumes the Pyro Affliction of the target.]",
+                    "Crystallize Shield <hidden from users>", "Elemental Shield <hidden from users>",
                     "[+30]% Strength <when defending> <vs [Pyro Damage] units>"
                     ]
     },
     {
-        "name": "Electro Crystalize",
-        "uniques": ["Comment [This reaction occurs when Electro meets Geo, greatly increasing this units resistance to electro attacks and slightly increasing its resistance to other attacks.]",
-                    "Comment [Consumes the Pyro Affliction of the target.]",
+        "name": "Electro Crystallize",
+        "uniques": ["Comment [This reaction occurs when Electro meets Geo, greatly increasing this units resistance to Electro attacks and slightly increasing its resistance to other attacks.]",
+                    "Comment [Consumes the Electro Affliction of the target.]",
+                    "Crystallize Shield <hidden from users>", "Elemental Shield <hidden from users>",
                     "[+30]% Strength <when defending> <vs [Electro Damage] units>"
                     ]
     },
     {
-        "name": "Hydro Crystalize",
-        "uniques": ["Comment [This reaction occurs when Hydro meets Geo, greatly increasing this units resistance to hydro attacks and slightly increasing its resistance to other attacks.]",
-                    "Comment [Consumes the Pyro Affliction of the target.]",
+        "name": "Hydro Crystallize",
+        "uniques": ["Comment [This reaction occurs when Hydro meets Geo, greatly increasing this units resistance to Hydro attacks and slightly increasing its resistance to other attacks.]",
+                    "Comment [Consumes the Hydro Affliction of the target.]",
+                    "Crystallize Shield <hidden from users>", "Elemental Shield <hidden from users>",
                     "[+30]% Strength <when defending> <vs [Hydro Damage] units>"
                     ]
     },
     {
-        "name": "Cryo Crystalize",
-        "uniques": ["Comment [This reaction occurs when Cryo meets Geo, greatly increasing this units resistance to cryo attacks and slightly increasing its resistance to other attacks.]",
-                    "Comment [Consumes the Pyro Affliction of the target.]",
+        "name": "Cryo Crystallize",
+        "uniques": ["Comment [This reaction occurs when Cryo meets Geo, greatly increasing this units resistance to Cryo attacks and slightly increasing its resistance to other attacks.]",
+                    "Comment [Consumes the Cryo Affliction of the target.]",
+                    "Crystallize Shield <hidden from users>", "Elemental Shield <hidden from users>",
                     "[+30]% Strength <when defending> <vs [Cryo Damage] units>"
                     ]
     },
@@ -331,7 +347,7 @@
     },
     {
         "name": "Vaporize",
-        "uniques": ["Comment [This reaction occurs when Pyro meets Hydro, dealing increased 2x or 1.5x damage based on the order of elements (Pyro first = more damage).]",
+        "uniques": ["Comment [This reaction occurs when Pyro meets Hydro, dealing 25% or 15% damage based on the order of elements (Pyro first = more damage).]",
                     "Comment [This reaction consumes both the Pyro Affliction and Hydro Affliction.]",
                     "[This Unit] loses the [Pyro Affliction] status <upon gaining the [Vaporize] status> <hidden from users>",
                     "[This Unit] loses the [Hydro Affliction] status <upon gaining the [Vaporize] status> <hidden from users>"
@@ -339,7 +355,7 @@
     },
     {
         "name": "Melt",
-        "uniques": ["Comment [This reaction occurs when Pyro meets Cryo, dealing increased 2x or 1.5x  damage based on the order of elements (Cryo first = more damage).]",
+        "uniques": ["Comment [This reaction occurs when Pyro meets Cryo, dealing 25% or 15% damage based on the order of elements (Cryo first = more damage).]",
                     "Comment [This reaction consumes both the Pyro Affliction and Cryo Affliction.]",
                     "[This Unit] loses the [Pyro Affliction] status <upon gaining the [Melt] status> <hidden from users>",
                     "[This Unit] loses the [Cryo Affliction] status <upon gaining the [Melt] status> <hidden from users>"
@@ -386,9 +402,11 @@
     },
     {
         "name": "Quicken",
-        "uniques": ["Comment [This reaction occurs when Electro meets Dendro, allowing elector or dendro attacks to deal more damage against this unit.]",
+        "uniques": ["Comment [This reaction occurs when Electro meets Dendro, allowing Electro or Dendro attacks to deal more damage against this unit.]",
                     "Comment [This reaction consumes both the Electro Affliction and the Dendro Affliction.]",
-                    "Comment [has a 50% chance to reapply either Electro or Dendro Affliction every turn start.]"
+                    "Comment [has a 50% chance to reapply either Electro or Dendro Affliction every turn start.]",
+                    "[This Unit] gains the [Electro Affliction] status for [1] turn(s) <upon turn start> <with [50]% chance> <hidden from users>",
+                    "[This Unit] gains the [Dendro Affliction] status for [1] turn(s) <upon turn start> <with [50]% chance> <hidden from users>",
                     ]
     },
     {
@@ -446,10 +464,10 @@
     {
         "name": "Groundbreaker",
         "uniques": ["Comment [This unit has been blessed by the presence of Morax, gaining all the crystallize shields and reducing all damage taken by 15.]",
-                    "[This Unit] gains the [Pyro Crystalize] promotion <upon turn start> <hidden from users>",
-                    "[This Unit] gains the [Electro Crystalize] promotion <upon turn start> <hidden from users>",
-                    "[This Unit] gains the [Hydro Crystalize] promotion <upon turn start> <hidden from users>",
-                    "[This Unit] gains the [Cryo Crystalize] promotion <upon turn start> <hidden from users>",
+                    "[This Unit] gains the [Pyro Crystallize] promotion <upon turn start> <hidden from users>",
+                    "[This Unit] gains the [Electro Crystallize] promotion <upon turn start> <hidden from users>",
+                    "[This Unit] gains the [Hydro Crystallize] promotion <upon turn start> <hidden from users>",
+                    "[This Unit] gains the [Cryo Crystallize] promotion <upon turn start> <hidden from users>",
                     "[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack> <hidden from users>",
 					"[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <hidden from users>",
 					"[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack> <hidden from users>",
@@ -505,6 +523,603 @@
     {
         "name": "Resurrected",
         "uniques": ["Comment [This unit has been recently revived. and cannot ressurect again until the cooldown is over.]"
+                    ]
+    },
+
+    //Artifacts
+    {
+        "name": "Flower of Viridescent Venerer",
+        "uniques": ["Comment [Flower of the Viridescent Venerer artifact set.]",
+                    "Comment [(2) piece bonus: +10% Anemo Damage.]",
+                    "Comment [(4) piece bonus: Anemo attacks apply Shredded debuff, increasing the damage they take by 15%.]",
+                    "Comment [(5) piece bonus: grants 1 additional movement per turn for Anemo units.]",
+                    "Flower VV <hidden from users>", "Flower <hidden from users>", "Only available <for [non-[Flower]] units>",
+                    "2 VV SET <for [Plume VV] units> <hidden from users>", "2 VV SET <for [Sands VV] units> <hidden from users>",
+                    "2 VV SET <for [Goblet VV] units> <hidden from users>", "2 VV SET <for [Circlet VV] units> <hidden from users>",
+                    "4 VV SET <for [{Plume VV} {Sands VV} {Goblet VV}] units> <hidden from users>",
+                    "4 VV SET <for [{Plume VV} {Circlet VV} {Goblet VV}] units> <hidden from users>",
+                    "4 VV SET <for [{Plume VV} {Sands VV} {Circlet VV}] units> <hidden from users>",
+                    "4 VV SET <for [{Circlet VV} {Sands VV} {Goblet VV}] units> <hidden from users>",
+                    "5 VV SET <for [{Plume VV} {Sands VV} {Goblet VV} {Circlet VV}] units> <hidden from users>",
+                    "[+5]% Strength"
+                    ]
+    },
+    {
+        "name": "Plume of Viridescent Venerer",
+        "uniques": ["Comment [Plume of the Viridescent Venerer artifact set.]",
+                    "Comment [(2) piece bonus: +10% Anemo Damage.]",
+                    "Comment [(4) piece bonus: Anemo attacks apply Shredded debuff, increasing the damage they take by 15%.]",
+                    "Comment [(5) piece bonus: grants 1 additional movement per turn for Anemo units.]",
+                    "Plume VV <hidden from users>", "Plume <hidden from users>", "Only available <for [non-[Plume]] units>",
+                    "2 VV SET <for [Flower VV] units> <hidden from users>", "2 VV SET <for [Sands VV] units> <hidden from users>",
+                    "2 VV SET <for [Goblet VV] units> <hidden from users>", "2 VV SET <for [Circlet VV] units> <hidden from users>",
+                    "4 VV SET <for [{Flower VV} {Sands VV} {Goblet VV}] units> <hidden from users>",
+                    "4 VV SET <for [{Flower VV} {Circlet VV} {Goblet VV}] units> <hidden from users>",
+                    "4 VV SET <for [{Flower VV} {Sands VV} {Circlet VV}] units> <hidden from users>",
+                    "4 VV SET <for [{Circlet VV} {Sands VV} {Goblet VV}] units> <hidden from users>",
+                    "5 VV SET <for [{Flower VV} {Sands VV} {Goblet VV} {Circlet VV}] units> <hidden from users>",
+                    "[+5]% Strength"
+                    ]
+    },
+    {
+        "name": "Sands of Viridescent Venerer",
+        "uniques": ["Comment [Sands of the Viridescent Venerer artifact set.]",
+                    "Comment [(2) piece bonus: +10% Anemo Damage.]",
+                    "Comment [(4) piece bonus: Anemo attacks apply Shredded debuff, increasing the damage they take by 15%.]",
+                    "Comment [(5) piece bonus: grants 1 additional movement per turn for Anemo units.]",
+                    "Sands VV <hidden from users>", "Sands <hidden from users>", "Only available <for [non-[Sands]] units>",
+                    "2 VV SET <for [Plume VV] units> <hidden from users>", "2 VV SET <for [Flower VV] units> <hidden from users>",
+                    "2 VV SET <for [Goblet VV] units> <hidden from users>", "2 VV SET <for [Circlet VV] units> <hidden from users>",
+                    "4 VV SET <for [{Plume VV} {Flower VV} {Goblet VV}] units> <hidden from users>",
+                    "4 VV SET <for [{Plume VV} {Circlet VV} {Goblet VV}] units> <hidden from users>",
+                    "4 VV SET <for [{Plume VV} {Flower VV} {Circlet VV}] units> <hidden from users>",
+                    "4 VV SET <for [{Circlet VV} {Flower VV} {Goblet VV}] units> <hidden from users>",
+                    "5 VV SET <for [{Plume VV} {Flower VV} {Goblet VV} {Circlet VV}] units> <hidden from users>",
+                    "[+5]% Strength"
+                    ]
+    },
+    {
+        "name": "Goblet of Viridescent Venerer",
+        "uniques": ["Comment [Goblet of the Viridescent Venerer artifact set.]",
+                    "Comment [(2) piece bonus: +10% Anemo Damage.]",
+                    "Comment [(4) piece bonus: Anemo attacks apply Shredded debuff, increasing the damage they take by 15%.]",
+                    "Comment [(5) piece bonus: grants 1 additional movement per turn for Anemo units.]",
+                    "Goblet VV <hidden from users>", "Goblet <hidden from users>", "Only available <for [non-[Goblet]] units>",
+                    "2 VV SET <for [Plume VV] units> <hidden from users>", "2 VV SET <for [Sands VV] units> <hidden from users>",
+                    "2 VV SET <for [Flower VV] units> <hidden from users>", "2 VV SET <for [Circlet VV] units> <hidden from users>",
+                    "4 VV SET <for [{Plume VV} {Sands VV} {Flower VV}] units> <hidden from users>",
+                    "4 VV SET <for [{Plume VV} {Circlet VV} {Flower VV}] units> <hidden from users>",
+                    "4 VV SET <for [{Plume VV} {Sands VV} {Circlet VV}] units> <hidden from users>",
+                    "4 VV SET <for [{Circlet VV} {Sands VV} {Flower VV}] units> <hidden from users>",
+                    "5 VV SET <for [{Plume VV} {Sands VV} {Flower VV} {Circlet VV}] units> <hidden from users>",
+                    "[+5]% Strength"
+                    ]
+    },
+    {
+        "name": "Circlet of Viridescent Venerer",
+        "uniques": ["Comment [Circlet of the Viridescent Venerer artifact set.]",
+                    "Comment [(2) piece bonus: +10% Anemo Damage.]",
+                    "Comment [(4) piece bonus: Anemo attacks apply Shredded debuff, increasing the damage they take by 15%.]",
+                    "Comment [(5) piece bonus: grants 1 additional movement per turn for Anemo units.]",
+                    "Circlet VV <hidden from users>", "Circlet <hidden from users>", "Only available <for [non-[Circlet]] units>",
+                    "2 VV SET <for [Plume VV] units> <hidden from users>", "2 VV SET <for [Sands VV] units> <hidden from users>",
+                    "2 VV SET <for [Goblet VV] units> <hidden from users>", "2 VV SET <for [Flower VV] units> <hidden from users>",
+                    "4 VV SET <for [{Plume VV} {Sands VV} {Goblet VV}] units> <hidden from users>",
+                    "4 VV SET <for [{Plume VV} {Flower VV} {Goblet VV}] units> <hidden from users>",
+                    "4 VV SET <for [{Plume VV} {Sands VV} {Flower VV}] units> <hidden from users>",
+                    "4 VV SET <for [{Flower VV} {Sands VV} {Goblet VV}] units> <hidden from users>",
+                    "5 VV SET <for [{Plume VV} {Sands VV} {Goblet VV} {Flower VV}] units> <hidden from users>",
+                    "[+5]% Strength"
+                    ]
+    },
+    {
+        "name": "Flower of Crimson Witch",
+        "uniques": ["Comment [Flower of the Crimson Witch artifact set.]",
+                    "Comment [(2) piece bonus: +10% Pyro Damage.]",
+                    "Comment [(4) piece bonus: Further increases Pyro damage by 10% while also increasing reaction damage by 10%.]",
+                    "Comment [(5) piece bonus: Further deals 15% more Pyro damage.]",
+                    "Flower CW <hidden from users>", "Flower <hidden from users>", "Only available <for [non-[Flower]] units>",
+                    "2 CW SET <for [Plume CW] units> <hidden from users>", "2 CW SET <for [Sands CW] units> <hidden from users>",
+                    "2 CW SET <for [Goblet CW] units> <hidden from users>", "2 CW SET <for [Circlet CW] units> <hidden from users>",
+                    "4 CW SET <for [{Plume CW} {Sands CW} {Goblet CW}] units> <hidden from users>",
+                    "4 CW SET <for [{Plume CW} {Circlet CW} {Goblet CW}] units> <hidden from users>",
+                    "4 CW SET <for [{Plume CW} {Sands CW} {Circlet CW}] units> <hidden from users>",
+                    "4 CW SET <for [{Circlet CW} {Sands CW} {Goblet CW}] units> <hidden from users>",
+                    "5 CW SET <for [{Plume CW} {Sands CW} {Goblet CW} {Circlet CW}] units> <hidden from users>",
+                    "[+5]% Strength"
+                    ]
+    },
+    {
+        "name": "Plume of Crimson Witch",
+        "uniques": ["Comment [Plume of the Crimson Witch artifact set.]",
+                    "Comment [(2) piece bonus: +10% Pyro Damage.]",
+                    "Comment [(4) piece bonus: Further increases Pyro damage by 10% while also increasing reaction damage by 10%.]",
+                    "Comment [(5) piece bonus: Further deals 15% more Pyro damage.]",
+                    "Plume CW <hidden from users>", "Plume <hidden from users>", "Only available <for [non-[Plume]] units>",
+                    "2 CW SET <for [Flower CW] units> <hidden from users>", "2 CW SET <for [Sands CW] units> <hidden from users>",
+                    "2 CW SET <for [Goblet CW] units> <hidden from users>", "2 CW SET <for [Circlet CW] units> <hidden from users>",
+                    "4 CW SET <for [{Flower CW} {Sands CW} {Goblet CW}] units> <hidden from users>",
+                    "4 CW SET <for [{Flower CW} {Circlet CW} {Goblet CW}] units> <hidden from users>",
+                    "4 CW SET <for [{Flower CW} {Sands CW} {Circlet CW}] units> <hidden from users>",
+                    "4 CW SET <for [{Circlet CW} {Sands CW} {Goblet CW}] units> <hidden from users>",
+                    "5 CW SET <for [{Flower CW} {Sands CW} {Goblet CW} {Circlet CW}] units> <hidden from users>",
+                    "[+5]% Strength"
+                    ]
+    },
+    {
+        "name": "Sands of Crimson Witch",
+        "uniques": ["Comment [Sands of the Crimson Witch artifact set.]",
+                    "Comment [(2) piece bonus: +10% Pyro Damage.]",
+                    "Comment [(4) piece bonus: Further increases Pyro damage by 10% while also increasing reaction damage by 10%.]",
+                    "Comment [(5) piece bonus: Further deals 15% more Pyro damage.]",
+                    "Sands CW <hidden from users>", "Sands <hidden from users>", "Only available <for [non-[Sands]] units>",
+                    "2 CW SET <for [Plume CW] units> <hidden from users>", "2 CW SET <for [Flower CW] units> <hidden from users>",
+                    "2 CW SET <for [Goblet CW] units> <hidden from users>", "2 CW SET <for [Circlet CW] units> <hidden from users>",
+                    "4 CW SET <for [{Plume CW} {Flower CW} {Goblet CW}] units> <hidden from users>",
+                    "4 CW SET <for [{Plume CW} {Circlet CW} {Goblet CW}] units> <hidden from users>",
+                    "4 CW SET <for [{Plume CW} {Flower CW} {Circlet CW}] units> <hidden from users>",
+                    "4 CW SET <for [{Circlet CW} {Flower CW} {Goblet CW}] units> <hidden from users>",
+                    "5 CW SET <for [{Plume CW} {Flower CW} {Goblet CW} {Circlet CW}] units> <hidden from users>",
+                    "[+5]% Strength"
+                    ]
+    },
+    {
+        "name": "Goblet of Crimson Witch",
+        "uniques": ["Comment [Goblet of the Crimson Witch artifact set.]",
+                    "Comment [(2) piece bonus: +10% Pyro Damage.]",
+                    "Comment [(4) piece bonus: Further increases Pyro damage by 10% while also increasing reaction damage by 10%.]",
+                    "Comment [(5) piece bonus: Further deals 15% more Pyro damage.]",
+                    "Goblet CW <hidden from users>", "Goblet <hidden from users>", "Only available <for [non-[Goblet]] units>",
+                    "2 CW SET <for [Plume CW] units> <hidden from users>", "2 CW SET <for [Sands CW] units> <hidden from users>",
+                    "2 CW SET <for [Flower CW] units> <hidden from users>", "2 CW SET <for [Circlet CW] units> <hidden from users>",
+                    "4 CW SET <for [{Plume CW} {Sands CW} {Flower CW}] units> <hidden from users>",
+                    "4 CW SET <for [{Plume CW} {Circlet CW} {Flower CW}] units> <hidden from users>",
+                    "4 CW SET <for [{Plume CW} {Sands CW} {Circlet CW}] units> <hidden from users>",
+                    "4 CW SET <for [{Circlet CW} {Sands CW} {Flower CW}] units> <hidden from users>",
+                    "5 CW SET <for [{Plume CW} {Sands CW} {Flower CW} {Circlet CW}] units> <hidden from users>",
+                    "[+5]% Strength"
+                    ]
+    },
+    {
+        "name": "Circlet of Crimson Witch",
+        "uniques": ["Comment [Circlet of the Crimson Witch artifact set.]",
+                    "Comment [(2) piece bonus: +10% Pyro Damage.]",
+                    "Comment [(4) piece bonus: Further increases Pyro damage by 10% while also increasing reaction damage by 10%.]",
+                    "Comment [(5) piece bonus: Further deals 15% more Pyro damage.]",
+                    "Circlet CW <hidden from users>", "Circlet <hidden from users>", "Only available <for [non-[Circlet]] units>",
+                    "2 CW SET <for [Plume CW] units> <hidden from users>", "2 CW SET <for [Sands CW] units> <hidden from users>",
+                    "2 CW SET <for [Goblet CW] units> <hidden from users>", "2 CW SET <for [Flower CW] units> <hidden from users>",
+                    "4 CW SET <for [{Plume CW} {Sands CW} {Goblet CW}] units> <hidden from users>",
+                    "4 CW SET <for [{Plume CW} {Flower CW} {Goblet CW}] units> <hidden from users>",
+                    "4 CW SET <for [{Plume CW} {Sands CW} {Flower CW}] units> <hidden from users>",
+                    "4 CW SET <for [{Flower CW} {Sands CW} {Goblet CW}] units> <hidden from users>",
+                    "5 CW SET <for [{Plume CW} {Sands CW} {Goblet CW} {Flower CW}] units> <hidden from users>",
+                    "[+5]% Strength"
+                    ]
+    },
+    {
+        "name": "Flower of Thundering Fury",
+        "uniques": ["Comment [Flower of the Thundering Fury artifact set.]",
+                    "Comment [(2) piece bonus: +15% Electro Damage.]",
+                    "Comment [(4) piece bonus: Increases damage directly caused by Electro reactions by 20%.]",
+                    "Comment [(5) piece bonus: grants 1 additional attack per turn for Electro units.]",
+                    "Flower TF <hidden from users>", "Flower <hidden from users>", "Only available <for [non-[Flower]] units>",
+                    "2 TF SET <for [Plume TF] units> <hidden from users>", "2 TF SET <for [Sands TF] units> <hidden from users>",
+                    "2 TF SET <for [Goblet TF] units> <hidden from users>", "2 TF SET <for [Circlet TF] units> <hidden from users>",
+                    "4 TF SET <for [{Plume TF} {Sands TF} {Goblet TF}] units> <hidden from users>",
+                    "4 TF SET <for [{Plume TF} {Circlet TF} {Goblet TF}] units> <hidden from users>",
+                    "4 TF SET <for [{Plume TF} {Sands TF} {Circlet TF}] units> <hidden from users>",
+                    "4 TF SET <for [{Circlet TF} {Sands TF} {Goblet TF}] units> <hidden from users>",
+                    "5 TF SET <for [{Plume TF} {Sands TF} {Goblet TF} {Circlet TF}] units> <hidden from users>",
+                    "[+5]% Strength"
+                    ]
+    },
+    {
+        "name": "Plume of Thundering Fury",
+        "uniques": ["Comment [Plume of the Thundering Fury artifact set.]",
+                    "Comment [(2) piece bonus: +15% Electro Damage.]",
+                    "Comment [(4) piece bonus: Increases damage directly caused by Electro reactions by 20%.]",
+                    "Comment [(5) piece bonus: grants 1 additional attack per turn for Electro units.]",
+                    "Plume TF <hidden from users>", "Plume <hidden from users>", "Only available <for [non-[Plume]] units>",
+                    "2 TF SET <for [Flower TF] units> <hidden from users>", "2 TF SET <for [Sands TF] units> <hidden from users>",
+                    "2 TF SET <for [Goblet TF] units> <hidden from users>", "2 TF SET <for [Circlet TF] units> <hidden from users>",
+                    "4 TF SET <for [{Flower TF} {Sands TF} {Goblet TF}] units> <hidden from users>",
+                    "4 TF SET <for [{Flower TF} {Circlet TF} {Goblet TF}] units> <hidden from users>",
+                    "4 TF SET <for [{Flower TF} {Sands TF} {Circlet TF}] units> <hidden from users>",
+                    "4 TF SET <for [{Circlet TF} {Sands TF} {Goblet TF}] units> <hidden from users>",
+                    "5 TF SET <for [{Flower TF} {Sands TF} {Goblet TF} {Circlet TF}] units> <hidden from users>",
+                    "[+5]% Strength"
+                    ]
+    },
+    {
+        "name": "Sands of Thundering Fury",
+        "uniques": ["Comment [Sands of the Thundering Fury artifact set.]",
+                    "Comment [(2) piece bonus: +15% Electro Damage.]",
+                    "Comment [(4) piece bonus: Increases damage directly caused by Electro reactions by 20%.]",
+                    "Comment [(5) piece bonus: grants 1 additional attack per turn for Electro units.]",
+                    "Sands TF <hidden from users>", "Sands <hidden from users>", "Only available <for [non-[Sands]] units>",
+                    "2 TF SET <for [Plume TF] units> <hidden from users>", "2 TF SET <for [Flower TF] units> <hidden from users>",
+                    "2 TF SET <for [Goblet TF] units> <hidden from users>", "2 TF SET <for [Circlet TF] units> <hidden from users>",
+                    "4 TF SET <for [{Plume TF} {Flower TF} {Goblet TF}] units> <hidden from users>",
+                    "4 TF SET <for [{Plume TF} {Circlet TF} {Goblet TF}] units> <hidden from users>",
+                    "4 TF SET <for [{Plume TF} {Flower TF} {Circlet TF}] units> <hidden from users>",
+                    "4 TF SET <for [{Circlet TF} {Flower TF} {Goblet TF}] units> <hidden from users>",
+                    "5 TF SET <for [{Plume TF} {Flower TF} {Goblet TF} {Circlet TF}] units> <hidden from users>",
+                    "[+5]% Strength"
+                    ]
+    },
+    {
+        "name": "Goblet of Thundering Fury",
+        "uniques": ["Comment [Goblet of the Thundering Fury artifact set.]",
+                    "Comment [(2) piece bonus: +15% Electro Damage.]",
+                    "Comment [(4) piece bonus: Increases damage directly caused by Electro reactions by 20%.]",
+                    "Comment [(5) piece bonus: grants 1 additional attack per turn for Electro units.]",
+                    "Goblet TF <hidden from users>", "Goblet <hidden from users>", "Only available <for [non-[Goblet]] units>",
+                    "2 TF SET <for [Plume TF] units> <hidden from users>", "2 TF SET <for [Sands TF] units> <hidden from users>",
+                    "2 TF SET <for [Flower TF] units> <hidden from users>", "2 TF SET <for [Circlet TF] units> <hidden from users>",
+                    "4 TF SET <for [{Plume TF} {Sands TF} {Flower TF}] units> <hidden from users>",
+                    "4 TF SET <for [{Plume TF} {Circlet TF} {Flower TF}] units> <hidden from users>",
+                    "4 TF SET <for [{Plume TF} {Sands TF} {Circlet TF}] units> <hidden from users>",
+                    "4 TF SET <for [{Circlet TF} {Sands TF} {Flower TF}] units> <hidden from users>",
+                    "5 TF SET <for [{Plume TF} {Sands TF} {Flower TF} {Circlet TF}] units> <hidden from users>",
+                    "[+5]% Strength"
+                    ]
+    },
+    {
+        "name": "Circlet of Thundering Fury",
+        "uniques": ["Comment [Circlet of the Thundering Fury artifact set.]",
+                    "Comment [(2) piece bonus: +15% Electro Damage.]",
+                    "Comment [(4) piece bonus: Increases damage directly caused by Electro reactions by 20%.]",
+                    "Comment [(5) piece bonus: grants 1 additional attack per turn for Electro units.]",
+                    "Circlet TF <hidden from users>", "Circlet <hidden from users>", "Only available <for [non-[Circlet]] units>",
+                    "2 TF SET <for [Plume TF] units> <hidden from users>", "2 TF SET <for [Sands TF] units> <hidden from users>",
+                    "2 TF SET <for [Goblet TF] units> <hidden from users>", "2 TF SET <for [Flower TF] units> <hidden from users>",
+                    "4 TF SET <for [{Plume TF} {Sands TF} {Goblet TF}] units> <hidden from users>",
+                    "4 TF SET <for [{Plume TF} {Flower TF} {Goblet TF}] units> <hidden from users>",
+                    "4 TF SET <for [{Plume TF} {Sands TF} {Flower TF}] units> <hidden from users>",
+                    "4 TF SET <for [{Flower TF} {Sands TF} {Goblet TF}] units> <hidden from users>",
+                    "5 TF SET <for [{Plume TF} {Sands TF} {Goblet TF} {Flower TF}] units> <hidden from users>",
+                    "[+5]% Strength"
+                    ]
+    },
+    {
+        "name": "Flower of Blizzard Strayer",
+        "uniques": ["Comment [Flower of the Blizzard Strayer artifact set.]",
+                    "Comment [(2) piece bonus: +15% Cryo Damage.]",
+                    "Comment [(4) piece bonus: Increases damage directly caused by Cryo reactions by 20%.]",
+                    "Comment [(5) piece bonus: Cryo units reduce the movement of targets hit by 1.]",
+                    "Flower BS <hidden from users>", "Flower <hidden from users>", "Only available <for [non-[Flower]] units>",
+                    "2 BS SET <for [Plume BS] units> <hidden from users>", "2 BS SET <for [Sands BS] units> <hidden from users>",
+                    "2 BS SET <for [Goblet BS] units> <hidden from users>", "2 BS SET <for [Circlet BS] units> <hidden from users>",
+                    "4 BS SET <for [{Plume BS} {Sands BS} {Goblet BS}] units> <hidden from users>",
+                    "4 BS SET <for [{Plume BS} {Circlet BS} {Goblet BS}] units> <hidden from users>",
+                    "4 BS SET <for [{Plume BS} {Sands BS} {Circlet BS}] units> <hidden from users>",
+                    "4 BS SET <for [{Circlet BS} {Sands BS} {Goblet BS}] units> <hidden from users>",
+                    "5 BS SET <for [{Plume BS} {Sands BS} {Goblet BS} {Circlet BS}] units> <hidden from users>",
+                    "[+5]% Strength"
+                    ]
+    },
+    {
+        "name": "Plume of Blizzard Strayer",
+        "uniques": ["Comment [Plume of the Blizzard Strayer artifact set.]",
+                    "Comment [(2) piece bonus: +15% Cryo Damage.]",
+                    "Comment [(4) piece bonus: Increases damage directly caused by Cryo reactions by 20%.]",
+                    "Comment [(5) piece bonus: Cryo units reduce the movement of targets hit by 1.]",
+                    "Plume BS <hidden from users>", "Plume <hidden from users>", "Only available <for [non-[Plume]] units>",
+                    "2 BS SET <for [Flower BS] units> <hidden from users>", "2 BS SET <for [Sands BS] units> <hidden from users>",
+                    "2 BS SET <for [Goblet BS] units> <hidden from users>", "2 BS SET <for [Circlet BS] units> <hidden from users>",
+                    "4 BS SET <for [{Flower BS} {Sands BS} {Goblet BS}] units> <hidden from users>",
+                    "4 BS SET <for [{Flower BS} {Circlet BS} {Goblet BS}] units> <hidden from users>",
+                    "4 BS SET <for [{Flower BS} {Sands BS} {Circlet BS}] units> <hidden from users>",
+                    "4 BS SET <for [{Circlet BS} {Sands BS} {Goblet BS}] units> <hidden from users>",
+                    "5 BS SET <for [{Flower BS} {Sands BS} {Goblet BS} {Circlet BS}] units> <hidden from users>",
+                    "[+5]% Strength"
+                    ]
+    },
+    {
+        "name": "Sands of Blizzard Strayer",
+        "uniques": ["Comment [Sands of the Blizzard Strayer artifact set.]",
+                    "Comment [(2) piece bonus: +15% Cryo Damage.]",
+                    "Comment [(4) piece bonus: Increases damage directly caused by Cryo reactions by 20%.]",
+                    "Comment [(5) piece bonus: Cryo units reduce the movement of targets hit by 1.]",
+                    "Sands BS <hidden from users>", "Sands <hidden from users>", "Only available <for [non-[Sands]] units>",
+                    "2 BS SET <for [Plume BS] units> <hidden from users>", "2 BS SET <for [Flower BS] units> <hidden from users>",
+                    "2 BS SET <for [Goblet BS] units> <hidden from users>", "2 BS SET <for [Circlet BS] units> <hidden from users>",
+                    "4 BS SET <for [{Plume BS} {Flower BS} {Goblet BS}] units> <hidden from users>",
+                    "4 BS SET <for [{Plume BS} {Circlet BS} {Goblet BS}] units> <hidden from users>",
+                    "4 BS SET <for [{Plume BS} {Flower BS} {Circlet BS}] units> <hidden from users>",
+                    "4 BS SET <for [{Circlet BS} {Flower BS} {Goblet BS}] units> <hidden from users>",
+                    "5 BS SET <for [{Plume BS} {Flower BS} {Goblet BS} {Circlet BS}] units> <hidden from users>",
+                    "[+5]% Strength"
+                    ]
+    },
+    {
+        "name": "Goblet of Blizzard Strayer",
+        "uniques": ["Comment [Goblet of the Blizzard Strayer artifact set.]",
+                    "Comment [(2) piece bonus: +15% Cryo Damage.]",
+                    "Comment [(4) piece bonus: Increases damage directly caused by Cryo reactions by 20%.]",
+                    "Comment [(5) piece bonus: Cryo units reduce the movement of targets hit by 1.]",
+                    "Goblet BS <hidden from users>", "Goblet <hidden from users>", "Only available <for [non-[Goblet]] units>",
+                    "2 BS SET <for [Plume BS] units> <hidden from users>", "2 BS SET <for [Sands BS] units> <hidden from users>",
+                    "2 BS SET <for [Flower BS] units> <hidden from users>", "2 BS SET <for [Circlet BS] units> <hidden from users>",
+                    "4 BS SET <for [{Plume BS} {Sands BS} {Flower BS}] units> <hidden from users>",
+                    "4 BS SET <for [{Plume BS} {Circlet BS} {Flower BS}] units> <hidden from users>",
+                    "4 BS SET <for [{Plume BS} {Sands BS} {Circlet BS}] units> <hidden from users>",
+                    "4 BS SET <for [{Circlet BS} {Sands BS} {Flower BS}] units> <hidden from users>",
+                    "5 BS SET <for [{Plume BS} {Sands BS} {Flower BS} {Circlet BS}] units> <hidden from users>",
+                    "[+5]% Strength"
+                    ]
+    },
+    {
+        "name": "Circlet of Blizzard Strayer",
+        "uniques": ["Comment [Circlet of the Blizzard Strayer artifact set.]",
+                    "Comment [(2) piece bonus: +15% Cryo Damage.]",
+                    "Comment [(4) piece bonus: Increases damage directly caused by Cryo reactions by 20%.]",
+                    "Comment [(5) piece bonus: Cryo units reduce the movement of targets hit by 1.]",
+                    "Circlet BS <hidden from users>", "Circlet <hidden from users>", "Only available <for [non-[Circlet]] units>",
+                    "2 BS SET <for [Plume BS] units> <hidden from users>", "2 BS SET <for [Sands BS] units> <hidden from users>",
+                    "2 BS SET <for [Goblet BS] units> <hidden from users>", "2 BS SET <for [Flower BS] units> <hidden from users>",
+                    "4 BS SET <for [{Plume BS} {Sands BS} {Goblet BS}] units> <hidden from users>",
+                    "4 BS SET <for [{Plume BS} {Flower BS} {Goblet BS}] units> <hidden from users>",
+                    "4 BS SET <for [{Plume BS} {Sands BS} {Flower BS}] units> <hidden from users>",
+                    "4 BS SET <for [{Flower BS} {Sands BS} {Goblet BS}] units> <hidden from users>",
+                    "5 BS SET <for [{Plume BS} {Sands BS} {Goblet BS} {Flower BS}] units> <hidden from users>",
+                    "[+5]% Strength"
+                    ]
+    },
+    {
+        "name": "Flower of The Heart of Depth",
+        "uniques": ["Comment [Flower of The Heart of Depth artifact set.]",
+                    "Comment [(2) piece bonus: +15% Hydro Damage.]",
+                    "Comment [(4) piece bonus: Increases damage directly caused by Hydro reactions by 20%.]",
+                    "Comment [(5) piece bonus: Hydro aligned units heal 5 hp on turn end.]",
+                    "Flower HD <hidden from users>", "Flower <hidden from users>", "Only available <for [non-[Flower]] units>",
+                    "2 HD SET <for [Plume HD] units> <hidden from users>", "2 HD SET <for [Sands HD] units> <hidden from users>",
+                    "2 HD SET <for [Goblet HD] units> <hidden from users>", "2 HD SET <for [Circlet HD] units> <hidden from users>",
+                    "4 HD SET <for [{Plume HD} {Sands HD} {Goblet HD}] units> <hidden from users>",
+                    "4 HD SET <for [{Plume HD} {Circlet HD} {Goblet HD}] units> <hidden from users>",
+                    "4 HD SET <for [{Plume HD} {Sands HD} {Circlet HD}] units> <hidden from users>",
+                    "4 HD SET <for [{Circlet HD} {Sands HD} {Goblet HD}] units> <hidden from users>",
+                    "5 HD SET <for [{Plume HD} {Sands HD} {Goblet HD} {Circlet HD}] units> <hidden from users>",
+                    "[+5]% Strength"
+                    ]
+    },
+    {
+        "name": "Plume of The Heart of Depth",
+        "uniques": ["Comment [Plume of The Heart of Depth artifact set.]",
+                    "Comment [(2) piece bonus: +15% Hydro Damage.]",
+                    "Comment [(4) piece bonus: Increases damage directly caused by Hydro reactions by 20%.]",
+                    "Comment [(5) piece bonus: Hydro aligned units heal 5 hp on turn end.]",
+                    "Plume HD <hidden from users>", "Plume <hidden from users>", "Only available <for [non-[Plume]] units>",
+                    "2 HD SET <for [Flower HD] units> <hidden from users>", "2 HD SET <for [Sands HD] units> <hidden from users>",
+                    "2 HD SET <for [Goblet HD] units> <hidden from users>", "2 HD SET <for [Circlet HD] units> <hidden from users>",
+                    "4 HD SET <for [{Flower HD} {Sands HD} {Goblet HD}] units> <hidden from users>",
+                    "4 HD SET <for [{Flower HD} {Circlet HD} {Goblet HD}] units> <hidden from users>",
+                    "4 HD SET <for [{Flower HD} {Sands HD} {Circlet HD}] units> <hidden from users>",
+                    "4 HD SET <for [{Circlet HD} {Sands HD} {Goblet HD}] units> <hidden from users>",
+                    "5 HD SET <for [{Flower HD} {Sands HD} {Goblet HD} {Circlet HD}] units> <hidden from users>",
+                    "[+5]% Strength"
+                    ]
+    },
+    {
+        "name": "Sands of The Heart of Depth",
+        "uniques": ["Comment [Sands of The Heart of Depth artifact set.]",
+                    "Comment [(2) piece bonus: +15% Hydro Damage.]",
+                    "Comment [(4) piece bonus: Increases damage directly caused by Hydro reactions by 20%.]",
+                    "Comment [(5) piece bonus: Hydro aligned units heal 5 hp on turn end.]",
+                    "Sands HD <hidden from users>", "Sands <hidden from users>", "Only available <for [non-[Sands]] units>",
+                    "2 HD SET <for [Plume HD] units> <hidden from users>", "2 HD SET <for [Flower HD] units> <hidden from users>",
+                    "2 HD SET <for [Goblet HD] units> <hidden from users>", "2 HD SET <for [Circlet HD] units> <hidden from users>",
+                    "4 HD SET <for [{Plume HD} {Flower HD} {Goblet HD}] units> <hidden from users>",
+                    "4 HD SET <for [{Plume HD} {Circlet HD} {Goblet HD}] units> <hidden from users>",
+                    "4 HD SET <for [{Plume HD} {Flower HD} {Circlet HD}] units> <hidden from users>",
+                    "4 HD SET <for [{Circlet HD} {Flower HD} {Goblet HD}] units> <hidden from users>",
+                    "5 HD SET <for [{Plume HD} {Flower HD} {Goblet HD} {Circlet HD}] units> <hidden from users>",
+                    "[+5]% Strength"
+                    ]
+    },
+    {
+        "name": "Goblet of The Heart of Depth",
+        "uniques": ["Comment [Goblet of The Heart of Depth artifact set.]",
+                    "Comment [(2) piece bonus: +15% Hydro Damage.]",
+                    "Comment [(4) piece bonus: Increases damage directly caused by Hydro reactions by 20%.]",
+                    "Comment [(5) piece bonus: Hydro aligned units heal 5 hp on turn end.]",
+                    "Goblet HD <hidden from users>", "Goblet <hidden from users>", "Only available <for [non-[Goblet]] units>",
+                    "2 HD SET <for [Plume HD] units> <hidden from users>", "2 HD SET <for [Sands HD] units> <hidden from users>",
+                    "2 HD SET <for [Flower HD] units> <hidden from users>", "2 HD SET <for [Circlet HD] units> <hidden from users>",
+                    "4 HD SET <for [{Plume HD} {Sands HD} {Flower HD}] units> <hidden from users>",
+                    "4 HD SET <for [{Plume HD} {Circlet HD} {Flower HD}] units> <hidden from users>",
+                    "4 HD SET <for [{Plume HD} {Sands HD} {Circlet HD}] units> <hidden from users>",
+                    "4 HD SET <for [{Circlet HD} {Sands HD} {Flower HD}] units> <hidden from users>",
+                    "5 HD SET <for [{Plume HD} {Sands HD} {Flower HD} {Circlet HD}] units> <hidden from users>",
+                    "[+5]% Strength"
+                    ]
+    },
+    {
+        "name": "Circlet of The Heart of Depth",
+        "uniques": ["Comment [Circlet of The Heart of Depth artifact set.]",
+                    "Comment [(2) piece bonus: +15% Hydro Damage.]",
+                    "Comment [(4) piece bonus: Increases damage directly caused by Hydro reactions by 20%.]",
+                    "Comment [(5) piece bonus: Hydro aligned units heal 5 hp on turn end.]",
+                    "Circlet HD <hidden from users>", "Circlet <hidden from users>", "Only available <for [non-[Circlet]] units>",
+                    "2 HD SET <for [Plume HD] units> <hidden from users>", "2 HD SET <for [Sands HD] units> <hidden from users>",
+                    "2 HD SET <for [Goblet HD] units> <hidden from users>", "2 HD SET <for [Flower HD] units> <hidden from users>",
+                    "4 HD SET <for [{Plume HD} {Sands HD} {Goblet HD}] units> <hidden from users>",
+                    "4 HD SET <for [{Plume HD} {Flower HD} {Goblet HD}] units> <hidden from users>",
+                    "4 HD SET <for [{Plume HD} {Sands HD} {Flower HD}] units> <hidden from users>",
+                    "4 HD SET <for [{Flower HD} {Sands HD} {Goblet HD}] units> <hidden from users>",
+                    "5 HD SET <for [{Plume HD} {Sands HD} {Goblet HD} {Flower HD}] units> <hidden from users>",
+                    "[+5]% Strength"
+                    ]
+    },
+    {
+        "name": "Flower of Archaic Petra",
+        "uniques": ["Comment [Flower of the Archaic Petra artifact set.]",
+                    "Comment [(2) piece bonus: +15% Geo Damage.]",
+                    "Comment [(4) piece bonus: Increases damage by 15% when this unit has a shield.]",
+                    "Comment [(5) piece bonus: This and nearby units gain 20% defense.]",
+                    "Flower AP <hidden from users>", "Flower <hidden from users>", "Only available <for [non-[Flower]] units>",
+                    "2 AP SET <for [Plume AP] units> <hidden from users>", "2 AP SET <for [Sands AP] units> <hidden from users>",
+                    "2 AP SET <for [Goblet AP] units> <hidden from users>", "2 AP SET <for [Circlet AP] units> <hidden from users>",
+                    "4 AP SET <for [{Plume AP} {Sands AP} {Goblet AP}] units> <hidden from users>",
+                    "4 AP SET <for [{Plume AP} {Circlet AP} {Goblet AP}] units> <hidden from users>",
+                    "4 AP SET <for [{Plume AP} {Sands AP} {Circlet AP}] units> <hidden from users>",
+                    "4 AP SET <for [{Circlet AP} {Sands AP} {Goblet AP}] units> <hidden from users>",
+                    "5 AP SET <for [{Plume AP} {Sands AP} {Goblet AP} {Circlet AP}] units> <hidden from users>",
+                    "[+5]% Strength"
+                    ]
+    },
+    {
+        "name": "Plume of Archaic Petra",
+        "uniques": ["Comment [Plume of the Archaic Petra artifact set.]",
+                    "Comment [(2) piece bonus: +15% Geo Damage.]",
+                    "Comment [(4) piece bonus: Increases damage by 15% when this unit has a shield.]",
+                    "Comment [(5) piece bonus: This and nearby units gain 20% defense.]",
+                    "Plume AP <hidden from users>", "Plume <hidden from users>", "Only available <for [non-[Plume]] units>",
+                    "2 AP SET <for [Flower AP] units> <hidden from users>", "2 AP SET <for [Sands AP] units> <hidden from users>",
+                    "2 AP SET <for [Goblet AP] units> <hidden from users>", "2 AP SET <for [Circlet AP] units> <hidden from users>",
+                    "4 AP SET <for [{Flower AP} {Sands AP} {Goblet AP}] units> <hidden from users>",
+                    "4 AP SET <for [{Flower AP} {Circlet AP} {Goblet AP}] units> <hidden from users>",
+                    "4 AP SET <for [{Flower AP} {Sands AP} {Circlet AP}] units> <hidden from users>",
+                    "4 AP SET <for [{Circlet AP} {Sands AP} {Goblet AP}] units> <hidden from users>",
+                    "5 AP SET <for [{Flower AP} {Sands AP} {Goblet AP} {Circlet AP}] units> <hidden from users>",
+                    "[+5]% Strength"
+                    ]
+    },
+    {
+        "name": "Sands of Archaic Petra",
+        "uniques": ["Comment [Sands of the Archaic Petra artifact set.]",
+                    "Comment [(2) piece bonus: +15% Geo Damage.]",
+                    "Comment [(4) piece bonus: Increases damage by 15% when this unit has a shield.]",
+                    "Comment [(5) piece bonus: This and nearby units gain 20% defense.]",
+                    "Sands AP <hidden from users>", "Sands <hidden from users>", "Only available <for [non-[Sands]] units>",
+                    "2 AP SET <for [Plume AP] units> <hidden from users>", "2 AP SET <for [Flower AP] units> <hidden from users>",
+                    "2 AP SET <for [Goblet AP] units> <hidden from users>", "2 AP SET <for [Circlet AP] units> <hidden from users>",
+                    "4 AP SET <for [{Plume AP} {Flower AP} {Goblet AP}] units> <hidden from users>",
+                    "4 AP SET <for [{Plume AP} {Circlet AP} {Goblet AP}] units> <hidden from users>",
+                    "4 AP SET <for [{Plume AP} {Flower AP} {Circlet AP}] units> <hidden from users>",
+                    "4 AP SET <for [{Circlet AP} {Flower AP} {Goblet AP}] units> <hidden from users>",
+                    "5 AP SET <for [{Plume AP} {Flower AP} {Goblet AP} {Circlet AP}] units> <hidden from users>",
+                    "[+5]% Strength"
+                    ]
+    },
+    {
+        "name": "Goblet of Archaic Petra",
+        "uniques": ["Comment [Goblet of the Archaic Petra artifact set.]",
+                    "Comment [(2) piece bonus: +15% Geo Damage.]",
+                    "Comment [(4) piece bonus: Increases damage by 15% when this unit has a shield.]",
+                    "Comment [(5) piece bonus: This and nearby units gain 20% defense.]",
+                    "Goblet AP <hidden from users>", "Goblet <hidden from users>", "Only available <for [non-[Goblet]] units>",
+                    "2 AP SET <for [Plume AP] units> <hidden from users>", "2 AP SET <for [Sands AP] units> <hidden from users>",
+                    "2 AP SET <for [Flower AP] units> <hidden from users>", "2 AP SET <for [Circlet AP] units> <hidden from users>",
+                    "4 AP SET <for [{Plume AP} {Sands AP} {Flower AP}] units> <hidden from users>",
+                    "4 AP SET <for [{Plume AP} {Circlet AP} {Flower AP}] units> <hidden from users>",
+                    "4 AP SET <for [{Plume AP} {Sands AP} {Circlet AP}] units> <hidden from users>",
+                    "4 AP SET <for [{Circlet AP} {Sands AP} {Flower AP}] units> <hidden from users>",
+                    "5 AP SET <for [{Plume AP} {Sands AP} {Flower AP} {Circlet AP}] units> <hidden from users>",
+                    "[+5]% Strength"
+                    ]
+    },
+    {
+        "name": "Circlet of Archaic Petra",
+        "uniques": ["Comment [Circlet of the Archaic Petra artifact set.]",
+                    "Comment [(2) piece bonus: +15% Geo Damage.]",
+                    "Comment [(4) piece bonus: Increases damage by 15% when this unit has a shield.]",
+                    "Comment [(5) piece bonus: This and nearby units gain 20% defense.]",
+                    "Circlet AP <hidden from users>", "Circlet <hidden from users>", "Only available <for [non-[Circlet]] units>",
+                    "2 AP SET <for [Plume AP] units> <hidden from users>", "2 AP SET <for [Sands AP] units> <hidden from users>",
+                    "2 AP SET <for [Goblet AP] units> <hidden from users>", "2 AP SET <for [Flower AP] units> <hidden from users>",
+                    "4 AP SET <for [{Plume AP} {Sands AP} {Goblet AP}] units> <hidden from users>",
+                    "4 AP SET <for [{Plume AP} {Flower AP} {Goblet AP}] units> <hidden from users>",
+                    "4 AP SET <for [{Plume AP} {Sands AP} {Flower AP}] units> <hidden from users>",
+                    "4 AP SET <for [{Flower AP} {Sands AP} {Goblet AP}] units> <hidden from users>",
+                    "5 AP SET <for [{Plume AP} {Sands AP} {Goblet AP} {Flower AP}] units> <hidden from users>",
+                    "[+5]% Strength"
+                    ]
+    },
+    {
+        "name": "Flower of Deepwood Memories",
+        "uniques": ["Comment [Flower of the Deepwood Memories artifact set.]",
+                    "Comment [(2) piece bonus: +10% Dendro Damage.]",
+                    "Comment [(4) piece bonus: Increases damage directly caused by Dendro reactions by 10%.]",
+                    "Comment [(5) piece bonus: +15% Dendro Damage, adjacent units get 10% dmg bonus with elemental damage units gaining 15% instead.]",
+                    "Flower DM <hidden from users>", "Flower <hidden from users>", "Only available <for [non-[Flower]] units>",
+                    "2 DM SET <for [Plume DM] units> <hidden from users>", "2 DM SET <for [Sands DM] units> <hidden from users>",
+                    "2 DM SET <for [Goblet DM] units> <hidden from users>", "2 DM SET <for [Circlet DM] units> <hidden from users>",
+                    "4 DM SET <for [{Plume DM} {Sands DM} {Goblet DM}] units> <hidden from users>",
+                    "4 DM SET <for [{Plume DM} {Circlet DM} {Goblet DM}] units> <hidden from users>",
+                    "4 DM SET <for [{Plume DM} {Sands DM} {Circlet DM}] units> <hidden from users>",
+                    "4 DM SET <for [{Circlet DM} {Sands DM} {Goblet DM}] units> <hidden from users>",
+                    "5 DM SET <for [{Plume DM} {Sands DM} {Goblet DM} {Circlet DM}] units> <hidden from users>",
+                    "[+5]% Strength"
+                    ]
+    },
+    {
+        "name": "Plume of Deepwood Memories",
+        "uniques": ["Comment [Plume of the Deepwood Memories artifact set.]",
+                    "Comment [(2) piece bonus: +10% Dendro Damage.]",
+                    "Comment [(4) piece bonus: Increases damage directly caused by Dendro reactions by 10%.]",
+                    "Comment [(5) piece bonus: +15% Dendro Damage, adjacent units get 10% dmg bonus with elemental damage units gaining 15% instead.]",
+                    "Plume DM <hidden from users>", "Plume <hidden from users>", "Only available <for [non-[Plume]] units>",
+                    "2 DM SET <for [Flower DM] units> <hidden from users>", "2 DM SET <for [Sands DM] units> <hidden from users>",
+                    "2 DM SET <for [Goblet DM] units> <hidden from users>", "2 DM SET <for [Circlet DM] units> <hidden from users>",
+                    "4 DM SET <for [{Flower DM} {Sands DM} {Goblet DM}] units> <hidden from users>",
+                    "4 DM SET <for [{Flower DM} {Circlet DM} {Goblet DM}] units> <hidden from users>",
+                    "4 DM SET <for [{Flower DM} {Sands DM} {Circlet DM}] units> <hidden from users>",
+                    "4 DM SET <for [{Circlet DM} {Sands DM} {Goblet DM}] units> <hidden from users>",
+                    "5 DM SET <for [{Flower DM} {Sands DM} {Goblet DM} {Circlet DM}] units> <hidden from users>",
+                    "[+5]% Strength"
+                    ]
+    },
+    {
+        "name": "Sands of Deepwood Memories",
+        "uniques": ["Comment [Sands of the Deepwood Memories artifact set.]",
+                    "Comment [(2) piece bonus: +10% Dendro Damage.]",
+                    "Comment [(4) piece bonus: Increases damage directly caused by Dendro reactions by 10%.]",
+                    "Comment [(5) piece bonus: +15% Dendro Damage, adjacent units get 10% dmg bonus with elemental damage units gaining 15% instead.]",
+                    "Sands DM <hidden from users>", "Sands <hidden from users>", "Only available <for [non-[Sands]] units>",
+                    "2 DM SET <for [Plume DM] units> <hidden from users>", "2 DM SET <for [Flower DM] units> <hidden from users>",
+                    "2 DM SET <for [Goblet DM] units> <hidden from users>", "2 DM SET <for [Circlet DM] units> <hidden from users>",
+                    "4 DM SET <for [{Plume DM} {Flower DM} {Goblet DM}] units> <hidden from users>",
+                    "4 DM SET <for [{Plume DM} {Circlet DM} {Goblet DM}] units> <hidden from users>",
+                    "4 DM SET <for [{Plume DM} {Flower DM} {Circlet DM}] units> <hidden from users>",
+                    "4 DM SET <for [{Circlet DM} {Flower DM} {Goblet DM}] units> <hidden from users>",
+                    "5 DM SET <for [{Plume DM} {Flower DM} {Goblet DM} {Circlet DM}] units> <hidden from users>",
+                    "[+5]% Strength"
+                    ]
+    },
+    {
+        "name": "Goblet of Deepwood Memories",
+        "uniques": ["Comment [Goblet of the Deepwood Memories artifact set.]",
+                    "Comment [(2) piece bonus: +10% Dendro Damage.]",
+                    "Comment [(4) piece bonus: Increases damage directly caused by Dendro reactions by 10%.]",
+                    "Comment [(5) piece bonus: +15% Dendro Damage, adjacent units get 10% dmg bonus with elemental damage units gaining 15% instead.]",
+                    "Goblet DM <hidden from users>", "Goblet <hidden from users>", "Only available <for [non-[Goblet]] units>",
+                    "2 DM SET <for [Plume DM] units> <hidden from users>", "2 DM SET <for [Sands DM] units> <hidden from users>",
+                    "2 DM SET <for [Flower DM] units> <hidden from users>", "2 DM SET <for [Circlet DM] units> <hidden from users>",
+                    "4 DM SET <for [{Plume DM} {Sands DM} {Flower DM}] units> <hidden from users>",
+                    "4 DM SET <for [{Plume DM} {Circlet DM} {Flower DM}] units> <hidden from users>",
+                    "4 DM SET <for [{Plume DM} {Sands DM} {Circlet DM}] units> <hidden from users>",
+                    "4 DM SET <for [{Circlet DM} {Sands DM} {Flower DM}] units> <hidden from users>",
+                    "5 DM SET <for [{Plume DM} {Sands DM} {Flower DM} {Circlet DM}] units> <hidden from users>",
+                    "[+5]% Strength"
+                    ]
+    },
+    {
+        "name": "Circlet of Deepwood Memories",
+        "uniques": ["Comment [Circlet of the Deepwood Memories artifact set.]",
+                    "Comment [(2) piece bonus: +10% Dendro Damage.]",
+                    "Comment [(4) piece bonus: Increases damage directly caused by Dendro reactions by 10%.]",
+                    "Comment [(5) piece bonus: +15% Dendro Damage, adjacent units get 10% dmg bonus with elemental damage units gaining 15% instead.]",
+                    "Circlet DM <hidden from users>", "Circlet <hidden from users>", "Only available <for [non-[Circlet]] units>",
+                    "2 DM SET <for [Plume DM] units> <hidden from users>", "2 DM SET <for [Sands DM] units> <hidden from users>",
+                    "2 DM SET <for [Goblet DM] units> <hidden from users>", "2 DM SET <for [Flower DM] units> <hidden from users>",
+                    "4 DM SET <for [{Plume DM} {Sands DM} {Goblet DM}] units> <hidden from users>",
+                    "4 DM SET <for [{Plume DM} {Flower DM} {Goblet DM}] units> <hidden from users>",
+                    "4 DM SET <for [{Plume DM} {Sands DM} {Flower DM}] units> <hidden from users>",
+                    "4 DM SET <for [{Flower DM} {Sands DM} {Goblet DM}] units> <hidden from users>",
+                    "5 DM SET <for [{Plume DM} {Sands DM} {Goblet DM} {Flower DM}] units> <hidden from users>",
+                    "[+5]% Strength"
                     ]
     },
     
@@ -581,4 +1196,29 @@
                     "No Sight <hidden from users>"
                     ]
     },
+    {
+        "name": "Jade Shield",
+        "uniques": ["Comment [A shield that increases defense by 50% and reduces nearby enemy defense by 20%]",
+                    "[+50]% Strength <when defending> <hidden from users>"]
+    },
+    {
+        "name": "Jade Shield Cooldown",
+        "uniques": ["Comment [Jade Shield is on cooldown.]"
+                    ]
+    },
+    {
+        "name": "Chrysos, Bounty of Dominator",
+        "uniques": ["Comment [Uses the full power of Geo.]",
+                    "Comment [Heals 5 HP whenever hit while having a shield active.]",
+                    "Comment [Generates 2 Geo Spears at the start of a turn]",
+                    "[This Unit] heals [5] HP <upon losing at least [1] HP in a single attack> <for [Elemental Shield] units> <hidden from users>",
+                    //"Can carry [2] extra [Geo Spear] units <hidden from users>",
+                    "[2] free [Geo Spear] units appear <upon turn start> <hidden from users>"
+                    ]
+    },
+    {
+        "name": "Chrysos Cooldown",
+        "uniques": ["Comment [Chrysos, Bounty of Dominator is on cooldown.]"
+                    ]
+    }
 ]

@@ -36,7 +36,7 @@
 	    
 		"uniqueName": "City of Freedom",
 		"uniques": [
-                    "May buy [Land] units with [Faith] for [3] times their normal Production cost <for [Mondstadt] Civilizations>",
+                    "May buy [Land] units with [Faith] for [3] times their normal Production cost",
 					],
 		"cities": ["Mondstadt City", "Windrise", "Springvale", "Stormterror's Lair",
 					"Dandelion Meadow", "Starfell Valley"],

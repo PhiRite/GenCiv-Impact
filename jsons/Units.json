@@ -392,7 +392,7 @@
         "uniques": ["Comment [The Anemo Archon of Mondstadt, also known as Barbatos or Venti. A bard who loves freedom and wine.]",
                     "Comment [Considered the weakest of the 7, and yet was known to move mountains using his winds]",
                     "Comment [Can use his wind to teleport up to 10 tiles away]", "Comment [As an Archon, he grows stronger with the amount of Faith you have]",
-                    "Comment [His presence inspires your units, granting them the [Thousand Winds of Time] but also debuffing them if he falls]",
+                    "Comment [His presence inspires your units, granting them the [Thousand Winds of Time] but also debuffing them by 50% if he falls]",
                     "[2] additional attacks per turn", "[+3] Sight", "Can move after attacking",
                     "[This Unit] gains [2] movement <upon damaging a [All] unit>",
                     "May Paradrop to [All] tiles up to [10] tiles away",
@@ -562,9 +562,13 @@
         "uniques": ["Comment [The Geo Archon of Liyue, also known as Morax or Rex Lapis. A god of contracts and commerce, revered as the nation's protector.]",  
                     "Comment [One of the oldest and strongest of the 7, who forged mountains and carved rivers with his power.]",
                     "Comment [As an Archon, he grows stronger with the amount of Faith you have]",
-                    "Comment [His presence inspires your units, granting them the [Groundbreaker] promotion but also debuffing them if he falls]",
+                    "Comment [His presence inspires your units, granting them the [Groundbreaker] promotion but also debuffing them by 50% if he falls]",
                     "[+3] Sight", "Can carry [4] [Geo Spear] units",
+                    "[This Unit] gains the [Jade Shield] status for [3] turn(s) <costs [+150 Faith] stats> <for units without [Jade Shield Cooldown]>",
+                    "[This Unit] gains the [Jade Shield Cooldown] status for [3] turn(s) <upon gaining the [Jade Shield] status> <hidden from users>",
                     "[1] free [Geo Spear] units appear <costs [+50 Gold, +100 Faith] stats>",
+                    "[This Unit] gains the [Chrysos, Bounty of Dominator] status for [5] turn(s) <for units without [Chrysos Cooldown]>",
+                    "[This Unit] gains the [Chrysos Cooldown] status for [10] turn(s) <upon gaining the [Chrysos, Bounty of Dominator] status> <hidden from users>",
                     "Only available <in cities with a [Statue of the Seven]>"
                     ],
         "attackSound": "metalhit"
