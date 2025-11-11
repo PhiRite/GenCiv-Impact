@@ -1,0 +1,153 @@
+
+game.png
+size: 1024, 128
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+NationIcons/Liyue
+  rotate: false
+  xy: 4, 25
+  size: 99, 99
+  orig: 99, 99
+  offset: 0, 0
+  index: -1
+NationIcons/Mondstadt
+  rotate: false
+  xy: 111, 25
+  size: 99, 99
+  orig: 99, 99
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Academy
+  rotate: false
+  xy: 218, 60
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Banks
+  rotate: false
+  xy: 290, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Camp
+  rotate: false
+  xy: 290, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Docks
+  rotate: false
+  xy: 362, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Fishing Boats
+  rotate: false
+  xy: 362, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Port
+  rotate: false
+  xy: 362, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Factory
+  rotate: false
+  xy: 434, 60
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Foundry
+  rotate: false
+  xy: 434, 60
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Farm
+  rotate: false
+  xy: 362, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Farm2
+  rotate: false
+  xy: 506, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Fort
+  rotate: false
+  xy: 506, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Outpost
+  rotate: false
+  xy: 506, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Lumber mill
+  rotate: false
+  xy: 578, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Markets
+  rotate: false
+  xy: 578, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Mine
+  rotate: false
+  xy: 650, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Pasture
+  rotate: false
+  xy: 650, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plantation
+  rotate: false
+  xy: 722, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Shrine
+  rotate: false
+  xy: 794, 60
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Workshop
+  rotate: false
+  xy: 722, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
