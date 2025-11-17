@@ -261,7 +261,7 @@
 			{
 				"name": "Pillars of Civilization",
 				"row": 3,
-                "prerequisites": ["Foundations of Power"],
+                "prerequisites": ["Foundations of Power", "Seafaring"],
 				"uniques": [""],
                 "quote": ""
 			},
@@ -342,14 +342,14 @@
             {
 				"name": "Industrial Power",
 				"row": 5,
-                "prerequisites": ["Foundry Works"],
+                "prerequisites": ["Foundry Works", "Golden Ledgers"],
 				"uniques": [""],
                 "quote": ""
 			},
             {
 				"name": "Armaments",
 				"row": 8,
-                "prerequisites": ["Discipline"],
+                "prerequisites": ["Discipline", "Pursuit of Knowledge"],
 				"uniques": [""],
                 "quote": ""
 			}
@@ -365,7 +365,7 @@
             {
 				"name": "Stronghold",
 				"row": 5,
-                "prerequisites": ["Industrial Power"],
+                "prerequisites": ["Industrial Power", "Legacy Forged"],
 				"uniques": [""],
                 "quote": ""
 			},
@@ -395,7 +395,7 @@
             {
 				"name": "Descent of the Firmament",
 				"row": 5,
-                "prerequisites": ["Stronghold", "Order of Battle", "Banner of War", "Legacy Forged", "Seafaring"],
+                "prerequisites": ["Stronghold", "Order of Battle", "Banner of War"],
 				"uniques": [""],
                 "quote": ""
 			}

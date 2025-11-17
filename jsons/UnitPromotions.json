@@ -453,7 +453,15 @@
 
     //ELEMENTAL SYSTEM END
 
-    //Archon Blessings
+    //Archon Blessings and mechanics
+    {
+        "name": "Demoralized",
+        "uniques": ["Comment [This unit has been weakened by the loss of its Archon, reducing its combat power, movement and sight.]",
+                    "[-50]% Strength",
+                    "[-1] Movement",
+                    "[-1] Sight"
+                    ]
+    },
     {
         "name": "Thousand Winds of Time",
         "uniques": ["Comment [This unit has been blessed by the presence of Barbatos, gaining increased sight and the ability to fly 5 tiles every turn.]",
@@ -541,7 +549,7 @@
                     "4 VV SET <for [{Plume VV} {Sands VV} {Circlet VV}] units> <hidden from users>",
                     "4 VV SET <for [{Circlet VV} {Sands VV} {Goblet VV}] units> <hidden from users>",
                     "5 VV SET <for [{Plume VV} {Sands VV} {Goblet VV} {Circlet VV}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     {
@@ -558,7 +566,7 @@
                     "4 VV SET <for [{Flower VV} {Sands VV} {Circlet VV}] units> <hidden from users>",
                     "4 VV SET <for [{Circlet VV} {Sands VV} {Goblet VV}] units> <hidden from users>",
                     "5 VV SET <for [{Flower VV} {Sands VV} {Goblet VV} {Circlet VV}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     {
@@ -575,7 +583,7 @@
                     "4 VV SET <for [{Plume VV} {Flower VV} {Circlet VV}] units> <hidden from users>",
                     "4 VV SET <for [{Circlet VV} {Flower VV} {Goblet VV}] units> <hidden from users>",
                     "5 VV SET <for [{Plume VV} {Flower VV} {Goblet VV} {Circlet VV}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     {
@@ -592,7 +600,7 @@
                     "4 VV SET <for [{Plume VV} {Sands VV} {Circlet VV}] units> <hidden from users>",
                     "4 VV SET <for [{Circlet VV} {Sands VV} {Flower VV}] units> <hidden from users>",
                     "5 VV SET <for [{Plume VV} {Sands VV} {Flower VV} {Circlet VV}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     {
@@ -609,7 +617,7 @@
                     "4 VV SET <for [{Plume VV} {Sands VV} {Flower VV}] units> <hidden from users>",
                     "4 VV SET <for [{Flower VV} {Sands VV} {Goblet VV}] units> <hidden from users>",
                     "5 VV SET <for [{Plume VV} {Sands VV} {Goblet VV} {Flower VV}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     {
@@ -626,7 +634,7 @@
                     "4 CW SET <for [{Plume CW} {Sands CW} {Circlet CW}] units> <hidden from users>",
                     "4 CW SET <for [{Circlet CW} {Sands CW} {Goblet CW}] units> <hidden from users>",
                     "5 CW SET <for [{Plume CW} {Sands CW} {Goblet CW} {Circlet CW}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     {
@@ -643,7 +651,7 @@
                     "4 CW SET <for [{Flower CW} {Sands CW} {Circlet CW}] units> <hidden from users>",
                     "4 CW SET <for [{Circlet CW} {Sands CW} {Goblet CW}] units> <hidden from users>",
                     "5 CW SET <for [{Flower CW} {Sands CW} {Goblet CW} {Circlet CW}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     {
@@ -660,7 +668,7 @@
                     "4 CW SET <for [{Plume CW} {Flower CW} {Circlet CW}] units> <hidden from users>",
                     "4 CW SET <for [{Circlet CW} {Flower CW} {Goblet CW}] units> <hidden from users>",
                     "5 CW SET <for [{Plume CW} {Flower CW} {Goblet CW} {Circlet CW}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     {
@@ -677,7 +685,7 @@
                     "4 CW SET <for [{Plume CW} {Sands CW} {Circlet CW}] units> <hidden from users>",
                     "4 CW SET <for [{Circlet CW} {Sands CW} {Flower CW}] units> <hidden from users>",
                     "5 CW SET <for [{Plume CW} {Sands CW} {Flower CW} {Circlet CW}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     {
@@ -694,7 +702,7 @@
                     "4 CW SET <for [{Plume CW} {Sands CW} {Flower CW}] units> <hidden from users>",
                     "4 CW SET <for [{Flower CW} {Sands CW} {Goblet CW}] units> <hidden from users>",
                     "5 CW SET <for [{Plume CW} {Sands CW} {Goblet CW} {Flower CW}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     {
@@ -711,7 +719,7 @@
                     "4 TF SET <for [{Plume TF} {Sands TF} {Circlet TF}] units> <hidden from users>",
                     "4 TF SET <for [{Circlet TF} {Sands TF} {Goblet TF}] units> <hidden from users>",
                     "5 TF SET <for [{Plume TF} {Sands TF} {Goblet TF} {Circlet TF}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     {
@@ -728,7 +736,7 @@
                     "4 TF SET <for [{Flower TF} {Sands TF} {Circlet TF}] units> <hidden from users>",
                     "4 TF SET <for [{Circlet TF} {Sands TF} {Goblet TF}] units> <hidden from users>",
                     "5 TF SET <for [{Flower TF} {Sands TF} {Goblet TF} {Circlet TF}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     {
@@ -745,7 +753,7 @@
                     "4 TF SET <for [{Plume TF} {Flower TF} {Circlet TF}] units> <hidden from users>",
                     "4 TF SET <for [{Circlet TF} {Flower TF} {Goblet TF}] units> <hidden from users>",
                     "5 TF SET <for [{Plume TF} {Flower TF} {Goblet TF} {Circlet TF}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     {
@@ -762,7 +770,7 @@
                     "4 TF SET <for [{Plume TF} {Sands TF} {Circlet TF}] units> <hidden from users>",
                     "4 TF SET <for [{Circlet TF} {Sands TF} {Flower TF}] units> <hidden from users>",
                     "5 TF SET <for [{Plume TF} {Sands TF} {Flower TF} {Circlet TF}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     {
@@ -779,7 +787,7 @@
                     "4 TF SET <for [{Plume TF} {Sands TF} {Flower TF}] units> <hidden from users>",
                     "4 TF SET <for [{Flower TF} {Sands TF} {Goblet TF}] units> <hidden from users>",
                     "5 TF SET <for [{Plume TF} {Sands TF} {Goblet TF} {Flower TF}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     {
@@ -796,7 +804,7 @@
                     "4 BS SET <for [{Plume BS} {Sands BS} {Circlet BS}] units> <hidden from users>",
                     "4 BS SET <for [{Circlet BS} {Sands BS} {Goblet BS}] units> <hidden from users>",
                     "5 BS SET <for [{Plume BS} {Sands BS} {Goblet BS} {Circlet BS}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     {
@@ -813,7 +821,7 @@
                     "4 BS SET <for [{Flower BS} {Sands BS} {Circlet BS}] units> <hidden from users>",
                     "4 BS SET <for [{Circlet BS} {Sands BS} {Goblet BS}] units> <hidden from users>",
                     "5 BS SET <for [{Flower BS} {Sands BS} {Goblet BS} {Circlet BS}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     {
@@ -830,7 +838,7 @@
                     "4 BS SET <for [{Plume BS} {Flower BS} {Circlet BS}] units> <hidden from users>",
                     "4 BS SET <for [{Circlet BS} {Flower BS} {Goblet BS}] units> <hidden from users>",
                     "5 BS SET <for [{Plume BS} {Flower BS} {Goblet BS} {Circlet BS}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     {
@@ -847,7 +855,7 @@
                     "4 BS SET <for [{Plume BS} {Sands BS} {Circlet BS}] units> <hidden from users>",
                     "4 BS SET <for [{Circlet BS} {Sands BS} {Flower BS}] units> <hidden from users>",
                     "5 BS SET <for [{Plume BS} {Sands BS} {Flower BS} {Circlet BS}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     {
@@ -864,7 +872,7 @@
                     "4 BS SET <for [{Plume BS} {Sands BS} {Flower BS}] units> <hidden from users>",
                     "4 BS SET <for [{Flower BS} {Sands BS} {Goblet BS}] units> <hidden from users>",
                     "5 BS SET <for [{Plume BS} {Sands BS} {Goblet BS} {Flower BS}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     {
@@ -881,7 +889,7 @@
                     "4 HD SET <for [{Plume HD} {Sands HD} {Circlet HD}] units> <hidden from users>",
                     "4 HD SET <for [{Circlet HD} {Sands HD} {Goblet HD}] units> <hidden from users>",
                     "5 HD SET <for [{Plume HD} {Sands HD} {Goblet HD} {Circlet HD}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     {
@@ -898,7 +906,7 @@
                     "4 HD SET <for [{Flower HD} {Sands HD} {Circlet HD}] units> <hidden from users>",
                     "4 HD SET <for [{Circlet HD} {Sands HD} {Goblet HD}] units> <hidden from users>",
                     "5 HD SET <for [{Flower HD} {Sands HD} {Goblet HD} {Circlet HD}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     {
@@ -915,7 +923,7 @@
                     "4 HD SET <for [{Plume HD} {Flower HD} {Circlet HD}] units> <hidden from users>",
                     "4 HD SET <for [{Circlet HD} {Flower HD} {Goblet HD}] units> <hidden from users>",
                     "5 HD SET <for [{Plume HD} {Flower HD} {Goblet HD} {Circlet HD}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     {
@@ -932,7 +940,7 @@
                     "4 HD SET <for [{Plume HD} {Sands HD} {Circlet HD}] units> <hidden from users>",
                     "4 HD SET <for [{Circlet HD} {Sands HD} {Flower HD}] units> <hidden from users>",
                     "5 HD SET <for [{Plume HD} {Sands HD} {Flower HD} {Circlet HD}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     {
@@ -949,7 +957,7 @@
                     "4 HD SET <for [{Plume HD} {Sands HD} {Flower HD}] units> <hidden from users>",
                     "4 HD SET <for [{Flower HD} {Sands HD} {Goblet HD}] units> <hidden from users>",
                     "5 HD SET <for [{Plume HD} {Sands HD} {Goblet HD} {Flower HD}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     {
@@ -966,7 +974,7 @@
                     "4 AP SET <for [{Plume AP} {Sands AP} {Circlet AP}] units> <hidden from users>",
                     "4 AP SET <for [{Circlet AP} {Sands AP} {Goblet AP}] units> <hidden from users>",
                     "5 AP SET <for [{Plume AP} {Sands AP} {Goblet AP} {Circlet AP}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     {
@@ -983,7 +991,7 @@
                     "4 AP SET <for [{Flower AP} {Sands AP} {Circlet AP}] units> <hidden from users>",
                     "4 AP SET <for [{Circlet AP} {Sands AP} {Goblet AP}] units> <hidden from users>",
                     "5 AP SET <for [{Flower AP} {Sands AP} {Goblet AP} {Circlet AP}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     {
@@ -1000,7 +1008,7 @@
                     "4 AP SET <for [{Plume AP} {Flower AP} {Circlet AP}] units> <hidden from users>",
                     "4 AP SET <for [{Circlet AP} {Flower AP} {Goblet AP}] units> <hidden from users>",
                     "5 AP SET <for [{Plume AP} {Flower AP} {Goblet AP} {Circlet AP}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     {
@@ -1017,7 +1025,7 @@
                     "4 AP SET <for [{Plume AP} {Sands AP} {Circlet AP}] units> <hidden from users>",
                     "4 AP SET <for [{Circlet AP} {Sands AP} {Flower AP}] units> <hidden from users>",
                     "5 AP SET <for [{Plume AP} {Sands AP} {Flower AP} {Circlet AP}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     {
@@ -1034,7 +1042,7 @@
                     "4 AP SET <for [{Plume AP} {Sands AP} {Flower AP}] units> <hidden from users>",
                     "4 AP SET <for [{Flower AP} {Sands AP} {Goblet AP}] units> <hidden from users>",
                     "5 AP SET <for [{Plume AP} {Sands AP} {Goblet AP} {Flower AP}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     {
@@ -1051,7 +1059,7 @@
                     "4 DM SET <for [{Plume DM} {Sands DM} {Circlet DM}] units> <hidden from users>",
                     "4 DM SET <for [{Circlet DM} {Sands DM} {Goblet DM}] units> <hidden from users>",
                     "5 DM SET <for [{Plume DM} {Sands DM} {Goblet DM} {Circlet DM}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     {
@@ -1068,7 +1076,7 @@
                     "4 DM SET <for [{Flower DM} {Sands DM} {Circlet DM}] units> <hidden from users>",
                     "4 DM SET <for [{Circlet DM} {Sands DM} {Goblet DM}] units> <hidden from users>",
                     "5 DM SET <for [{Flower DM} {Sands DM} {Goblet DM} {Circlet DM}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     {
@@ -1085,7 +1093,7 @@
                     "4 DM SET <for [{Plume DM} {Flower DM} {Circlet DM}] units> <hidden from users>",
                     "4 DM SET <for [{Circlet DM} {Flower DM} {Goblet DM}] units> <hidden from users>",
                     "5 DM SET <for [{Plume DM} {Flower DM} {Goblet DM} {Circlet DM}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     {
@@ -1102,7 +1110,7 @@
                     "4 DM SET <for [{Plume DM} {Sands DM} {Circlet DM}] units> <hidden from users>",
                     "4 DM SET <for [{Circlet DM} {Sands DM} {Flower DM}] units> <hidden from users>",
                     "5 DM SET <for [{Plume DM} {Sands DM} {Flower DM} {Circlet DM}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     {
@@ -1119,7 +1127,7 @@
                     "4 DM SET <for [{Plume DM} {Sands DM} {Flower DM}] units> <hidden from users>",
                     "4 DM SET <for [{Flower DM} {Sands DM} {Goblet DM}] units> <hidden from users>",
                     "5 DM SET <for [{Plume DM} {Sands DM} {Goblet DM} {Flower DM}] units> <hidden from users>",
-                    "[+5]% Strength"
+                    "[+5]% Strength", "Artifact <hidden from users>"
                     ]
     },
     

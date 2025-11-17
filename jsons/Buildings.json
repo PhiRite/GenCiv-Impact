@@ -265,7 +265,9 @@
         "requiredTech": "Legacy Forged",
 		"uniques": ["Comment [Units now earn 50% of the damage they deal as Faith]",
 					"Comment [Units that deal Elemental Damage deal 15% more damage]",
-					"Only available <in [Capital] cities>"
+					"Only available <in [Capital] cities>",
+					"Instantly provides [1] [Gnosis]",
+					"Free [Barbatos] appears <for [Mondstadt] Civilizations> <hidden from users>",
                     ]
 	}
 ]

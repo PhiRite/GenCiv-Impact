@@ -91,8 +91,14 @@
                 "uniques": ["Comment [Visions users can teleport to waypoints and Statues every 10 turns.]",
                             "Comment [Statue of the Seven Full Heals adjacent units.]",
                             "Comment [Abyssal factions can corrupt waypoints and Statues of the Seven but can be cleansed by Vision users.]",
-                            "Comment [Corrupted waypoints and Statues of the Seven can only be used by the abyss.]",
-
+                            "Comment [Corrupted waypoints and Statues of the Seven can only be used by the abyss.]"
+                ]
+            },
+            {
+                "text": "Archons and/or Lategame effects",
+                "uniques": ["Comment [Each civilization has an Archon unit or equivalent that acts as a super unit while also providing unique bonuses to their civilization.]",
+                            "Comment [Archon Units however also debuff all allied units by 50% strength, 1 movement, and sight for 10 turns if they die.]",
+                            "Comment [Certain Nations do not have Archons, they will however either gain a strong unit with no build limit or a nation special ability.]"
                 ]
             },
             {
@@ -102,6 +108,11 @@
                             "Comment [Different vision types correspond to different elements: Pyro, Hydro, Cryo, Electro, Dendro, Anemo, Geo.]",
                             "Comment [Only one vision can be equipped at a time, and visions cannot be changed.]",
                 ]
+            },
+            {
+                "text": "Reaction System",
+                "uniques": ["Comment [List of elemental reactions and mechanics]",
+                            "Triggers a [Reaction Tutorial] event <hidden from users>",]               
             },
             {
                 "text": "Infusions and afflictions",
@@ -124,5 +135,113 @@
                 ]
             }
         ]   
+    },
+    {
+        "name": "Archon Death",
+        "text": "Your archon has fallen in battle...",
+        "choices": [
+            {
+                "text": "Fall From Grace",
+                "uniques": ["Comment [Your archon has fallen, your troops will be demoralized and lose 50% of their combat strength, 1 movement and sight for 5 turns.]",
+                            "Comment [The gnosis returns to you, keep it safe and a new archon may rise in time.]",
+                            "Instantly provides [1] [Gnosis]",
+                            "[-50]% Strength <for [5] turns> <when number of [[Archon] Units] is less than [1]> <hidden from users>",
+                            "[-1] Movement <for [5] turns> <when number of [[Archon] Units] is less than [1]> <hidden from users>",
+                            "[-1] Sight <for [5] turns> <when number of [[Archon] Units] is less than [1]> <hidden from users>"
+                ]
+            },
+
+            /*
+            FURINA/FOCALORS
+
+            {
+                "text": "Fall From Grace",
+                "uniques": ["Comment [Your archon has fallen, your troops will be demoralized and lose 25% of their combat strength, 1 movement and sight for 5 turns.]",
+                            "Comment [The gnosis returns to you, keep it safe and a new archon may rise in time.]",
+                            "Instantly provides [1] [Gnosis]",
+                            "[-25]% Strength <for [5] turns> <when number of [[Archon] Units] is less than [1]> <hidden from users>",
+                            "[-1] Movement <for [5] turns> <when number of [[Archon] Units] is less than [1]> <hidden from users>",
+                            "[-1] Sight <for [5] turns> <when number of [[Archon] Units] is less than [1]> <hidden from users>"
+                ]
+            },
+            */
+        ]
+    },
+    {
+        "name": "Sell Artifact",
+        "text": "Sell your artifact for some gold",
+        "choices": [
+            {
+                "text": "Sell Flower Artifact",
+                "uniques": ["[This Unit] loses the [Flower of Viridescent Venerer] promotion <for [0] movement> <for [Flower of Viridescent Venerer] units> <hidden from users>",
+                            "[This Unit] loses the [Flower of Crimson Witch] promotion <for [0] movement> <for [Flower of Crimson Witch] units> <hidden from users>",
+                            "[This Unit] loses the [Flower of Thundering Fury] promotion <for [0] movement> <for [Flower of Thundering Fury] units> <hidden from users>",
+                            "[This Unit] loses the [Flower of Blizzard Strayer] promotion <for [0] movement> <for [Flower of Blizzard Strayer] units> <hidden from users>",
+                            "[This Unit] loses the [Flower of The Heart of Depth] promotion <for [0] movement> <for [Flower of The Heart of Depth] units> <hidden from users>",
+                            "[This Unit] loses the [Flower of Archaic Petra] promotion <for [0] movement> <for [Flower of Archaic Petra] units> <hidden from users>",
+                            "[This Unit] loses the [Flower of Deepwood Memories] promotion <for [0] movement> <for [Flower of Deepwood Memories] units> <hidden from users>",
+                            "Only available <for [Flower] units> <hidden from users>",
+                            "Gain [25] [Gold]"
+                ]
+            },
+            {
+                "text": "Sell Plume Artifact",
+                "uniques": ["[This Unit] loses the [Plume of Viridescent Venerer] promotion <for [0] movement> <for [Plume of Viridescent Venerer] units> <hidden from users>",
+                            "[This Unit] loses the [Plume of Crimson Witch] promotion <for [0] movement> <for [Plume of Crimson Witch] units> <hidden from users>",
+                            "[This Unit] loses the [Plume of Thundering Fury] promotion <for [0] movement> <for [Plume of Thundering Fury] units> <hidden from users>",
+                            "[This Unit] loses the [Plume of Blizzard Strayer] promotion <for [0] movement> <for [Plume of Blizzard Strayer] units> <hidden from users>",
+                            "[This Unit] loses the [Plume of The Heart of Depth] promotion <for [0] movement> <for [Plume of The Heart of Depth] units> <hidden from users>",
+                            "[This Unit] loses the [Plume of Archaic Petra] promotion <for [0] movement> <for [Plume of Archaic Petra] units> <hidden from users>",
+                            "[This Unit] loses the [Plume of Deepwood Memories] promotion <for [0] movement> <for [Plume of Deepwood Memories] units> <hidden from users>",
+                            "Only available <for [Plume] units> <hidden from users>",
+                            "Gain [25] [Gold]"
+                ]
+            },
+            {
+                "text": "Sell Sands Artifact",
+                "uniques": ["[This Unit] loses the [Sands of Viridescent Venerer] promotion <for [0] movement> <for [Sands of Viridescent Venerer] units> <hidden from users>",
+                            "[This Unit] loses the [Sands of Crimson Witch] promotion <for [0] movement> <for [Sands of Crimson Witch] units> <hidden from users>",
+                            "[This Unit] loses the [Sands of Thundering Fury] promotion <for [0] movement> <for [Sands of Thundering Fury] units> <hidden from users>",
+                            "[This Unit] loses the [Sands of Blizzard Strayer] promotion <for [0] movement> <for [Sands of Blizzard Strayer] units> <hidden from users>",
+                            "[This Unit] loses the [Sands of The Heart of Depth] promotion <for [0] movement> <for [Sands of The Heart of Depth] units> <hidden from users>",
+                            "[This Unit] loses the [Sands of Archaic Petra] promotion <for [0] movement> <for [Sands of Archaic Petra] units> <hidden from users>",
+                            "[This Unit] loses the [Sands of Deepwood Memories] promotion <for [0] movement> <for [Sands of Deepwood Memories] units> <hidden from users>",
+                            "Only available <for [Sands] units> <hidden from users>",
+                            "Gain [25] [Gold]"
+                ]
+            },
+            {
+                "text": "Sell Goblet Artifact",
+                "uniques": ["[This Unit] loses the [Goblet of Viridescent Venerer] promotion <for [0] movement> <for [Goblet of Viridescent Venerer] units> <hidden from users>",
+                            "[This Unit] loses the [Goblet of Crimson Witch] promotion <for [0] movement> <for [Goblet of Crimson Witch] units> <hidden from users>",
+                            "[This Unit] loses the [Goblet of Thundering Fury] promotion <for [0] movement> <for [Goblet of Thundering Fury] units> <hidden from users>",
+                            "[This Unit] loses the [Goblet of Blizzard Strayer] promotion <for [0] movement> <for [Goblet of Blizzard Strayer] units> <hidden from users>",
+                            "[This Unit] loses the [Goblet of The Heart of Depth] promotion <for [0] movement> <for [Goblet of The Heart of Depth] units> <hidden from users>",
+                            "[This Unit] loses the [Goblet of Archaic Petra] promotion <for [0] movement> <for [Goblet of Archaic Petra] units> <hidden from users>",
+                            "[This Unit] loses the [Goblet of Deepwood Memories] promotion <for [0] movement> <for [Goblet of Deepwood Memories] units> <hidden from users>",
+                            "Only available <for [Goblet] units> <hidden from users>",
+                            "Gain [25] [Gold]"
+                ]
+            },
+            {
+                "text": "Sell Circlet Artifact",
+                "uniques": ["[This Unit] loses the [Circlet of Viridescent Venerer] promotion <for [0] movement> <for [Circlet of Viridescent Venerer] units> <hidden from users>",
+                            "[This Unit] loses the [Circlet of Crimson Witch] promotion <for [0] movement> <for [Circlet of Crimson Witch] units> <hidden from users>",
+                            "[This Unit] loses the [Circlet of Thundering Fury] promotion <for [0] movement> <for [Circlet of Thundering Fury] units> <hidden from users>",
+                            "[This Unit] loses the [Circlet of Blizzard Strayer] promotion <for [0] movement> <for [Circlet of Blizzard Strayer] units> <hidden from users>",
+                            "[This Unit] loses the [Circlet of The Heart of Depth] promotion <for [0] movement> <for [Circlet of The Heart of Depth] units> <hidden from users>",
+                            "[This Unit] loses the [Circlet of Archaic Petra] promotion <for [0] movement> <for [Circlet of Archaic Petra] units> <hidden from users>",
+                            "[This Unit] loses the [Circlet of Deepwood Memories] promotion <for [0] movement> <for [Circlet of Deepwood Memories] units> <hidden from users>",
+                            "Only available <for [Circlet] units> <hidden from users>",
+                            "Gain [25] [Gold]"
+                ]
+            },
+            {
+                "text": "Cancel",
+                "uniques": ["Comment [Don't want to sell right now? Click here.]"
+                ]
+            }
+        ]
     }
+    
 ]

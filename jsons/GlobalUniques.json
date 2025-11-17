@@ -6,7 +6,9 @@
         "unitUniques": [
 
             //Tutorials?
-            "Triggers a [Reaction Tutorial] event <for [0] movement> <for [Human player] units>",
+            //"Triggers a [Reaction Tutorial] event <for [0] movement> <for [Human player] units>",
+            "Triggers a [Game Mechanics] event <for [0] movement> <for [Human player] units>",
+            "Triggers a [Sell Artifact] event <for [0] movement> <for [Human player] units>",
 
 
             //reactions
@@ -85,12 +87,18 @@
             "[This Unit] heals [10] HP <upon turn end> <in [Mondstadt] tiles> <if [Windrise Tree] is constructed> <for [Mondstadt] units>",
             "[This Unit] heals [10] HP <when adjacent to a [Nun] unit> <upon turn end> <for [Mondstadt] units>",
             "[This Unit] heals [15] HP <when adjacent to a [Deacon] unit> <upon turn end> <for [Mondstadt] units>",
+            "[This Unit] gains the [Thousand Winds of Time] promotion <when number of [[Barbatos] Units] is more than [0]> <upon entering a [All] tile> <for [Mondstadt] units>",
+            "[This Unit] loses the [Thousand Winds of Time] promotion <when number of [[Barbatos] Units] is less than [1]> <upon entering a [All] tile> <for [Mondstadt] units>",
 
             //Liyue
             "[This Unit] heals [10] HP <upon turn end> <when adjacent to a [Hydro Yaksha] unit> <upon turn end> <for [Liyue] units>",
+            "[This Unit] gains the [Groundbreaker] promotion <when number of [[Morax] Units] is more than [0]> <upon entering a [All] tile> <for [Liyue] units>",
+            "[This Unit] loses the [Groundbreaker] promotion <when number of [[Morax] Units] is less than [1]> <upon entering a [All] tile> <for [Liyue] units>",
             
             //Statue of The Seven buffs
             "Earn [50]% of the damage done to [All] units as [Faith] <if [Statue of the Seven] is constructed in all [{Your} {Capital}] cities>",
             "[+15]% Strength <for [Elemental Damage] units> <if [Statue of the Seven] is constructed in all [{Your} {Capital}] cities>",
+
+            "[This Unit] gains the [Demoralized] promotion <when number of [[Archon] Units] is less than [Gnosis]>"
         ]
 }

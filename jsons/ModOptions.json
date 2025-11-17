@@ -2,10 +2,6 @@
     "isBaseRuleset":true,
     "constants":{"maxXPfromBarbarians":9999
                 },
-    "modUrl":"https://github.com/PhiRite/GenCiv-Impact/",
-    "defaultBranch":"main",
-    "author":"PhiRite",
-    "uniques":["Can trade civilization introductions for [300] Gold"]
-
+    "modUrl":"https://github.com/PhiRite/GenCiv-Impact",
+    // "defaultBranch":"main","author":"PhiRite","uniques":["Can trade civilization introductions for [50] Gold"]
 }
-

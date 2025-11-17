@@ -14,7 +14,8 @@
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action",
+                    "Unavailable <for [Genshin] Civilizations>"],
 		"cost": 70
 	},
     {   
@@ -236,6 +237,21 @@
                     ],
         "attackSound": "nonmetalhit"
     },
+    {
+        "name": "Storm Terror: Dvalin",
+        "unitType": "World Boss",
+        "uniqueTo": "Barbarians",
+        "movement": 4,
+        "strength": 50,
+        "cost": 20,
+        //"requiredTech": "Discipline",
+        "promotions": ["Geo Infusion"],
+        "uniques": ["Only available <after turn number [50]>",
+                    
+                    ],
+        "attackSound": "nonmetalhit"
+    },
+
 
 
     // Mondstadt units
@@ -251,8 +267,11 @@
 		"cost": 70,
 		"promotions": [],
         "uniques": ["Comment [Can upgrade their bows with [Alchemists] granting more range and damage]",
-                    "Founds a new city", "Can move after attacking",
-                    "[This Unit] gains the [Favonius Warbow] promotion <costs [+100 Faith] stats> <when adjacent to a [Alchemist] unit>"
+                    "Can build [All] improvements on tiles",
+                    "Founds a new city <costs [+50 Gold, +50 Faith] stats> <when number of [[Your] Cities] is more than [1]>",
+                    "Founds a new city <when number of [[Your] Cities] is less than [1]>", 
+                    "Can move after attacking",
+                    "[This Unit] gains the [Favonius Warbow] promotion <costs [+100 Faith] stats> <when adjacent to a [Alchemist] unit> <hidden from users>"
                     ],
 		"attackSound": "arrow"
 	},
@@ -268,7 +287,7 @@
         "promotions": [],
         "uniques": ["Comment [Can upgrade their swords with [Alchemists] granting more damage and additional attacks]",
                     "Can move after attacking",
-                    "[This Unit] gains the [Favonius Bladework] promotion <costs [+150 Faith] stats> <when adjacent to a [Alchemist] unit>"
+                    "[This Unit] gains the [Favonius Bladework] promotion <costs [+150 Faith] stats> <when adjacent to a [Alchemist] unit> <hidden from users>"
                     ],
         "attackSound": "metalhit"
     },
@@ -286,8 +305,8 @@
         "uniques": ["Comment [Can upgrade their bows with [Alchemists] granting more range and damage]",
                     "Comment [Can use wind gliders to traverse large distances]",
                     "Can move after attacking",
-                    "[This Unit] gains the [Favonius Warbow] promotion <costs [+100 Faith] stats> <when adjacent to a [Alchemist] unit>",
-                    "[This Unit] gains the [Wind Glider] status for [1] turn(s) <for units without [Wind Glider Cooldown]>",
+                    "[This Unit] gains the [Favonius Warbow] promotion <costs [+100 Faith] stats> <when adjacent to a [Alchemist] unit> <hidden from users>",
+                    "[This Unit] gains the [Wind Glider] status for [1] turn(s) <for [0] movement> <for units without [Wind Glider Cooldown]>",
                     "[This Unit] gains the [Wind Glider Cooldown] status for [3] turn(s) <upon gaining the [Wind Glider] status> <hidden from users>"
                     ],
         "attackSound": "arrow"
@@ -321,8 +340,8 @@
         "promotions": [],
         "uniques": ["Comment [Can see farther than most units and is stealthy]",
                     "Comment [Can gain binoculars from Alchemists, allowing them to see even farther]",
-                    "[2] Sight", "Can move after attacking", "Invisible to non-adjacent units",
-                    "[This Unit] gains the [Binoculars] promotion <costs [+175 Faith] stats> <when adjacent to a [Alchemist] unit>"
+                    "[+2] Sight <hidden from users>", "Can move after attacking", "Invisible to non-adjacent units",
+                    "[This Unit] gains the [Binoculars] promotion <costs [+175 Faith] stats> <when adjacent to a [Alchemist] unit> <hidden from users>"
                     ],
         "attackSound": "metalhit"
     },
@@ -337,8 +356,8 @@
         "promotions": [],
         "uniques": ["Comment [Can upgrade their equipment with [Alchemists] granting more damage, speed and defense]",
                     "Can move after attacking",
-                    "[This Unit] gains the [Favonius Bladework] promotion <costs [+150 Faith] stats> <when adjacent to a [Alchemist] unit>",
-                    "[This Unit] gains the [Cavalry Equipment] promotion <costs [+200 Faith] stats> <when adjacent to a [Alchemist] unit>"
+                    "[This Unit] gains the [Favonius Bladework] promotion <costs [+150 Faith] stats> <when adjacent to a [Alchemist] unit> <hidden from users>",
+                    "[This Unit] gains the [Cavalry Equipment] promotion <costs [+200 Faith] stats> <when adjacent to a [Alchemist] unit> <hidden from users>"
                     ],
         "attackSound": "metalhit"
     },
@@ -349,12 +368,12 @@
         "movement": 2,
         "strength": 5,
         "cost": 60,
-        "requiredTech": "Devotion",
+        "requiredTech": "Reverence",
         "promotions": [],
         "uniques": ["Comment [Heals 5 hp to adjacent units every turn, also boost their healing by 5]", 
-                    "Comment [Generates 1 stats every turn]",
+                    "Comment [Generates 1 faith every turn]",
                     "[+10]% Strength bonus for [Mondstadt] units within [1] tiles",
-                    "All adjacent units heal [5] HP when healing",
+                    "All adjacent units heal [5] HP when healing <hidden from users>",
                     "Gain [1] [Faith] <upon turn end>",
                     "Cannot attack"
                     ],
@@ -367,12 +386,12 @@
         "movement": 2,
         "strength": 10,
         "cost": 80,
-        "requiredTech": "Reverence",
+        "requiredTech": "Devotion",
         "promotions": [],
         "uniques": ["Comment [Heals 10 hp to adjacent units every turn, also boost their healing by 5]", 
-                    "Comment [Generates 3 stats every turn]",
+                    "Comment [Generates 3 faith every turn]",
                     "[+15]% Strength bonus for [Mondstadt] units within [2] tiles",
-                    "All adjacent units heal [5] HP when healing",
+                    "All adjacent units heal [5] HP when healing <hidden from users>",
                     "Gain [3] [Faith] <upon turn end>",
                     "Cannot attack"
                     ],
@@ -412,7 +431,7 @@
 		"cost": 70,
 		"promotions": [],
         "uniques": ["Can build [All] improvements on tiles",
-                    "Founds a new city <costs [+100 Gold] stats> <when number of [[Your] Cities] is more than [1]>",
+                    "Founds a new city <costs [+75 Gold] stats> <when number of [[Your] Cities] is more than [1]>",
                     "Founds a new city <when number of [[Your] Cities] is less than [1]>"
                     ],
 		"attackSound": "nonmetalhit"

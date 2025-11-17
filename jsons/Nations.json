@@ -35,7 +35,7 @@
 		"innerColor": [104, 228, 220],
 	    
 		"uniqueName": "City of Freedom",
-		"uniques": [
+		"uniques": ["Genshin <hidden from users>",
                     "May buy [Land] units with [Faith] for [3] times their normal Production cost",
 					],
 		"cities": ["Mondstadt City", "Windrise", "Springvale", "Stormterror's Lair",
@@ -70,7 +70,7 @@
 
 	    
 		"uniqueName": "City of Contracts",
-		"uniques": ["[+50]% [Gold] from Trade Routes",
+		"uniques": ["Genshin <hidden from users>", "[+50]% [Gold] from Trade Routes",
 					"[+1 Science, +1 Faith, +1 Culture] from each Trade Route"
 					],
 		"cities": ["Liyue Harbor", "Qingce Village", "Wangshu Inn", "Jueyun Karst",
