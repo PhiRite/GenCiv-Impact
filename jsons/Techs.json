@@ -24,7 +24,7 @@
 				"name": "Fishing",
 				"row": 1,
                 "prerequisites": ["Agriculture"],
-				"uniques": [""],
+				"uniques": ["Enables embarkation for land units"],
                 "quote": ""
 			},
             {
@@ -401,4 +401,5 @@
 			}
 		]
     }
+
 ]
