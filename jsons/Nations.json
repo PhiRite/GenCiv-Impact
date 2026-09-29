@@ -37,6 +37,7 @@
 		"uniqueName": "City of Freedom",
 		"uniques": [
                     "May buy [Land] units with [Faith] for [3] times their normal Production cost",
+					"[human <hidden from users>]"
 					],
 		"cities": ["Mondstadt City", "Windrise", "Springvale", "Stormterror's Lair",
 					"Dandelion Meadow", "Starfell Valley"],
@@ -71,7 +72,8 @@
 	    
 		"uniqueName": "City of Contracts",
 		"uniques": ["[+50]% [Gold] from Trade Routes",
-					"[+1 Science, +1 Faith, +1 Culture] from each Trade Route"
+					"[+1 Science, +1 Faith, +1 Culture] from each Trade Route",
+					"[human <hidden from users>]"
 					],
 		"cities": ["Liyue Harbor", "Qingce Village", "Wangshu Inn", "Jueyun Karst",
 		"Mt. Tianheng", "Dihua Marsh", "Guyun Stone Forest", "Mt. Aozang",
