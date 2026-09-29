@@ -16,7 +16,7 @@
 		"adjective": ["Grandmaster of the Knights of Favonius"],
 		"startBias": [""],
 		"preferredVictoryType": "Domination",
-		"personality": "",
+		//"personality": "",
 		
 		"startIntroPart1": "The wind is a gentle breeze, a guiding hand, and a fierce storm. It is the breath of freedom, and it is the heart of Mondstadt.",
 		"startIntroPart2": "We are the Knights of Favonius, sworn to protect this city and its people. We will not falter in our duty, for we are the guardians of freedom.",
@@ -37,7 +37,7 @@
 		"uniqueName": "City of Freedom",
 		"uniques": [
                     "May buy [Land] units with [Faith] for [3] times their normal Production cost",
-					"[human <hidden from users>]"
+					"human <hidden from users>"
 					],
 		"cities": ["Mondstadt City", "Windrise", "Springvale", "Stormterror's Lair",
 					"Dandelion Meadow", "Starfell Valley"],
@@ -51,7 +51,7 @@
 		"adjective": ["Tianquan of the Liyue Qixing"],
 		"startBias": [""],
 		"preferredVictoryType": "Domination",
-		"personality": "",
+		//"personality": "",
 		
 		"startIntroPart1": "Mountains rise eternal, rivers flow unceasing, and the stones remember every step. This is the land of Liyue, where contracts are the foundation of all.",
 		"startIntroPart2": "We are the people of Liyue, guided by tradition and bound by promise. Under Rex Lapis’ watchful eye, we uphold stability and prosperity.",
@@ -73,7 +73,7 @@
 		"uniqueName": "City of Contracts",
 		"uniques": ["[+50]% [Gold] from Trade Routes",
 					"[+1 Science, +1 Faith, +1 Culture] from each Trade Route",
-					"[human <hidden from users>]"
+					"human <hidden from users>"
 					],
 		"cities": ["Liyue Harbor", "Qingce Village", "Wangshu Inn", "Jueyun Karst",
 		"Mt. Tianheng", "Dihua Marsh", "Guyun Stone Forest", "Mt. Aozang",
