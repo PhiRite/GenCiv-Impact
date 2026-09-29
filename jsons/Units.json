@@ -587,5 +587,20 @@
                     "[Target Unit] gains the [Petrified] status for [3] turn(s) <upon damaging a [All] unit>"
                     ],
         "attackSound": "nonmetalhit"
-    }
+    },
+	{
+        "name": "TEST ME WEEEE",
+        "unitType": "Human",
+        "uniqueTo": "human",
+        "movement": 2,
+        "strength": 15,
+        "cost": 60,
+        "requiredTech": "Discipline",
+        "promotions": [],
+        "uniques": ["Comment [Mystical guardians of Liyue. Adepti shape the land with supernatural expertise and can construct powerful Guizhong Ballistas.]",
+                    "Cannot attack", "Free [Guizhong Ballista] appears <for all movement> <costs [+100 Gold, +50 Faith] stats>",
+                    "Can build [All] improvements at a [+25]% rate"
+                    ],
+        "attackSound": "metalhit"
+    },
 ]
